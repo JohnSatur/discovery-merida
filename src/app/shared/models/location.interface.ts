@@ -10,6 +10,7 @@ export interface Location {
   disponible:         boolean;
   calificacion:       Calificacion;
   comentarios:        Comentario[];
+  slug:               string;
 }
 
 export interface Calificacion {

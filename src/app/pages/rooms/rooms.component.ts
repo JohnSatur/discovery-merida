@@ -5,10 +5,11 @@ import { LocationsService } from '../../shared/services/locations.service';
 import { Location } from '../../shared/models/location.interface';
 import { TruncatePipe } from '../../shared/pipes/truncate.pipe';
 import { PluralizePipe } from '../../shared/pipes/pluralize.pipe';
+import { RouterModule } from '@angular/router';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, RoomCardComponent, TruncatePipe, PluralizePipe],
+  imports: [CommonModule, RoomCardComponent, TruncatePipe, PluralizePipe, RouterModule],
   templateUrl: './rooms.component.html',
   styleUrl: './rooms.component.scss'
 })

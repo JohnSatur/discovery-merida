@@ -16,7 +16,7 @@
       ],
       "ubicacion": [
         "(Cerca de ...)",
-        "!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
       ],
       "amenidades": [
         "Vista al patio",
@@ -94,7 +94,8 @@
           "calificacion": 5,
           "texto": "Hermosa casa, piscina perfecta y fácil de encontrar"
         }
-      ]
+      ],
+      "slug": "casa-dali"
     },
     {
       "id": 2,
@@ -112,7 +113,7 @@
       ],
       "ubicacion": [
         "(Cerca de ...)",
-        "!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
       ],
       "amenidades": [
         "Vista al patio",
@@ -179,7 +180,8 @@
           "calificacion": 5,
           "texto": "Hermosa casa, piscina perfecta y fácil de encontrar"
         }
-      ]
+      ],
+      "slug": "casa-picasso"
     },
     {
       "id": 3,
@@ -197,7 +199,7 @@
       ],
       "ubicacion": [
         "(Cerca de ...)",
-        "!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
       ],
       "amenidades": [
         "Vista al patio",
@@ -274,7 +276,8 @@
           "calificacion": 5,
           "texto": "Me encantó el espacio, muy íntimo y excelente diseño, espero poder regresar pronto! Gracias !!"
         }
-      ]
+      ],
+      "slug": "casa-matisse"
     },
     {
       "id": 4,
@@ -292,7 +295,7 @@
       ],
       "ubicacion": [
         "(Cerca de ...)",
-        "!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
       ],
       "amenidades": [
         "Vista al patio",
@@ -367,8 +370,15 @@
           "profileUrl": "seilaMariana.webp",
           "calificacion": 5,
           "texto": "Súper ubicación, por las mañanas salía a caminar a paseo Montejo que se encuentra a 5 minutos. Es un lugar genial para hospedarse, la piscina estaba genial para poder estar en cualquier hora, disfruté broncearme en las mañanas !!!! Recomendado porque tiene una lavadora automática donde por las noches lave, me encantó este sitio, en mi próximo viaje regreso ❤️"
+        },
+        {
+          "usuario": "Xiomara",
+          "profileUrl": "xiomara.webp",
+          "calificacion": 5,
+          "texto": "El lugar es muy bonito y tiene muchas actividades cerca!"
         }
-      ]
+      ],
+      "slug": "loft-kitanche"
     }
   ]
 }

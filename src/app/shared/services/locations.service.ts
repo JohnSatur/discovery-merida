@@ -13,4 +13,8 @@ export class LocationsService {
     getLocations(): Observable<Location[]> {
         return this.http.get<Location[]>(`${ this.baseUrl }/locations`);
     }
+
+    getLocationBySlug(slug: string): Observable<Location[]> {
+        return this.http.get<Location[]>(`${ this.baseUrl }/locations?slug=${ slug }`);
+    }
 }

@@ -28,8 +28,8 @@ export class HeaderComponent implements AfterViewInit{
 
     gsap.to(header, {
       scrollTrigger: {
-        start: '800px top',
-        end: '900px',
+        start: '400px top',
+        end: '500px',
         scrub: true,
         onEnter: () => {
           gsap.to(header, { backgroundColor: '#0e7490', opacity: '0.85', duration: 0.3 });
