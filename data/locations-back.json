@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "name": "Casa Picasso",
+    "description": "Esta hermosa casa que ha sido reconocida con premios por su diseño y funcionalidad en el centro de Mérida, simplemente es perfecta para vacacionar o trabajar . Se encuentra en una privilegiada ubicación en el corazón de la ciudad, de Paseo de Montejo y del Parque de Santa Lucía en donde se puede disfrutar de los mejores restaurantes y de sus monumentos históricos. Cuenta con todas las facilidades Wifi de 300MB, TV, aire acondicionado.",
+    "topFeatures": {
+      "capacity": 6,
+      "beds": 3,
+      "baths": 2.5
+    },
+    "photos": [
+      "picasso/picasso1.jpg",
+      "picasso/picasso2.jpg",
+      "picasso/picasso3.jpg"
+    ],
+    "location": {
+      "nearFrom": "(Cerca de ...)",
+      "mapsURL": "!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+    },
+    "amenities": [
+      "Vista al patio",
+      "Vista a la alberca",
+      "Secadora de cabello",
+      "Shampoo",
+      "Agua caliente",
+      "Lavadora",
+      "Secadora",
+      "Elementos básicos (toallas, sábanas, jabón, papel higiénico)",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas",
+      "Plancha",
+      "Televisión HD con pantalla de 55''",
+      "Cuna (disponible previa solicitud)",
+      "Aire acondicionado de ventana",
+      "Cámaras de seguridad",
+      "Wifi",
+      "Área para trabajar",
+      "Wifi móvil",
+      "Cocina",
+      "Refrigerador",
+      "Microongas",
+      "Artículos básicos de cocina",
+      "Platos y cubiertos",
+      "Estufa de gas de acero inoxidable",
+      "Horno",
+      "Cafetera",
+      "Entrada privada",
+      "Patio",
+      "Jardín privado",
+      "Artículos básicos de playa",
+      "Estacionamiento gratuito",
+      "Alberca exterior privada",
+      "Caja de seguridad para llaves"
+    ],
+    "pricePerNight": {
+      "mxn": 3084,
+      "usd": 149.99
+    },
+    "available": true,
+    "rating": {
+      "stars": 4.90,
+      "reviews": 242
+    },
+    "comments": [
+      {
+        "username": "Andrew",
+        "profileUrl": "andrew.webp",
+        "stars": 5,
+        "text": "Bien ubicado, hermoso, tal como se describe"
+      },
+      {
+        "username": "Nohemí",
+        "profileUrl": "nohemi.webp",
+        "stars": 5,
+        "text": "Muy bonito lugar, limpio y muy céntrico! Súper recomendado"
+      },
+      {
+        "username": "Madison",
+        "profileUrl": "madison.webp",
+        "stars": 5,
+        "text": "Hermosa casa, piscina perfecta y fácil de encontrar"
+      }
+    ]
+  }
+]

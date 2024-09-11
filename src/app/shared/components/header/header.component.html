@@ -1,0 +1,76 @@
+<!-- Header -->
+<header #header class="sticky top-0 bg-transparent z-30 -mt-[80px]">
+  <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+    <a href="#">
+      <img
+        class="h-8 sm:h-10 md:h-12 lg:h-14 w-auto"
+        #logo
+        src="img/logo.png"
+        alt="Logo Instituto Educativo Xalapeño"
+      />
+    </a>
+    <nav class="hidden md:block">
+      <ul class="flex space-x-6">
+        <li>
+          <a routerLink="home" class="text-white font-semibold">Inicio</a>
+        </li>
+        <li>
+          <a href="#" class="text-white font-semibold">Quiénes Somos</a>
+        </li>
+        <li>
+          <a routerLink="rooms" class="text-white font-semibold">Casas</a>
+        </li>
+        <li>
+          <a href="#" class="text-white font-semibold">Reservar</a>
+        </li>
+      </ul>
+    </nav>
+    <button
+      #menuToggle
+      class="bg-cyan-700 text-white px-4 py-2 rounded flex gap-2 md:hidden"
+      (click)="toggleNavbar()"
+    >
+      <span class="hidden md:inline">MENÚ</span> <i class="ri-menu-3-line"></i>
+    </button>
+  </div>
+</header>
+
+<!-- Menú lateral -->
+<div
+  id="sideMenu"
+  class="fixed top-0 left-0 w-64 h-full sm:w-96 bg-cyan-700 text-white shadow-lg transform transition-transform duration-300 ease-in-out z-30 -translate-x-full flex flex-col"
+  [ngClass]="{ '-translate-x-full': showMenu }"
+>
+  <div class="p-5 flex-grow overflow-y-auto">
+    <button class="text-white text-sm hover:scale-110 absolute top-4 right-4 transition-transform duration-75" (click)="toggleNavbar()">
+      <i class="ri-close-line text-2xl"></i>
+    </button>
+
+    <img src="img/logo.png" class="w-24" alt="Logo Discovery">
+
+    <nav class="mt-12">
+      <ul class="space-y-6">
+        <li>
+          <a routerLink="home" class="text-white text-lg font-light hover:text-gray-300 block pb-2 border-b border-gray-100 transition-colors duration-75" (click)="toggleNavbar()">Inicio</a>
+        </li>
+        <li>
+          <a href="#" class="text-white text-lg font-light hover:text-gray-300 block pb-2 border-b border-gray-100 transition-colors duration-75" (click)="toggleNavbar()">Quienes Somos</a>
+        </li>
+        <li>
+          <a routerLink="rooms" class="text-white text-lg font-light hover:text-gray-300 block pb-2 border-b border-gray-100 transition-colors duration-75" (click)="toggleNavbar()">Casas</a>
+        </li>
+        <li>
+          <a href="#" class="text-white text-lg font-light hover:text-gray-300 block pb-2 border-b border-gray-100 transition-colors duration-75" (click)="toggleNavbar()">Reservar</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<!-- Overlay para cerrar el menú al hacer click fuera -->
+<div
+  id="overlay"
+  class="fixed inset-0 bg-black opacity-50 hidden z-20"
+  [ngClass]="{ hidden: showMenu }"
+  (click)="toggleNavbar()"
+></div>

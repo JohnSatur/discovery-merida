@@ -1,0 +1,37 @@
+<!-- Card -->
+<div class="recomended__card bg-white rounded-lg shadow-md overflow-hidden">
+    <img src="img/locations/picasso/picasso1.webp" alt="" class="w-full h-48 object-cover">
+    
+    <div class="p-4">
+      <h3 class="font-semibold mb-2">{{ name }}</h3>
+      <!-- Stars -->
+      <div class="flex items-center mb-2">
+        <div class="flex text-yellow-400">
+          <i class="ri-star-s-fill"></i>
+          <i class="ri-star-s-fill"></i>
+          <i class="ri-star-s-fill"></i>
+          <i class="ri-star-s-fill"></i>
+          <i class="ri-star-half-s-fill"></i>
+        </div>
+        <span class="text-gray-600 text-sm ml-2">{{ stars }} ({{ reviews }} reseñas)</span>
+      </div>
+      <p class="text-sm text-gray-600 mb-4">{{ description }}</p>
+      <!-- Icons -->
+      <div class="flex justify-between items-center text-gray-500 text-sm mb-4">
+        <div class="flex items-center gap-1">
+          <i class="ri-hotel-bed-fill"></i>
+          <span class="">3 recámaras</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <i class="ri-drop-fill"></i>
+          <span>2 ½ baños</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <i class="ri-team-fill"></i>
+          <span>6 personas</span>
+        </div>
+      </div>
+
+      <button class="bg-cyan-700 text-white px-4 py-2 rounded-md">Ver más</button>
+    </div>
+</div>

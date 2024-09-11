@@ -1,0 +1,132 @@
+<main>
+	<!-- Hero -->
+	<section class="relative h-[500px] md:h-[700px] bg-cover bg-center" style="background-image: url('/img/locations/zula/zula1.jpg');">
+		<div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+			<h1 class="text-4xl md:text-6xl font-bold text-white text-center">Nuestras ubicaciones</h1>
+		</div>
+	</section>
+
+	<div class="container mx-auto px-4 py-8">
+		<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+			<!-- Casa 1 -->
+			@for (location of locations; track location.id) {
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <div class="relative">
+            <img [src]="'img/locations/' + location.fotos[0]" [alt]="location.nombre" class="w-full h-48 object-cover">
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+            <div class="absolute bottom-0 left-0 p-4 text-white">
+              <h2 class="text-xl font-semibold mb-1">{{ location.nombre }}</h2>
+              <p class="text-sm">{{ location.descripcion | truncate }}</p>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="flex justify-between items-center md:flex-col md:items-start xl:items-center xl:flex-row text-sm text-gray-600">
+              <div class="flex items-center gap-1">
+                <i class="ri-team-fill"></i>
+                <span>{{ location.topCaracteristicas.personas }} {{ location.topCaracteristicas.personas | pluralize: 'huesped' : 'huéspedes' }}</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <i class="ri-hotel-bed-fill"></i>
+                <span>{{ location.topCaracteristicas.camas }} {{ location.topCaracteristicas.camas | pluralize: 'cama' : 'camas' }}</span>
+              </div>
+              <div class="flex items-center gap-1">
+                <i class="ri-drop-fill"></i>
+                <span>{{ location.topCaracteristicas.banios }} {{ location.topCaracteristicas.banios | pluralize: 'baño' : 'baños' }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+
+			<!-- Casa 2 -->
+			<!-- <div class="bg-white rounded-lg shadow-md overflow-hidden">
+					<div class="relative">
+						<img src="img/locations/picasso/picasso1.jpg" alt="" class="w-full h-48 object-cover">
+						<div class="absolute inset-0 bg-black bg-opacity-50"></div>
+						<div class="absolute bottom-0 left-0 p-4 text-white">
+							<h2 class="text-xl font-semibold mb-1">Casa Picasso</h2>
+							<p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, pariatur.</p>
+						</div>
+					</div>
+					<div class="p-4">
+						<div class="flex justify-between items-center md:flex-col md:items-start xl:items-center xl:flex-row text-sm text-gray-600">
+							<div class="flex items-center gap-1">
+								<i class="ri-team-fill"></i>
+								<span>3 huéspedes</span>
+							</div>
+							<div class="flex items-center gap-1">
+								<i class="ri-hotel-bed-fill"></i>
+								<span>1 habitación</span>
+							</div>
+							<div class="flex items-center gap-1">
+								<i class="ri-drop-fill"></i>
+								<span>1 baño</span>
+							</div>
+						</div>
+					</div>
+			</div> -->
+
+			<!-- Casa 3 -->
+			<!-- <div class="bg-white rounded-lg shadow-md overflow-hidden">
+				<div class="relative">
+					<img src="img/locations/dali/dali1.jpg" alt="" class="w-full h-48 object-cover">
+					<div class="absolute inset-0 bg-black bg-opacity-50"></div>
+					<div class="absolute bottom-0 left-0 p-4 text-white">
+						<h2 class="text-xl font-semibold mb-1">Casa Matisse</h2>
+						<p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, pariatur.</p>
+					</div>
+				</div>
+				<div class="p-4">
+					<div class="flex justify-between items-center md:flex-col md:items-start xl:items-center xl:flex-row text-sm text-gray-600">
+						<div class="flex items-center gap-1">
+							<i class="ri-team-fill"></i>
+							<span>3 huéspedes</span>
+						</div>
+						<div class="flex items-center gap-1">
+							<i class="ri-hotel-bed-fill"></i>
+							<span>1 habitación</span>
+						</div>
+						<div class="flex items-center gap-1">
+							<i class="ri-drop-fill"></i>
+							<span>1 baño</span>
+						</div>
+					</div>
+				</div>
+			</div> -->
+
+			<!-- Casa 4 -->
+			<!-- <div class="bg-white rounded-lg shadow-md overflow-hidden">
+				<div class="relative">
+					<img src="img/locations/dali/dali1.jpg" alt="" class="w-full h-48 object-cover">
+					<div class="absolute inset-0 bg-black bg-opacity-50"></div>
+					<div class="absolute bottom-0 left-0 p-4 text-white">
+						<h2 class="text-xl font-semibold mb-1">Loft Kitancche</h2>
+						<p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, pariatur.</p>
+					</div>
+				</div>
+				<div class="p-4">
+					<div class="flex justify-between items-center md:flex-col md:items-start xl:items-center xl:flex-row text-sm text-gray-600">
+						<div class="flex items-center gap-1">
+							<i class="ri-team-fill"></i>
+							<span>3 huéspedes</span>
+						</div>
+						<div class="flex items-center gap-1">
+							<i class="ri-hotel-bed-fill"></i>
+							<span>1 habitación</span>
+						</div>
+						<div class="flex items-center gap-1">
+							<i class="ri-drop-fill"></i>
+							<span>1 baño</span>
+						</div>
+					</div>
+				</div>
+			</div> -->
+
+			@for (location of locations; track location.id) {
+        
+      } @empty {
+        No hay elementos.
+      }
+		</div>
+	</div>
+</main>
