@@ -20,8 +20,9 @@ export class RoomsComponent implements OnInit {
 
   ngOnInit(): void {
     this.locationsService.getLocations()
-    .subscribe(locations => this.locations = locations);
+    .subscribe(locations => {
+      this.locations = locations;
+    });
   }
-
 
 }

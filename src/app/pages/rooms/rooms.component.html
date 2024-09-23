@@ -10,45 +10,44 @@
 		<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
 			<!-- Location card -->
 			@for (location of locations; track location.id) {
-				<div class="bg-white rounded-lg shadow-md overflow-hidden group relative transition-all duration-300 ease-in-out hover:shadow-xl" [routerLink]="['/room', location.slug]">
+				<div class="bg-white rounded-lg shadow-md overflow-hidden group relative transition-all duration-300 ease-in-out hover:shadow-xl" [routerLink]="['/room', location.attributes.slug]">
 					<div class="relative overflow-hidden cursor-pointer">
-					  <img [src]="'img/locations/' + location.fotos[0]" [alt]="location.nombre" class="w-full h-48 object-cover transition-transform duration-300 ease-in-out group-hover:scale-110">
-					  
-            <div class="absolute inset-0 bg-black bg-opacity-50 transition-all duration-300 ease-in-out group-hover:bg-opacity-70"></div>
-					  
-            <div class="absolute bottom-0 left-0 p-4 text-white transition-all duration-300 ease-in-out group-hover:translate-y-[-10px]">
-						  <h2 class="text-xl font-semibold mb-1">{{ location.nombre }}</h2>
-						  <p class="text-sm">{{ location.descripcion | truncate }}</p>
-					  </div>
-            
-            <div class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
-              <span class="bg-cyan-700 text-white px-4 py-2 rounded-full font-semibold shadow-lg text-lg">Ver más</span>
-            </div>
+						<img [src]="'http://localhost:1337' + location.attributes.photos.data[0].attributes.formats.medium?.url" [alt]="location.attributes.name" class="w-full h-48 object-cover transition-transform duration-300 ease-in-out group-hover:scale-110">
+
+						<div class="absolute inset-0 bg-black bg-opacity-50 transition-all duration-300 ease-in-out group-hover:bg-opacity-70"></div>
+
+						<div class="absolute bottom-0 left-0 p-4 text-white transition-all duration-300 ease-in-out group-hover:translate-y-[-10px]">
+							<h2 class="text-xl font-semibold mb-1">{{ location.attributes.name }}</h2>
+							<p class="text-sm">{{ location.attributes.description | truncate }}</p>
+						</div>
+
+						<div class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
+							<span class="bg-cyan-700 text-white px-4 py-2 rounded-full font-semibold shadow-lg text-lg">Ver más</span>
+						</div>
 					</div>
 
 					<div class="p-4">
-					  <div class="flex justify-between items-center md:flex-col md:items-start xl:items-center xl:flex-row text-sm text-gray-600">
-						
-              <div class="flex items-center gap-1">
-						    <i class="ri-team-fill"></i>
-						    <span>{{ location.topCaracteristicas.personas }} {{ location.topCaracteristicas.personas | pluralize: 'huesped' : 'huéspedes' }}</span>
-						  </div>
+						<div class="flex justify-between items-center md:flex-col md:items-start xl:items-center xl:flex-row text-sm text-gray-600">
+							<div class="flex items-center gap-1">
+								<i class="ri-team-fill"></i>
+								<span>{{ location.attributes.noGuests }} {{ location.attributes.noGuests| pluralize: 'huesped' : 'huéspedes' }}</span>
+							</div>
 
-						  <div class="flex items-center gap-1">
-						    <i class="ri-hotel-bed-fill"></i>
-						    <span>{{ location.topCaracteristicas.camas }} {{ location.topCaracteristicas.camas | pluralize: 'cama' : 'camas' }}</span>
-						  </div>
+							<div class="flex items-center gap-1">
+								<i class="ri-hotel-bed-fill"></i>
+								<span>{{ location.attributes.noBeds }} {{ location.attributes.noBeds| pluralize: 'cama' : 'camas' }}</span>
+							</div>
 
-						  <div class="flex items-center gap-1">
-						    <i class="ri-drop-fill"></i>
-						    <span>{{ location.topCaracteristicas.banios }} {{ location.topCaracteristicas.banios | pluralize: 'baño' : 'baños' }}</span>
-						  </div>
-					  </div>
+							<div class="flex items-center gap-1">
+								<i class="ri-drop-fill"></i>
+								<span>{{ location.attributes.noBaths }} {{ location.attributes.noBaths | pluralize: 'baño' : 'baños' }}</span>
+							</div>
+						</div>
 					</div>
 				</div>
-      } @empty {
-        No hay elementos.
-      }
-	  </div>
+      		} @empty {
+        		No hay elementos.
+      		}
+		</div>
 	</div>
 </main>

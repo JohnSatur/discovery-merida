@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Location } from '../models/location.interface';
+import { Location, StrapiResponse } from '../models/location.interface';
 import { environments } from '../../../environments/environments';
-import { Observable } from 'rxjs';
+import { map, Observable, tap } from 'rxjs';
 
 @Injectable({providedIn: 'root'})
 export class LocationsService {
@@ -11,10 +11,19 @@ export class LocationsService {
     constructor( private http: HttpClient ) { }
     
     getLocations(): Observable<Location[]> {
-        return this.http.get<Location[]>(`${ this.baseUrl }/locations`);
+        return this.http.get<StrapiResponse>(`${ this.baseUrl }/locations?populate=photos,amenities,reviews.profilePicture`)
+        .pipe(
+            map( response => response.data)
+        );
     }
 
-    getLocationBySlug(slug: string): Observable<Location[]> {
-        return this.http.get<Location[]>(`${ this.baseUrl }/locations?slug=${ slug }`);
+    getLocationBySlug(slug: string): Observable<Location> {
+        return this.http.get<StrapiResponse>(`${ this.baseUrl }/locations?populate=photos,amenities,reviews.profilePicture&filters[slug][$eq]=${ slug }`)
+        .pipe(
+            map( response => response.data),
+            map( locations => locations[0])
+        );
     }
 }
+
+// locations?populate=photos,amenities,reviews.profilePicture&filters[slug][$eq]=casa-picasso

@@ -20,12 +20,9 @@ export class RoomComponent implements OnInit {
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
       const slug = params.get('slug') || '';
-      this.locationService.getLocationBySlug(slug).pipe(
-        map(locations => locations[0]),
-        tap(location => {
-          console.log('Valor de roomInfo después de asignar:', location); // Verificar el valor
-        })
-      ).subscribe(location => {
+      
+      this.locationService.getLocationBySlug(slug)
+      .subscribe(location => {
         this.roomInfo = location;
       });
     });
