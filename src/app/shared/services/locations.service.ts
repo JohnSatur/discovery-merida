@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Location, StrapiResponse } from '../models/location.interface';
-import { environments } from '../../../environments/environments';
-import { map, Observable, tap } from 'rxjs';
+import { environments } from '../../../environments/environment';
+import { map, Observable } from 'rxjs';
 
 @Injectable({providedIn: 'root'})
 export class LocationsService {
@@ -25,5 +25,3 @@ export class LocationsService {
         );
     }
 }
-
-// locations?populate=photos,amenities,reviews.profilePicture&filters[slug][$eq]=casa-picasso
