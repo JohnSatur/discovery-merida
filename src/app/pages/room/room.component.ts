@@ -3,7 +3,6 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { LocationsService } from '../../shared/services/locations.service';
 import { Location } from '../../shared/models/location.interface';
-import { map, tap } from 'rxjs';
 import { StarRatingPipe } from '../../shared/pipes/star-rating.pipe';
 
 @Component({
@@ -26,5 +25,9 @@ export class RoomComponent implements OnInit {
         this.roomInfo = location;
       });
     });
-  } 
+  }
+
+  test() {
+    console.log('Test');
+  }
 }

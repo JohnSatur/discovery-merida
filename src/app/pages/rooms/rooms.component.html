@@ -9,10 +9,10 @@
 	<div class="container mx-auto px-4 py-8">
 		<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
 			<!-- Location card -->
-			@for (location of locations; track location.id) {
+			@for (location of locations$ | async; track location.id) {
 				<div class="bg-white rounded-lg shadow-md overflow-hidden group relative transition-all duration-300 ease-in-out hover:shadow-xl" [routerLink]="['/room', location.attributes.slug]">
 					<div class="relative overflow-hidden cursor-pointer">
-						<img [src]="'http://localhost:1337' + location.attributes.photos.data[0].attributes.formats.medium?.url" [alt]="location.attributes.name" class="w-full h-48 object-cover transition-transform duration-300 ease-in-out group-hover:scale-110">
+						<img [src]="getImgUrl(location)" [alt]="location.attributes.name" class="w-full h-48 object-cover transition-transform duration-300 ease-in-out group-hover:scale-110">
 
 						<div class="absolute inset-0 bg-black bg-opacity-50 transition-all duration-300 ease-in-out group-hover:bg-opacity-70"></div>
 
@@ -45,9 +45,7 @@
 						</div>
 					</div>
 				</div>
-      		} @empty {
-        		No hay elementos.
-      		}
+			}
 		</div>
 	</div>
 </main>

@@ -1,3 +1,4 @@
 export const environments = {
-    baseUrl: 'https://backend-discovery-merida.onrender.com/api'
+    baseAPIUrl: 'https://backend-discovery-merida.onrender.com/api',
+    baseUrl: 'https://backend-discovery-merida.onrender.com'
 };
