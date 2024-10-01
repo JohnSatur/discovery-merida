@@ -19,7 +19,6 @@ interface FaqItem {
   styleUrl: './home.component.scss'
 })
 export class HomeComponent implements OnInit, AfterViewInit {
-
   public faqs = [
     { question: '¿Cómo puedo hacer una reserva?', answer: '...' },
     { question: '¿Cuál es la política de cancelación?', answer: '...' },
@@ -33,7 +32,25 @@ export class HomeComponent implements OnInit, AfterViewInit {
   }
 
   ngOnInit(): void {
-    // Ventana
+    this.animatePage();
+  }
+
+  ngAfterViewInit(): void {
+    const cards = this.el.nativeElement.querySelectorAll('.recomended__card');
+    const reviews = this.el.nativeElement.querySelectorAll('.reviews__card');
+    const galleryImgs = this.el.nativeElement.querySelectorAll('.gallery__img');
+    const faqCards = this.el.nativeElement.querySelectorAll('.faq__card');
+
+    // Animaciones de entrada
+    this.animateHero();
+    this.animateRecommendedCards(cards);
+    this.animateReviews(reviews);
+    this.animateGalleryImgs(galleryImgs);
+    this.animateFaqCards(faqCards);
+    this.animateContactForm();
+  }
+
+  private animatePage() {
     gsap.fromTo(this.el.nativeElement, {
       opacity: 0,
       y: 50
@@ -48,21 +65,15 @@ export class HomeComponent implements OnInit, AfterViewInit {
     });
   }
 
-  ngAfterViewInit(): void {
+  private animateHero(): void {
     const tl = gsap.timeline();
-    const cards = this.el.nativeElement.querySelectorAll('.recomended__card');
-    const reviews = this.el.nativeElement.querySelectorAll('.reviews__card');
-    const galleryImg = this.el.nativeElement.querySelectorAll('.gallery__img');
-    const faqCards = this.el.nativeElement.querySelectorAll('.faq__card');
 
-    // Animaciones Hero
     tl.fromTo('.hero__title', { opacity: 0 }, { opacity: 1, duration: .5 });
-
     tl.fromTo('.hero__subtitle', { opacity: 0 }, { opacity: 1, duration: .5 });
-
     tl.fromTo('.hero__form', { y: '100%', opacity: 0 }, { y: 0, opacity: 1, duration: 1, stagger: 0.2 });
+  }
 
-    // Cards de casas
+  private animateRecommendedCards(cards: Element[]): void {
     gsap.fromTo(cards, {
       y: '100%',
       opacity: 0,
@@ -77,8 +88,9 @@ export class HomeComponent implements OnInit, AfterViewInit {
         toggleActions: 'play none none none'
       }
     });
+  }
 
-    // Reseñas
+  private animateReviews(reviews: Element[]): void {
     gsap.fromTo(reviews, {
       scale: 0.8,
       opacity: 0
@@ -94,9 +106,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
           toggleActions: 'play none none none'
       }
     });
+  }
 
-    // Galería de imágenes
-    gsap.fromTo(galleryImg, {
+  private animateGalleryImgs(galleryImgs: Element[]): void {
+    gsap.fromTo(galleryImgs, {
       scale: 0.8,
       opacity: 0
     }, {
@@ -106,13 +119,14 @@ export class HomeComponent implements OnInit, AfterViewInit {
       stagger: 0.2,
       ease: "power2.out", // Easing para una animación más suave
       scrollTrigger: {
-          trigger: galleryImg,
+          trigger: galleryImgs,
           start: 'top 80%',
           toggleActions: 'play none none none'
       }
     });
+  }
 
-    // Preguntas frecuentes
+  private animateFaqCards(faqCards: Element[]): void {
     gsap.fromTo(faqCards, {
       scale: 0.8,
       opacity: 0
@@ -128,7 +142,9 @@ export class HomeComponent implements OnInit, AfterViewInit {
         toggleActions: 'play none none none'
       }
     });
+  }
 
+  private animateContactForm(): void {
     // Formulario de contacto
     gsap.from('.contact', {
       scrollTrigger: {
@@ -142,9 +158,4 @@ export class HomeComponent implements OnInit, AfterViewInit {
       duration: 1
     });
   }
-
-  public hola() {
-    console.log('hola');
-  }
 }
-

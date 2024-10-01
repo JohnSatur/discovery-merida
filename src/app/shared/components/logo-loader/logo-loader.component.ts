@@ -15,6 +15,6 @@ export class LogoLoaderComponent implements OnInit {
   ngOnInit(): void {
     gsap.fromTo('.logo',
       { opacity: 0, },
-      { opacity: 1, duration: 1.5, ease: "power2.out" });
+      { opacity: 1, duration: 2, ease: "power2.out" });
   }
 }

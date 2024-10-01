@@ -1,151 +1,179 @@
 <main class="flex-grow">
   <!-- Hero -->
-	<section class="relative h-[500px] md:h-[700px] bg-cover bg-center" [style]="'background-image: url(' + baseUrl +  '/uploads/zula6_e308b318e0.jpg);'">
-		<div class="text-center text-white absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center">
-            <p class="hero__subtitle text-xl mb-2">Conoce tu próximo destino</p>
-            <h1 class="hero__title text-6xl font-bold mb-4">Discovery Mérida</h1>
-        </div>
-	</section>
-    
-    <section class="bg-white py-16 px-4">
-        <div class="max-w-5xl mx-auto text-center">
-          <h2 class="text- uppercase tracking-wider text-gray-500 mb-4">
-            Bienvenidos a nuestra familia
-          </h2>
-          <p class="text-3xl md:text-4xl font-medium mb-6"> 
-            En Discovery Mérida, nos enorgullecemos de ofrecer experiencias únicas y memorables en alojamientos excepcionales. Desde 2020, hemos estado conectando viajeros con hogares acogedores en los destinos más hermosos. Nuestro compromiso es brindar no solo un lugar para quedarse, sino un hogar lejos del hogar, donde cada detalle está cuidadosamente pensado para su comodidad y disfrute.
-          </p>
-        </div>
-    </section>
+  <section class="relative h-[500px] md:h-[700px] bg-cover bg-center"
+    [style]="'background-image: url(' + baseUrl +  '/uploads/zula6_e308b318e0.jpg);'">
+    <div
+      class="text-center text-white absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center">
+      <p class="hero__subtitle text-xl mb-2">Conoce tu próximo destino</p>
+      <h1 class="hero__title text-6xl font-bold mb-4">Discovery Mérida</h1>
+    </div>
+  </section>
 
-    <section class="container mx-auto px-4 py-8">
-        <!-- Sección de Casas -->
-        <div class="mb-16">
-            <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Nuestras Casas</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Casa 1 -->
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <img [src]="baseUrl + '/uploads/dali1_f351817cf0.jpg'" alt="Casa Dalí" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Casa Dalí</h3>
-                        <p class="text-gray-600">Hermosa Casa de Diseño, mejor ubicación.</p>
-                    </div>
-                </div>
-                <!-- Casa 2 -->
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <img [src]="baseUrl + '/uploads/small_picasso1_34de48ce9a.jpg'" alt="Cabaña Picasso" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Casa Picasso</h3>
-                        <p class="text-gray-600">Reconocida con premios por su diseño y funcionalidad en el centro de Mérida, simplemente es perfecta para vacacionar o trabajar.</p>
-                    </div>
-                </div>
-                <!-- Casa 3 -->
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <img [src]="baseUrl + '/uploads/small_toledo2_86823ba92c.webp'" alt="Casa Toledo" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Casa Toledo</h3>
-                        <p class="text-gray-600">Un Oasis inimaginable en el corazón de Mérida, a solo unos pasos de Paseo Montejo</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <section class="bg-white py-16 px-4">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text- uppercase tracking-wider text-gray-500 mb-4">
+        Bienvenidos a nuestra familia
+      </h2>
+      <p class="text-3xl md:text-4xl font-medium mb-6">
+        En Discovery Mérida, nos enorgullecemos de ofrecer experiencias únicas y memorables en alojamientos excepcionales. Desde 2020, hemos estado conectando viajeros con hogares acogedores en los destinos más hermosos. Nuestro compromiso es brindar no solo un lugar para quedarse, sino un hogar lejos del hogar, donde cada detalle está cuidadosamente pensado para su comodidad y disfrute.
+      </p>
+    </div>
+  </section>
 
-    <section class="py-16 bg-cyan-700">
-        <div class="container mx-auto px-4">
-          <h2 class="text-4xl font-bold text-center mb-12 text-white">Nuestros Valores</h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Valor 1: Confianza -->
-            <div class="bg-white rounded-lg shadow-md p-6 flex items-start">
-              <svg class="w-12 h-12 text-blue-500 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
-              </svg>
-              <div>
-                <h3 class="text-xl font-semibold mb-2 text-gray-800">Confianza</h3>
-                <p class="text-gray-600">Construimos relaciones sólidas basadas en la transparencia y la honestidad con nuestros huéspedes y propietarios.</p>
-              </div>
-            </div>
-      
-            <!-- Valor 2: Excelencia -->
-            <div class="bg-white rounded-lg shadow-md p-6 flex items-start">
-              <svg class="w-12 h-12 text-blue-500 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
-              </svg>
-              <div>
-                <h3 class="text-xl font-semibold mb-2 text-gray-800">Excelencia</h3>
-                <p class="text-gray-600">Nos esforzamos por superar las expectativas en cada aspecto de nuestro servicio, desde la limpieza hasta la atención al cliente.</p>
-              </div>
-            </div>
-      
-            <!-- Valor 3: Innovación -->
-            <div class="bg-white rounded-lg shadow-md p-6 flex items-start">
-              <svg class="w-12 h-12 text-blue-500 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-              </svg>
-              <div>
-                <h3 class="text-xl font-semibold mb-2 text-gray-800">Innovación</h3>
-                <p class="text-gray-600">Buscamos constantemente nuevas formas de mejorar la experiencia de alojamiento, incorporando tecnología y tendencias actuales.</p>
-              </div>
-            </div>
-      
-            <!-- Valor 4: Sostenibilidad -->
-            <div class="bg-white rounded-lg shadow-md p-6 flex items-start">
-              <svg class="w-12 h-12 text-blue-500 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-              </svg>
-              <div>
-                <h3 class="text-xl font-semibold mb-2 text-gray-800">Sostenibilidad</h3>
-                <p class="text-gray-600">Nos comprometemos a operar de manera responsable con el medio ambiente y fomentar prácticas sostenibles en nuestras propiedades.</p>
-              </div>
-            </div>
-      
-            <!-- Valor 5: Comunidad -->
-            <div class="bg-white rounded-lg shadow-md p-6 flex items-start">
-              <svg class="w-12 h-12 text-blue-500 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-              </svg>
-              <div>
-                <h3 class="text-xl font-semibold mb-2 text-gray-800">Comunidad</h3>
-                <p class="text-gray-600">Valoramos y apoyamos a las comunidades locales donde operamos, promoviendo el turismo responsable y el crecimiento económico.</p>
-              </div>
-            </div>
-      
-            <!-- Valor 6: Personalización -->
-            <div class="bg-white rounded-lg shadow-md p-6 flex items-start">
-              <svg class="w-12 h-12 text-blue-500 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
-              </svg>
-              <div>
-                <h3 class="text-xl font-semibold mb-2 text-gray-800">Personalización</h3>
-                <p class="text-gray-600">Ofrecemos experiencias únicas y personalizadas, adaptándonos a las necesidades y preferencias de cada huésped.</p>
-              </div>
-            </div>
+  <section class="container mx-auto px-4 py-8">
+    <!-- Sección de Casas -->
+    <div class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Nuestras Casas</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Casa 1 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img [src]="baseUrl + '/uploads/dali1_f351817cf0.jpg'" alt="Casa Dalí" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Casa Dalí</h3>
+            <p class="text-gray-600">Hermosa Casa de Diseño, mejor ubicación.</p>
           </div>
         </div>
-    </section>
-
-    <section class="relative min-h-[600px] flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 bg-no-repeat bg-cover"
-         [style]="'background-image: url(' + baseUrl +  '/uploads/casa_Shanti7_c6c72d6898.webp);'">
-        <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
-        <div class="container mx-auto px-4 relative z-10">
-          <h2 class="text-3xl font-semibold mb-8 text-center text-white">Contáctanos, queremos escucharte</h2>
-          <form class="max-w-lg mx-auto">
-              <div class="mb-4">
-                  <label for="name" class="block text-slate-100 font-bold mb-2">Nombre</label>
-                  <input type="text" id="name" name="name" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500" placeholder="Nombre..." required>
-              </div>
-              <div class="mb-4">
-                  <label for="email" class="block text-slate-100 font-bold mb-2">Correo electrónico</label>
-                  <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500" placeholder="Correo electrónico..." required>
-              </div>
-              <div class="mb-4">
-                  <label for="message" class="block text-slate-100 font-bold mb-2">Mensaje</label>
-                  <textarea id="message" name="message" rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500" placeholder="Escribe tu mensaje..." required></textarea>
-              </div>
-              <div class="text-center">
-                <button class="bg-cyan-700 text-white text-lg px-4 py-2 rounded-md hover:bg-cyan-900">ENVIAR</button>
-              </div>
-          </form>
+        <!-- Casa 2 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img [src]="baseUrl + '/uploads/small_picasso1_34de48ce9a.jpg'" alt="Cabaña Picasso"
+            class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Casa Picasso</h3>
+            <p class="text-gray-600">Reconocida con premios por su diseño y funcionalidad en el centro de Mérida, simplemente es perfecta para vacacionar o trabajar.</p>
+          </div>
         </div>
-    </section>
+        <!-- Casa 3 -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img [src]="baseUrl + '/uploads/small_toledo2_86823ba92c.webp'" alt="Casa Toledo"
+            class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Casa Toledo</h3>
+            <p class="text-gray-600">Un Oasis inimaginable en el corazón de Mérida, a solo unos pasos de Paseo Montejo
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-cyan-700">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-12 text-white">Nuestros Valores</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Valor 1: Confianza -->
+        <div class="bg-white rounded-lg shadow-md p-6 flex items-start">
+          <svg class="w-12 h-12 text-blue-500 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+            </path>
+          </svg>
+          <div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Confianza</h3>
+            <p class="text-gray-600">Construimos relaciones sólidas basadas en la transparencia y la honestidad con nuestros huéspedes y propietarios.</p>
+          </div>
+        </div>
+
+        <!-- Valor 2: Excelencia -->
+        <div class="bg-white rounded-lg shadow-md p-6 flex items-start">
+          <svg class="w-12 h-12 text-blue-500 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z">
+            </path>
+          </svg>
+          <div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Excelencia</h3>
+            <p class="text-gray-600">Nos esforzamos por superar las expectativas en cada aspecto de nuestro servicio, desde la limpieza hasta la atención al cliente.</p>
+          </div>
+        </div>
+
+        <!-- Valor 3: Innovación -->
+        <div class="bg-white rounded-lg shadow-md p-6 flex items-start">
+          <svg class="w-12 h-12 text-blue-500 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+          </svg>
+          <div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Innovación</h3>
+            <p class="text-gray-600">Buscamos constantemente nuevas formas de mejorar la experiencia de alojamiento, incorporando tecnología y tendencias actuales.</p>
+          </div>
+        </div>
+
+        <!-- Valor 4: Sostenibilidad -->
+        <div class="bg-white rounded-lg shadow-md p-6 flex items-start">
+          <svg class="w-12 h-12 text-blue-500 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+            </path>
+          </svg>
+          <div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Sostenibilidad</h3>
+            <p class="text-gray-600">Nos comprometemos a operar de manera responsable con el medio ambiente y fomentar prácticas sostenibles en nuestras propiedades.</p>
+          </div>
+        </div>
+
+        <!-- Valor 5: Comunidad -->
+        <div class="bg-white rounded-lg shadow-md p-6 flex items-start">
+          <svg class="w-12 h-12 text-blue-500 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+            </path>
+          </svg>
+          <div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Comunidad</h3>
+            <p class="text-gray-600">Valoramos y apoyamos a las comunidades locales donde operamos, promoviendo el turismo responsable y el crecimiento económico.</p>
+          </div>
+        </div>
+
+        <!-- Valor 6: Personalización -->
+        <div class="bg-white rounded-lg shadow-md p-6 flex items-start">
+          <svg class="w-12 h-12 text-blue-500 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01">
+            </path>
+          </svg>
+          <div>
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">Personalización</h3>
+            <p class="text-gray-600">Ofrecemos experiencias únicas y personalizadas, adaptándonos a las necesidades y preferencias de cada huésped.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section
+    class="relative min-h-[600px] flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 bg-no-repeat bg-cover"
+    [style]="'background-image: url(' + baseUrl +  '/uploads/casa_Shanti7_c6c72d6898.webp);'">
+    <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
+    <div class="container mx-auto px-4 relative z-10">
+      <h2 class="text-3xl font-semibold mb-8 text-center text-white">Contáctanos, queremos escucharte</h2>
+      <form class="max-w-lg mx-auto">
+        <div class="mb-4">
+          <label for="name" class="block text-slate-100 font-bold mb-2">Nombre</label>
+          <input type="text" id="name" name="name"
+            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500"
+            placeholder="Nombre..." required>
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-slate-100 font-bold mb-2">Correo electrónico</label>
+          <input type="email" id="email" name="email"
+            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500"
+            placeholder="Correo electrónico..." required>
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-slate-100 font-bold mb-2">Mensaje</label>
+          <textarea id="message" name="message" rows="4"
+            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500"
+            placeholder="Escribe tu mensaje..." required></textarea>
+        </div>
+        <div class="text-center">
+          <button class="bg-cyan-700 text-white text-lg px-4 py-2 rounded-md hover:bg-cyan-900">ENVIAR</button>
+        </div>
+      </form>
+    </div>
+  </section>
 </main>

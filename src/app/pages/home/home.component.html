@@ -1,290 +1,307 @@
 <main class="flex-grow">
-    <!-- Hero -->
-    <section class="hero relative bg-cover bg-center h-[750px]" style="background-image: url('/img/bg-home.jpg');">
-      <div class="absolute inset-0 bg-gradient-to-b from-black/50 to-black/90"></div>
-  
-      <!-- Content -->
-      <div class="relative z-10 flex items-center justify-center h-full px-4">
-        <div class="text-center text-white">
-          <h1 class="hero__title text-3xl md:text-6xl font-bold mb-4">Bienvenidos a Discovery Mérida</h1>
-          <p class="hero__subtitle text-xl mb-8">Está a punto de comenzar su próxima gran aventura.</p>
-  
-          <div class="hero__form w-full max-w-3xl mx-auto bg-white/90 backdrop-blur-md rounded-lg p-6">
-            <div class="mb-4">
-              <button class="px-4 py-2 bg-cyan-700 text-white rounded-md mr-2">Ida y vuelta</button>
-              <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md mr-2">Solo ida</button>
-            </div>
-            <!-- Form -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <input class="col-span-2 md:col-span-1 w-full px-3 py-2 border border-gray-300 rounded-md" placeholder="Fecha de llegada">
-              <input class="col-span-2 md:col-span-1 w-full px-3 py-2 border border-gray-300 rounded-md" placeholder="Fecha de regreso">
-              <input class="col-span-2 md:col-span-1 w-full px-3 py-2 border border-gray-300 rounded-md" placeholder="# huéspedes">
-              <input class="col-span-2 md:col-span-1 w-full px-3 py-2 border border-gray-300 rounded-md" placeholder="# habitaciones">
-            </div>
-            <button class="w-full mt-4 bg-cyan-700 text-white px-4 py-2 rounded-md hover:bg-cyan-900">BUSCAR</button>
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <!-- Top houses -->
-    <section class="container mx-auto px-4 py-12">
-      <h2 class="text-2xl font-bold mb-6">Nuestra selección especial para ti</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-  
-        <!-- Card -->
-        <div class="recomended__card bg-white rounded-lg shadow-md overflow-hidden">
-          <img src="img/locations/picasso/casa-picasso-1.jpg" alt="" class="w-full h-48 object-cover">
-          
-          <div class="p-4">
-            <h3 class="font-semibold mb-2">Casa Picasso</h3>
-            <!-- Stars -->
-            <div class="flex items-center mb-2">
-              <div class="flex text-yellow-400">
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-half-s-fill"></i>
-              </div>
-              <span class="text-gray-600 text-sm ml-2">4.9 (242 reseñas)</span>
-            </div>
-            <p class="text-sm text-gray-600 mb-4">Hermosa Casa de Diseño, mejor ubicación.</p>
-            <!-- Icons -->
-            <div class="flex justify-between items-center text-gray-500 text-sm mb-4">
-              <div class="flex items-center gap-1">
-                <i class="ri-hotel-bed-fill"></i>
-                <span class="">3 recámaras</span>
-              </div>
-              <div class="flex items-center gap-1">
-                <i class="ri-drop-fill"></i>
-                <span>2 ½ baños</span>
-              </div>
-              <div class="flex items-center gap-1">
-                <i class="ri-team-fill"></i>
-                <span>6 personas</span>
-              </div>
-            </div>
-  
-            <button class="bg-cyan-700 text-white px-4 py-2 rounded-md hover:bg-cyan-900">Ver más</button>
-          </div>
-        </div>
-  
-        <!-- Card -->
-        <div class="recomended__card bg-white rounded-lg shadow-md overflow-hidden">
-          <img src="img/locations/suiteMarianII/suite-marian-ii-1.jpg" alt="" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="font-semibold mb-2">Suite Marian II</h3>
-            <!-- Stars -->
-            <div class="flex items-center mb-2">
-              <div class="flex text-yellow-400">
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-half-s-fill"></i>
-              </div>
-              <span class="text-gray-600 text-sm ml-2">4.9 (18 reseñas)</span>
-            </div>
-            <p class="text-sm text-gray-600 mb-4">Justo en el corazón de Mérida.</p>
-            <!-- Icons -->
-            <div class="flex justify-between items-center text-gray-500 text-sm mb-4">
-              <div class="flex items-center gap-1">
-                <i class="ri-hotel-bed-fill"></i>
-                <span>1 recámara</span>
-              </div>
-              <div class="flex items-center gap-1">
-                <i class="ri-drop-fill"></i>
-                <span>1 baño</span>
-              </div>
-              <div class="flex items-center gap-1">
-                <i class="ri-team-fill"></i>
-                <span>2 personas</span>
-              </div>
-            </div>
-            
-            <button class="bg-cyan-700 text-white px-4 py-2 rounded-md hover:bg-cyan-900">Ver más</button>
-          </div>
-        </div>
-  
-        <!-- Card -->
-        <div class="recomended__card bg-white rounded-lg shadow-md overflow-hidden">
-          <img src="img/locations/deptoOasis/departamento-oasis-1.jpg" alt="" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="font-semibold mb-2">Departamento Oasis</h3>
-            <!-- Stars -->
-            <div class="flex items-center mb-2">
-              <div class="flex text-yellow-400">
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-half-s-fill"></i>
-              </div>
-              <span class="text-gray-600 text-sm ml-2">4.8 (20 reseñas)</span>
-            </div>
-            <p class="text-sm text-gray-600 mb-4">A solo una calle del Paseo Montejo.</p>
-            <!-- Icons -->
-            <div class="flex justify-between items-center text-gray-500 text-sm mb-4">
-              <div class="flex items-center gap-1">
-                <i class="ri-hotel-bed-fill"></i>
-                <span>2 recámaras</span>
-              </div>
-              <div class="flex items-center gap-1">
-                <i class="ri-drop-fill"></i>
-                <span>2 baños</span>
-              </div>
-              <div class="flex items-center gap-1">
-                <i class="ri-team-fill"></i>
-                <span>4 personas</span>
-              </div>
-            </div>
-            
-            <button class="bg-cyan-700 text-white px-4 py-2 rounded-md hover:bg-cyan-900">Ver más</button>
-          </div>
-        </div>
-  
-        <!-- Card -->
-        <div class="recomended__card bg-white rounded-lg shadow-md overflow-hidden">
-          <img src="img/locations/dali/casa-dali-1.jpg" alt="" class="w-full h-48 object-cover">
-          <div class="p-4">
-            <h3 class="font-semibold mb-2">Casa Dalí</h3>
-            <!-- Stars -->
-            <div class="flex items-center mb-2">
-              <div class="flex text-yellow-400">
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-s-fill"></i>
-                <i class="ri-star-half-s-fill"></i>
-              </div>
-              <span class="text-gray-600 text-sm ml-2">4.8 (144 reseñas)</span>
-            </div>
-            <p class="text-sm text-gray-600 mb-4">La combinación perfecta entre encanto y sofisticación.</p>
-            <!-- Icons -->
-            <div class="flex justify-between items-center text-gray-500 text-sm mb-4">
-              <div class="flex items-center gap-1">
-                <i class="ri-hotel-bed-fill"></i>
-                <span>1 recámara</span>
-              </div>
-              <div class="flex items-center gap-1">
-                <i class="ri-drop-fill"></i>
-                <span>1 baño</span>
-              </div>
-              <div class="flex items-center gap-1">
-                <i class="ri-team-fill"></i>
-                <span>3 personas</span>
-              </div>
-            </div>
-            
-            <button class="bg-cyan-700 text-white px-4 py-2 rounded-md hover:bg-cyan-900">Ver más</button>
-          </div>
-        </div>
-      </div>
-    </section>
-  
-    <!-- Reviews -->
-    <section class="bg-gray-100 py-16">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-12">¿Qué opinan nuestros clientes?</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          
-          <div class="reviews__card bg-white rounded-lg shadow-md p-6">
-            <div class="flex items-center mb-4">
-              <img src="img/profiles/oscar.jpg" alt="Foto de perfil de Oscar" class="w-12 h-12 rounded-full mr-4">
-              <div>
-                <h3 class="font-semibold text-lg">Oscar</h3>
-                <div class="flex text-yellow-400">
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                </div>
-              </div>
-            </div>
-            <p class="text-gray-600">"Es un lugar perfectamente bien ubicado para llegar caminando a lugares como La Negrita, el paseo gastronómico o el Parque La Plancha. El lugar es lindo, limpio cómodo. Justo como en las fotos. Además, Mariana, La co-anfitriona, fue muy atenta y responsiva durante mi estancia. Un lugar que volvería a visitar sin duda."</p>
-          </div>
-  
-          <div class="reviews__card bg-white rounded-lg shadow-md p-6">
-            <div class="flex items-center mb-4">
-              <img src="img/profiles/abhishek.jpg" alt="Foto de perfil de Ana Martínez" class="w-12 h-12 rounded-full mr-4">
-              <div>
-                <h3 class="font-semibold text-lg">Abhishek</h3>
-                <div class="flex text-yellow-400">
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                </div>
-              </div>
-            </div>
-            <p class="text-gray-600">"Nuestra estancia fue maravillosa. La casa tenía todas las comodidades que necesitábamos y estaba a poca distancia de los parques. ¡Altamente recomendado para familias!"</p>
-          </div>
-  
-          <div class="reviews__card bg-white rounded-lg shadow-md p-6">
-            <div class="flex items-center mb-4">
-              <img src="img/profiles/kenna.jpg" alt="Foto de perfil de Ana Martínez" class="w-12 h-12 rounded-full mr-4">
-              <div>
-                <h3 class="font-semibold text-lg">Kenna</h3>
-                <div class="flex text-yellow-400">
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                </div>
-              </div>
-            </div>
-            <p class="text-gray-600">"¡Muy recomendable! Captura el ambiente de México y está a cuadras de excelentes restaurantes, lugares con música en vivo, etc."</p>
-          </div>
-        </div>
-      </div>
-    </section>
+  <!-- Hero -->
+  <section class="hero relative bg-cover bg-center h-[750px]" style="background-image: url('/img/bg-home.jpg');">
+    <div class="absolute inset-0 bg-gradient-to-b from-black/50 to-black/90"></div>
 
-    <!-- Gallery -->
-  <section class="container mx-auto px-4 py-8">
-      <h1 class="text-3xl font-bold text-center mb-8">Vive la experiencia Discovery</h1>
-      
-      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          <!-- Imagen grande -->
-          <div class="md:col-span-2 md:row-span-2 gallery__img">
-              <img src="img/locations/picasso/casa-picasso-1.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-lg hover:opacity-90 transition duration-300">
+    <!-- Content -->
+    <div class="relative z-10 flex items-center justify-center h-full px-4">
+      <div class="text-center text-white">
+        <h1 class="hero__title text-3xl md:text-6xl font-bold mb-4">Bienvenidos a Discovery Mérida</h1>
+        <p class="hero__subtitle text-xl mb-8">Está a punto de comenzar su próxima gran aventura.</p>
+
+        <div class="hero__form w-full max-w-3xl mx-auto bg-white/90 backdrop-blur-md rounded-lg p-6">
+          <div class="mb-4">
+            <button class="px-4 py-2 bg-cyan-700 text-white rounded-md mr-2">Ida y vuelta</button>
+            <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md mr-2">Solo ida</button>
           </div>
-          
-          <!-- Imágenes más pequeñas -->
-          <div class="gallery__img">
-              <img src="img/locations/picasso/casa-picasso-2.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-md hover:opacity-90 transition duration-300">
+          <!-- Form -->
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <input class="col-span-2 md:col-span-1 w-full px-3 py-2 border border-gray-300 rounded-md"
+              placeholder="Fecha de llegada">
+            <input class="col-span-2 md:col-span-1 w-full px-3 py-2 border border-gray-300 rounded-md"
+              placeholder="Fecha de regreso">
+            <input class="col-span-2 md:col-span-1 w-full px-3 py-2 border border-gray-300 rounded-md"
+              placeholder="# huéspedes">
+            <input class="col-span-2 md:col-span-1 w-full px-3 py-2 border border-gray-300 rounded-md"
+              placeholder="# habitaciones">
           </div>
-          <div class="gallery__img">
-              <img src="img/locations/picasso/casa-picasso-3.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-md hover:opacity-90 transition duration-300">
-          </div>
-          <div class="md:col-span-2 gallery__img">
-              <img src="img/locations/dali/casa-dali-1.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-md hover:opacity-90 transition duration-300">
-          </div>
-          <div class="gallery__img">
-              <img src="img/locations/dali/casa-dali-2.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-md hover:opacity-90 transition duration-300">
-          </div>
-          <div class="gallery__img">
-              <img src="img/locations/dali/casa-dali-3.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-md hover:opacity-90 transition duration-300">
-          </div>
-          
-          <!-- Imagen mediana -->
-          <div class="md:col-span-2 gallery__img">
-              <img src="img/locations/kitanche/kitanche1.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-lg hover:opacity-90 transition duration-300">
-          </div>
+          <button class="w-full mt-4 bg-cyan-700 text-white px-4 py-2 rounded-md hover:bg-cyan-900">BUSCAR</button>
+        </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Top houses -->
+  <section class="container mx-auto px-4 py-12">
+    <h2 class="text-2xl font-bold mb-6">Nuestra selección especial para ti</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+
+      <!-- Card -->
+      <div class="recomended__card bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="img/locations/picasso/casa-picasso-1.jpg" alt="" class="w-full h-48 object-cover">
+
+        <div class="p-4">
+          <h3 class="font-semibold mb-2">Casa Picasso</h3>
+          <!-- Stars -->
+          <div class="flex items-center mb-2">
+            <div class="flex text-yellow-400">
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-half-s-fill"></i>
+            </div>
+            <span class="text-gray-600 text-sm ml-2">4.9 (242 reseñas)</span>
+          </div>
+          <p class="text-sm text-gray-600 mb-4">Hermosa Casa de Diseño, mejor ubicación.</p>
+          <!-- Icons -->
+          <div class="flex justify-between items-center text-gray-500 text-sm mb-4">
+            <div class="flex items-center gap-1">
+              <i class="ri-hotel-bed-fill"></i>
+              <span class="">3 recámaras</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <i class="ri-drop-fill"></i>
+              <span>2 ½ baños</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <i class="ri-team-fill"></i>
+              <span>6 personas</span>
+            </div>
+          </div>
+
+          <button class="bg-cyan-700 text-white px-4 py-2 rounded-md hover:bg-cyan-900">Ver más</button>
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div class="recomended__card bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="img/locations/suiteMarianII/suite-marian-ii-1.jpg" alt="" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold mb-2">Suite Marian II</h3>
+          <!-- Stars -->
+          <div class="flex items-center mb-2">
+            <div class="flex text-yellow-400">
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-half-s-fill"></i>
+            </div>
+            <span class="text-gray-600 text-sm ml-2">4.9 (18 reseñas)</span>
+          </div>
+          <p class="text-sm text-gray-600 mb-4">Justo en el corazón de Mérida.</p>
+          <!-- Icons -->
+          <div class="flex justify-between items-center text-gray-500 text-sm mb-4">
+            <div class="flex items-center gap-1">
+              <i class="ri-hotel-bed-fill"></i>
+              <span>1 recámara</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <i class="ri-drop-fill"></i>
+              <span>1 baño</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <i class="ri-team-fill"></i>
+              <span>2 personas</span>
+            </div>
+          </div>
+
+          <button class="bg-cyan-700 text-white px-4 py-2 rounded-md hover:bg-cyan-900">Ver más</button>
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div class="recomended__card bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="img/locations/deptoOasis/departamento-oasis-1.jpg" alt="" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold mb-2">Departamento Oasis</h3>
+          <!-- Stars -->
+          <div class="flex items-center mb-2">
+            <div class="flex text-yellow-400">
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-half-s-fill"></i>
+            </div>
+            <span class="text-gray-600 text-sm ml-2">4.8 (20 reseñas)</span>
+          </div>
+          <p class="text-sm text-gray-600 mb-4">A solo una calle del Paseo Montejo.</p>
+          <!-- Icons -->
+          <div class="flex justify-between items-center text-gray-500 text-sm mb-4">
+            <div class="flex items-center gap-1">
+              <i class="ri-hotel-bed-fill"></i>
+              <span>2 recámaras</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <i class="ri-drop-fill"></i>
+              <span>2 baños</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <i class="ri-team-fill"></i>
+              <span>4 personas</span>
+            </div>
+          </div>
+
+          <button class="bg-cyan-700 text-white px-4 py-2 rounded-md hover:bg-cyan-900">Ver más</button>
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div class="recomended__card bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="img/locations/dali/casa-dali-1.jpg" alt="" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="font-semibold mb-2">Casa Dalí</h3>
+          <!-- Stars -->
+          <div class="flex items-center mb-2">
+            <div class="flex text-yellow-400">
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-s-fill"></i>
+              <i class="ri-star-half-s-fill"></i>
+            </div>
+            <span class="text-gray-600 text-sm ml-2">4.8 (144 reseñas)</span>
+          </div>
+          <p class="text-sm text-gray-600 mb-4">La combinación perfecta entre encanto y sofisticación.</p>
+          <!-- Icons -->
+          <div class="flex justify-between items-center text-gray-500 text-sm mb-4">
+            <div class="flex items-center gap-1">
+              <i class="ri-hotel-bed-fill"></i>
+              <span>1 recámara</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <i class="ri-drop-fill"></i>
+              <span>1 baño</span>
+            </div>
+            <div class="flex items-center gap-1">
+              <i class="ri-team-fill"></i>
+              <span>3 personas</span>
+            </div>
+          </div>
+
+          <button class="bg-cyan-700 text-white px-4 py-2 rounded-md hover:bg-cyan-900">Ver más</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="bg-gray-100 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">¿Qué opinan nuestros clientes?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div class="reviews__card bg-white rounded-lg shadow-md p-6">
+          <div class="flex items-center mb-4">
+            <img src="img/profiles/oscar.jpg" alt="Foto de perfil de Oscar" class="w-12 h-12 rounded-full mr-4">
+            <div>
+              <h3 class="font-semibold text-lg">Oscar</h3>
+              <div class="flex text-yellow-400">
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+              </div>
+            </div>
+          </div>
+          <p class="text-gray-600">"Es un lugar perfectamente bien ubicado para llegar caminando a lugares como La
+            Negrita, el paseo gastronómico o el Parque La Plancha. El lugar es lindo, limpio cómodo. Justo como en las
+            fotos. Además, Mariana, La co-anfitriona, fue muy atenta y responsiva durante mi estancia. Un lugar que
+            volvería a visitar sin duda."</p>
+        </div>
+
+        <div class="reviews__card bg-white rounded-lg shadow-md p-6">
+          <div class="flex items-center mb-4">
+            <img src="img/profiles/abhishek.jpg" alt="Foto de perfil de Ana Martínez"
+              class="w-12 h-12 rounded-full mr-4">
+            <div>
+              <h3 class="font-semibold text-lg">Abhishek</h3>
+              <div class="flex text-yellow-400">
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+              </div>
+            </div>
+          </div>
+          <p class="text-gray-600">"Nuestra estancia fue maravillosa. La casa tenía todas las comodidades que
+            necesitábamos y estaba a poca distancia de los parques. ¡Altamente recomendado para familias!"</p>
+        </div>
+
+        <div class="reviews__card bg-white rounded-lg shadow-md p-6">
+          <div class="flex items-center mb-4">
+            <img src="img/profiles/kenna.jpg" alt="Foto de perfil de Ana Martínez" class="w-12 h-12 rounded-full mr-4">
+            <div>
+              <h3 class="font-semibold text-lg">Kenna</h3>
+              <div class="flex text-yellow-400">
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+              </div>
+            </div>
+          </div>
+          <p class="text-gray-600">"¡Muy recomendable! Captura el ambiente de México y está a cuadras de excelentes
+            restaurantes, lugares con música en vivo, etc."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold text-center mb-8">Vive la experiencia Discovery</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <!-- Imagen grande -->
+      <div class="md:col-span-2 md:row-span-2 gallery__img">
+        <img src="img/locations/picasso/casa-picasso-1.jpg" alt=""
+          class="w-full h-full object-cover rounded-lg shadow-lg hover:opacity-90 transition duration-300">
+      </div>
+
+      <!-- Imágenes más pequeñas -->
+      <div class="gallery__img">
+        <img src="img/locations/picasso/casa-picasso-2.jpg" alt=""
+          class="w-full h-full object-cover rounded-lg shadow-md hover:opacity-90 transition duration-300">
+      </div>
+      <div class="gallery__img">
+        <img src="img/locations/picasso/casa-picasso-3.jpg" alt=""
+          class="w-full h-full object-cover rounded-lg shadow-md hover:opacity-90 transition duration-300">
+      </div>
+      <div class="md:col-span-2 gallery__img">
+        <img src="img/locations/dali/casa-dali-1.jpg" alt=""
+          class="w-full h-full object-cover rounded-lg shadow-md hover:opacity-90 transition duration-300">
+      </div>
+      <div class="gallery__img">
+        <img src="img/locations/dali/casa-dali-2.jpg" alt=""
+          class="w-full h-full object-cover rounded-lg shadow-md hover:opacity-90 transition duration-300">
+      </div>
+      <div class="gallery__img">
+        <img src="img/locations/dali/casa-dali-3.jpg" alt=""
+          class="w-full h-full object-cover rounded-lg shadow-md hover:opacity-90 transition duration-300">
+      </div>
+
+      <!-- Imagen mediana -->
+      <div class="md:col-span-2 gallery__img">
+        <img src="img/locations/kitanche/kitanche1.jpg" alt=""
+          class="w-full h-full object-cover rounded-lg shadow-lg hover:opacity-90 transition duration-300">
+      </div>
+    </div>
   </section>
 
   <!-- Preguntas frecuentes -->
-   
+
   <section class="container mx-auto px-4 py-8">
     <h2 class="text-3xl font-bold text-center mb-8">Preguntas Frecuentes</h2>
-    
+
     <div class="max-w-3xl mx-auto space-y-4">
       @for (faq of faqs; track $index) {
-        <shared-faq-item [question]="faq.question" [answer]="faq.answer" class="faq__card"></shared-faq-item>
+      <shared-faq-item [question]="faq.question" [answer]="faq.answer" class="faq__card"></shared-faq-item>
       }
     </div>
   </section>
@@ -295,7 +312,8 @@
     <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
       <div class="text-center text-white">
         <h2 class="text-4xl font-semibold mb-4">Estás a un paso de iniciar <br> tu próxima gran aventura.</h2>
-        <button routerLink="contact" class="bg-cyan-700 hover:bg-cyan-900 text-white px-6 py-3 rounded-md text-lg font-semibold">Contactar</button>
+        <button routerLink="contact"
+          class="bg-cyan-700 hover:bg-cyan-900 text-white px-6 py-3 rounded-md text-lg font-semibold">Contactar</button>
       </div>
     </div>
   </section>
