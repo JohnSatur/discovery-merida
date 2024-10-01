@@ -4,6 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { LocationsService } from '../../shared/services/locations.service';
 import { Location } from '../../shared/models/location.interface';
 import { StarRatingPipe } from '../../shared/pipes/star-rating.pipe';
+import { environments } from '../../../environments/environment';
 
 @Component({
   standalone: true,
@@ -13,6 +14,7 @@ import { StarRatingPipe } from '../../shared/pipes/star-rating.pipe';
 })
 export class RoomComponent implements OnInit {
   public roomInfo!: Location;
+  public baseUrl: string = environments.baseUrl;
 
   constructor( private route: ActivatedRoute, private locationService: LocationsService ) { }
   
@@ -25,9 +27,5 @@ export class RoomComponent implements OnInit {
         this.roomInfo = location;
       });
     });
-  }
-
-  test() {
-    console.log('Test');
   }
 }

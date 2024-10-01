@@ -142,4 +142,9 @@ export class HomeComponent implements OnInit, AfterViewInit {
       duration: 1
     });
   }
+
+  public hola() {
+    console.log('hola');
+  }
 }
+

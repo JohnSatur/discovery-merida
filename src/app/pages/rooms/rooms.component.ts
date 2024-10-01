@@ -7,27 +7,22 @@ import { TruncatePipe } from '../../shared/pipes/truncate.pipe';
 import { PluralizePipe } from '../../shared/pipes/pluralize.pipe';
 import { RouterModule } from '@angular/router';
 import { Observable } from 'rxjs';
+import { environments } from '../../../environments/environment';
+import { HalfFractionPipe } from '../../shared/pipes/half-fraction.pipe';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, RoomCardComponent, TruncatePipe, PluralizePipe, RouterModule],
+  imports: [CommonModule, RoomCardComponent, TruncatePipe, PluralizePipe, HalfFractionPipe, RouterModule],
   templateUrl: './rooms.component.html',
   styleUrl: './rooms.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class RoomsComponent implements OnInit {
   public locations$: Observable<Location[]> = new Observable();
+  public baseUrl: string = environments.baseUrl;
 
   constructor(private locationsService: LocationsService) { }
 
   ngOnInit(): void {
     this.locations$ = this.locationsService.getLocations();
-    // .subscribe(locations => {
-    //   this.locations = locations;
-    // });
-  }
-
-  public getImgUrl (location: Location) {
-    return this.locationsService.getImgURL(location);
   }
 }

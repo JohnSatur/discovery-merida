@@ -1,6 +1,6 @@
 <main class="flex-grow">
-    <!-- Hero -->
-	<section class="relative h-[500px] md:h-[700px] bg-cover bg-center" style="background-image: url('/img/locations/matisse/matisse5.JPG');">
+  <!-- Hero -->
+	<section class="relative h-[500px] md:h-[700px] bg-cover bg-center" [style]="'background-image: url(' + baseUrl +  '/uploads/zula6_e308b318e0.jpg);'">
 		<div class="text-center text-white absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center">
             <p class="hero__subtitle text-xl mb-2">Conoce tu próximo destino</p>
             <h1 class="hero__title text-6xl font-bold mb-4">Discovery Mérida</h1>
@@ -25,7 +25,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Casa 1 -->
                 <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <img src="img/locations/dali/dali1.jpg" alt="Casa de playa" class="w-full h-48 object-cover">
+                    <img [src]="baseUrl + '/uploads/dali1_f351817cf0.jpg'" alt="Casa Dalí" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Casa Dalí</h3>
                         <p class="text-gray-600">Hermosa Casa de Diseño, mejor ubicación.</p>
@@ -33,7 +33,7 @@
                 </div>
                 <!-- Casa 2 -->
                 <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <img src="img/locations/picasso/picasso1.jpg" alt="Cabaña en el bosque" class="w-full h-48 object-cover">
+                    <img [src]="baseUrl + '/uploads/small_picasso1_34de48ce9a.jpg'" alt="Cabaña Picasso" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Casa Picasso</h3>
                         <p class="text-gray-600">Reconocida con premios por su diseño y funcionalidad en el centro de Mérida, simplemente es perfecta para vacacionar o trabajar.</p>
@@ -41,31 +41,11 @@
                 </div>
                 <!-- Casa 3 -->
                 <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <img src="img/locations/toledo/toledo1.webp" alt="Apartamento urbano" class="w-full h-48 object-cover">
+                    <img [src]="baseUrl + '/uploads/small_toledo2_86823ba92c.webp'" alt="Casa Toledo" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Casa Toledo</h3>
                         <p class="text-gray-600">Un Oasis inimaginable en el corazón de Mérida, a solo unos pasos de Paseo Montejo</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    
-        <!-- Sección de Misión y Visión -->
-        <div class="mb-16">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Misión -->
-                <div class="bg-cyan-700 shadow-lg rounded-lg p-8">
-                    <h2 class="text-2xl font-semibold text-white mb-4">Nuestra Misión</h2>
-                    <p class="text-gray-200 leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quis ratione minima fugiat nobis laborum provident, voluptate et nemo laudantium consectetur earum voluptatum quos explicabo modi itaque. Libero, ex nulla.
-                    </p>
-                </div>
-                <!-- Visión -->
-                <div class="bg-cyan-700 shadow-lg rounded-lg p-8">
-                    <h2 class="text-2xl font-semibold text-white mb-4">Nuestra Visión</h2>
-                    <p class="text-gray-200 leading-relaxed">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aliquam sed laborum modi magni sapiente architecto. Dolore deserunt consectetur aliquid eligendi! Pariatur sapiente delectus doloremque.
-                    </p>
                 </div>
             </div>
         </div>
@@ -145,7 +125,7 @@
     </section>
 
     <section class="relative min-h-[600px] flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 bg-no-repeat bg-cover"
-         style="background-image: url('/img/locations/suiteMarianII/suiteMarianII2.JPG');">
+         [style]="'background-image: url(' + baseUrl +  '/uploads/casa_Shanti7_c6c72d6898.webp);'">
         <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
         <div class="container mx-auto px-4 relative z-10">
           <h2 class="text-3xl font-semibold mb-8 text-center text-white">Contáctanos, queremos escucharte</h2>

@@ -1,3 +1,4 @@
+
 export interface StrapiResponse {
   data: Location[];
   meta: {
@@ -16,22 +17,24 @@ export interface Location {
 }
 
 export interface LocationAttributes {
-  name:          string;
-  description:   string;
-  noGuests:      number;
-  noBeds:        number;
-  noBaths:       number;
-  createdAt:     Date;
-  updatedAt:     Date;
-  publishedAt:   Date;
-  locale:        string;
-  available:     boolean;
-  slug:          string;
-  mapsURL:       string;
-  pricePerNight: number;
-  photos:        Photos;
-  amenities:     Amenity[];
-  reviews:       Review[];
+  name:               string;
+  description:        string;
+  noGuests:           number;
+  noBeds:             number;
+  noBaths:            number;
+  createdAt:          Date;
+  updatedAt:          Date;
+  publishedAt:        Date;
+  locale:             Locale;
+  available:          boolean;
+  slug:               string;
+  mapsURL:            string;
+  pricePerNight:      number;
+  collagePhotos:      CollagePhotos;
+  amenities:          Amenity[];
+  reviews:            Review[];
+  cover:              Cover;
+  descriptionPicture: DescriptionPicture;
 }
 
 export interface Amenity {
@@ -39,16 +42,16 @@ export interface Amenity {
   amenityName: string;
 }
 
-export interface Photos {
-  data: Photo[];
+export interface CollagePhotos {
+  data: DAT[] | null;
 }
 
-export interface Photo {
+export interface DAT {
   id:         number;
-  attributes: PhotoAttributes;
+  attributes: FluffyAttributes;
 }
 
-export interface PhotoAttributes {
+export interface FluffyAttributes {
   name:              string;
   alternativeText:   null;
   caption:           null;
@@ -61,22 +64,22 @@ export interface PhotoAttributes {
   size:              number;
   url:               string;
   previewUrl:        null;
-  provider:          string;
+  provider:          Provider;
   provider_metadata: null;
   createdAt:         Date;
   updatedAt:         Date;
 }
 
 export enum EXT {
-  JPEG = ".JPEG",
   Jpg = ".jpg",
+  Webp = ".webp",
 }
 
 export interface PurpleFormats {
-  thumbnail: Large;
-  small:     Large;
-  large?:    Large;
+  thumbnail?: Large;
   medium?:   Large;
+  small?:     Large;
+  large?:    Large;
 }
 
 export interface Large {
@@ -94,26 +97,27 @@ export interface Large {
 
 export enum MIME {
   ImageJPEG = "image/jpeg",
+  ImageWebp = "image/webp",
 }
 
-export interface Review {
-  id:             number;
-  username:       string;
-  comment:        string;
-  rating:         number;
-  profilePicture: ProfilePicture;
+export enum Provider {
+  Local = "local",
 }
 
-export interface ProfilePicture {
-  data: Data;
+export interface Cover {
+  data: DAT | null;
 }
 
-export interface Data {
+export interface DescriptionPicture {
+  data: DescriptionPictureData | null;
+}
+
+export interface DescriptionPictureData {
   id:         number;
-  attributes: DataAttributes;
+  attributes: TentacledAttributes;
 }
 
-export interface DataAttributes {
+export interface TentacledAttributes {
   name:              string;
   alternativeText:   null;
   caption:           null;
@@ -126,12 +130,68 @@ export interface DataAttributes {
   size:              number;
   url:               string;
   previewUrl:        null;
-  provider:          string;
+  provider:          Provider;
   provider_metadata: null;
   createdAt:         Date;
   updatedAt:         Date;
 }
 
 export interface FluffyFormats {
+  small:     Large;
   thumbnail: Large;
+}
+
+export enum Locale {
+  EsMX = "es-MX",
+}
+
+export interface Review {
+  id:             number;
+  username:       string;
+  comment:        string;
+  rating:         number;
+  profilePicture: ProfilePicture;
+}
+
+export interface ProfilePicture {
+  data: ProfilePictureData;
+}
+
+export interface ProfilePictureData {
+  id:         number;
+  attributes: StickyAttributes;
+}
+
+export interface StickyAttributes {
+  name:              string;
+  alternativeText:   null;
+  caption:           null;
+  width:             number;
+  height:            number;
+  formats:           TentacledFormats | null;
+  hash:              string;
+  ext:               EXT;
+  mime:              MIME;
+  size:              number;
+  url:               string;
+  previewUrl:        null;
+  provider:          Provider;
+  provider_metadata: null;
+  createdAt:         Date;
+  updatedAt:         Date;
+}
+
+export interface TentacledFormats {
+  thumbnail: Large;
+}
+
+export interface Meta {
+  pagination: Pagination;
+}
+
+export interface Pagination {
+  page:      number;
+  pageSize:  number;
+  pageCount: number;
+  total:     number;
 }

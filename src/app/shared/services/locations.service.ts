@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Location, StrapiResponse } from '../models/location.interface';
 import { environments } from '../../../environments/environment';
-import { map, Observable } from 'rxjs';
+import { map, Observable, tap } from 'rxjs';
 
 @Injectable({providedIn: 'root'})
 export class LocationsService {
@@ -12,22 +12,17 @@ export class LocationsService {
     constructor( private http: HttpClient ) { }
     
     public getLocations(): Observable<Location[]> {
-        return this.http.get<StrapiResponse>(`${ this.baseAPIUrl }/locations?populate=photos,amenities,reviews.profilePicture`)
+        return this.http.get<StrapiResponse>(`${ this.baseAPIUrl }/locations?populate=photos,amenities,reviews.profilePicture,cover`)
         .pipe(
             map( response => response.data)
         );
     }
 
     public getLocationBySlug(slug: string): Observable<Location> {
-        return this.http.get<StrapiResponse>(`${ this.baseAPIUrl }/locations?populate=photos,amenities,reviews.profilePicture&filters[slug][$eq]=${ slug }`)
+        return this.http.get<StrapiResponse>(`${ this.baseAPIUrl }/locations?populate=photos,amenities,reviews.profilePicture,cover,descriptionPicture&filters[slug][$eq]=${ slug }`)
         .pipe(
             map( response => response.data),
             map( locations => locations[0])
         );
-    }
-
-    public getImgURL (location: Location): string {
-        const mediumUrl = location.attributes.photos.data[0].attributes.formats.medium?.url;
-        return mediumUrl ? this.baseUrl + mediumUrl : 'default-medium.jpg';
     }
 }

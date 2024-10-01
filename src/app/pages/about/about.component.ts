@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
-import { AfterViewInit, Component, ElementRef, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { environments } from '../../../environments/environment';
 
 @Component({
   standalone: true,
@@ -12,6 +13,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
   styleUrl: './about.component.scss'
 })
 export class AboutComponent implements OnInit {
+  public baseUrl: string = environments.baseUrl;
   
   constructor(private el: ElementRef) {
     gsap.registerPlugin(ScrollTrigger);
