@@ -7,12 +7,11 @@ import { map, Observable, tap } from 'rxjs';
 @Injectable({providedIn: 'root'})
 export class LocationsService {
     private baseAPIUrl: string = environments.baseAPIUrl;
-    private baseUrl: string = environments.baseUrl;
 
     constructor( private http: HttpClient ) { }
     
-    public getLocations(): Observable<Location[]> {
-        return this.http.get<StrapiResponse>(`${ this.baseAPIUrl }/locations?populate=photos,amenities,reviews.profilePicture,cover`)
+    public getLocations(locale: string): Observable<Location[]> {
+        return this.http.get<StrapiResponse>(`${ this.baseAPIUrl }/locations?populate=photos,amenities,reviews.profilePicture,cover&locale=${locale}`)
         .pipe(
             map( response => response.data)
         );

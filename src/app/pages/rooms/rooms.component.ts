@@ -19,10 +19,11 @@ import { HalfFractionPipe } from '../../shared/pipes/half-fraction.pipe';
 export class RoomsComponent implements OnInit {
   public locations$: Observable<Location[]> = new Observable();
   public baseUrl: string = environments.baseUrl;
+  public currentLang: string = 'es-MX';
 
   constructor(private locationsService: LocationsService) { }
 
   ngOnInit(): void {
-    this.locations$ = this.locationsService.getLocations();
+    this.locations$ = this.locationsService.getLocations(this.currentLang);
   }
 }
