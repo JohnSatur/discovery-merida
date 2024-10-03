@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { Component, ElementRef, OnInit } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { Component, ElementRef, inject, OnInit } from '@angular/core';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -14,6 +14,8 @@ import { environments } from '../../../environments/environment';
 })
 export class AboutComponent implements OnInit {
   public baseUrl: string = environments.baseUrl;
+  public language: string | null = '';
+  private route = inject(ActivatedRoute);
   
   constructor(private el: ElementRef) {
     gsap.registerPlugin(ScrollTrigger);

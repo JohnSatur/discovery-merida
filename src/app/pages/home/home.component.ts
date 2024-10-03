@@ -1,10 +1,14 @@
 import { CommonModule } from '@angular/common';
-import { AfterViewInit, Component, ElementRef, OnInit } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { AfterViewInit, Component, ElementRef, inject, OnInit } from '@angular/core';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { FaqItemComponent } from '../../shared/components/faq-item/faq-item.component';
+import { LanguageService } from '../../shared/services/language.service';
+import { Observable } from 'rxjs';
+import { LocationsService } from '../../shared/services/locations.service';
+import { Location } from '../../shared/models/location.interface';
 
 interface FaqItem {
   question: string;
@@ -26,6 +30,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
     { question: '¿Cómo puedo contactar al anfitrión?', answer: '...' },
     { question: '¿Qué pasa si tengo algún problema durante mi estancia?', answer: '...' },
   ];
+  public currentLang: string = 'es-MX';
+  public locations$: Observable<Location[]> = new Observable();
+
+  private languageService = inject(LanguageService); 
 
   constructor (private el: ElementRef) {
     gsap.registerPlugin(ScrollTrigger);
@@ -33,6 +41,13 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
     this.animatePage();
+
+    const savedLang = localStorage.getItem('preferedLanguage') || 'es-MX';
+    this.languageService.changeLanguage(savedLang);
+
+    this.languageService.getCurrentLang().subscribe(lang => {
+      this.currentLang = lang;
+    });
   }
 
   ngAfterViewInit(): void {

@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute, RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { CommonModule } from '@angular/common';
 
@@ -25,9 +25,7 @@ export class AppComponent implements OnInit {
   public locations$: Observable<Location[]> = new Observable();
   public isLoading: boolean = true;
 
-
-  constructor( private languageService: LanguageService,
-    private locationsService: LocationsService ) { }
+  constructor( private languageService: LanguageService, private locationsService: LocationsService) { }
 
   ngOnInit(): void {
     setTimeout(() => {

@@ -4,13 +4,14 @@ import { RouterModule } from '@angular/router';
 
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { LanguageToggleComponent } from '../language-toggle/language-toggle.component';
 
 
 
 @Component({
   selector: 'shared-header',
   standalone: true,
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, LanguageToggleComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })

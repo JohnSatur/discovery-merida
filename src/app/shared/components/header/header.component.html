@@ -12,27 +12,21 @@
     <nav class="hidden md:block">
       <ul class="flex space-x-6">
         <li>
-          <a routerLink="home" class="text-white font-semibold">Inicio</a>
+          <a [routerLink]="['/es-MX']" class="text-white font-semibold">Inicio</a>
         </li>
         <li>
-          <a routerLink="about" class="text-white font-semibold">Quiénes Somos</a>
+          <a [routerLink]="['/es-MX', 'about']" class="text-white font-semibold">Quiénes Somos</a>
         </li>
         <li>
-          <a routerLink="rooms" class="text-white font-semibold">Casas</a>
+          <a [routerLink]="['/es-MX', 'rooms']" class="text-white font-semibold">Casas</a>
         </li>
         <li>
-          <a routerLink="contact" class="text-white font-semibold">Reservar</a>
+          <a [routerLink]="['/es-MX', 'contact']" class="text-white font-semibold">Reservar</a>
         </li>
       </ul>
     </nav>
     
-    <label class="relative flex items-center cursor-pointer">
-      <input type="checkbox" id="language-toggle" class="sr-only peer">
-      <div class="relative w-11 h-6 bg-cyan-100 rounded-full peer after:content-[''] after:absolute after:left-1 after:top-1 after:w-4 after:h-4 after:bg-cyan-600 after:rounded-full after:transition peer-checked:after:translate-x-5"></div>
-
-      <img src="img/mx-flag.png" alt="MX" class="ml-2 w-6 h-auto peer-checked:hidden">
-      <img src="img/us-flag.png" alt="US" class="ml-2 w-6 h-auto hidden peer-checked:block">
-    </label>
+    <shared-language-toggle></shared-language-toggle>
 
     <button
       #menuToggle

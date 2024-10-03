@@ -1,16 +1,15 @@
 import { Injectable } from '@angular/core';
-import { environments } from '../../../environments/environment';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
 })
 export class LanguageService {
-  private baseAPIUrl = environments.baseAPIUrl;
-  private currentLang = new BehaviorSubject<string>('es-MX');
+  private currentLang = new BehaviorSubject<string>(localStorage.getItem('preferedLanguage')  || 'es-MX');
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router) { }
 
   /**
    * Método para obtener el idioma actual como observable.
@@ -28,6 +27,16 @@ export class LanguageService {
     // Cambiar el valor del idioma y guardarlo en localStorage
     this.currentLang.next(lang);
     localStorage.setItem('preferedLanguage', lang);
+
+    // Obtener la Url actual y cambiar el parámetro de lenguaje
+    const currentUrl = this.router.url;
+    const segments = currentUrl.split('/');
+
+    if (segments.length > 1)
+      segments[1]=lang;
+
+    // Redirigir a la nueva ruta
+    this.router.navigate([segments.join('/')]);
   }
 
   /**
