@@ -16,6 +16,20 @@ interface FaqItem {
   isOpen: boolean;
 }
 
+interface HomeInfo {
+  title:           string;
+  createdAt:       Date;
+  updatedAt:       Date;
+  publishedAt:     Date;
+  locale:          string;
+  heroDescription: string;
+  topHousesTitle:  string;
+  reviewsTitle:    string;
+  faqTitle:        string;
+  contactTitle:    string;
+  galleryTitle:    string;
+}
+
 @Component({
   standalone: true,
   imports: [CommonModule, FaqItemComponent, RouterLink],
@@ -23,6 +37,7 @@ interface FaqItem {
   styleUrl: './home.component.scss'
 })
 export class HomeComponent implements OnInit, AfterViewInit {
+  private apiRoute: string = 'home-page';
   public faqs = [
     { question: '¿Cómo puedo hacer una reserva?', answer: '...' },
     { question: '¿Cuál es la política de cancelación?', answer: '...' },
@@ -30,8 +45,8 @@ export class HomeComponent implements OnInit, AfterViewInit {
     { question: '¿Cómo puedo contactar al anfitrión?', answer: '...' },
     { question: '¿Qué pasa si tengo algún problema durante mi estancia?', answer: '...' },
   ];
-  public currentLang: string = 'es-MX';
   public locations$: Observable<Location[]> = new Observable();
+  public homeInfo?: HomeInfo;
 
   private languageService = inject(LanguageService); 
 
@@ -42,11 +57,16 @@ export class HomeComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
     this.animatePage();
 
+    // Guardando el lenguaje favorito del usuario (español por defecto) y cambiándolo si es necesario
     const savedLang = localStorage.getItem('preferedLanguage') || 'es-MX';
     this.languageService.changeLanguage(savedLang);
 
+    // 
     this.languageService.getCurrentLang().subscribe(lang => {
-      this.currentLang = lang;
+
+      this.languageService.getPageContent(this.apiRoute, lang).subscribe(homeInfo => {
+        this.homeInfo = homeInfo.data.attributes;
+      });
     });
   }
 
