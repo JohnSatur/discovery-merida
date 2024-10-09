@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { LocationsService } from '../../shared/services/locations.service';
-import { Location } from '../../shared/models/location.interface';
+import { Location } from '../../shared/models/location.interfaces';
 import { StarRatingPipe } from '../../shared/pipes/star-rating.pipe';
 import { environments } from '../../../environments/environment';
 

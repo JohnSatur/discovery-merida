@@ -5,10 +5,10 @@ export interface HomeInfoRequest {
 
 export interface Data {
     id:         number;
-    attributes: Attributes;
+    attributes: HomeInfo;
 }
 
-export interface Attributes {
+export interface HomeInfo {
     title:           string;
     createdAt:       Date;
     updatedAt:       Date;

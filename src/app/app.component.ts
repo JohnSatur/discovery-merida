@@ -9,7 +9,7 @@ import { SocialMediaFloatComponent } from './shared/components/social-media-floa
 import { LanguageService } from './shared/services/language.service';
 import { LocationsService } from './shared/services/locations.service';
 import { Observable } from 'rxjs';
-import { Location } from './shared/models/location.interface';
+import { Location } from './shared/models/location.interfaces';
 import { LogoLoaderComponent } from './shared/components/logo-loader/logo-loader.component';
 
 @Component({
@@ -32,19 +32,22 @@ export class AppComponent implements OnInit {
       this.isLoading = false;
     }, 4000);
   
-    const savedLang = localStorage.getItem('preferedLanguage') || 'es-MX';
-    this.languageService.changeLanguage(savedLang);
+  // TODO: Definir qué información dinámica quiero que se traduzca
+    // const savedLang = localStorage.getItem('preferedLanguage') || 'es-MX';
+    // this.languageService.changeLanguage(savedLang);
 
-    this.languageService.getCurrentLang().subscribe(lang => {
-      this.currentLang = lang;
+    // this.languageService.getCurrentLang().subscribe(lang => {
+    //   this.currentLang = lang;
 
-      this.locations$ = this.locationsService.getLocations(this.currentLang);
-    });
+    //   this.locations$ = this.locationsService.getLocations(this.currentLang);
+    // });
 
-    this.locations$ = this.locationsService.getLocations(this.currentLang);
+    // this.locations$ = this.locationsService.getLocations(this.currentLang);
   }
 
+  // TODO: Definir qué información dinámica quiero que se traduzca
+
   public switchLanguage(lang: string): void {
-    this.languageService.changeLanguage(lang);
+    // this.languageService.changeLanguage(lang);
   }
 }

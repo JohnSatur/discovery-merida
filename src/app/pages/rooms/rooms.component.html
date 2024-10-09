@@ -5,20 +5,19 @@
 			<h1 class="text-4xl md:text-6xl font-bold text-white text-center">Nuestras ubicaciones</h1>
 		</div>
 	</section>
-
 	<div class="container mx-auto px-4 py-8">
 		<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
 			<!-- Location card -->
 			@for (location of locations$ | async; track location.id) {
-				<div class="bg-white rounded-lg shadow-md overflow-hidden group relative transition-all duration-300 ease-in-out hover:shadow-xl" [routerLink]="['/es-MX', 'room', location.attributes.slug]">
+				<div class="bg-white rounded-lg shadow-md overflow-hidden group relative transition-all duration-300 ease-in-out hover:shadow-xl" [routerLink]="['/room', location.slug]">
 					<div class="relative overflow-hidden cursor-pointer">
-						<img [src]="baseUrl + location.attributes.cover.data?.attributes?.formats?.medium?.url" [alt]="location.attributes.name" class="w-full h-48 object-cover transition-transform duration-300 ease-in-out group-hover:scale-110">
+						<img [src]="baseUrl + location.coverPicture?.formats?.medium?.url" [alt]="location.name" class="w-full h-48 object-cover transition-transform duration-300 ease-in-out group-hover:scale-110">
 
 						<div class="absolute inset-0 bg-black bg-opacity-50 transition-all duration-300 ease-in-out group-hover:bg-opacity-70"></div>
 
 						<div class="absolute bottom-0 left-0 p-4 text-white transition-all duration-300 ease-in-out group-hover:translate-y-[-10px]">
-							<h2 class="text-xl font-semibold mb-1">{{ location.attributes.name }}</h2>
-							<p class="text-sm">{{ location.attributes.description | truncate }}</p>
+							<h2 class="text-xl font-semibold mb-1">{{ location.name }}</h2>
+							<p class="text-sm">{{ location.description | truncate }}</p>
 						</div>
 
 						<div class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
@@ -30,17 +29,17 @@
 						<div class="flex justify-between items-center md:flex-col md:items-start xl:items-center xl:flex-row text-sm text-gray-600">
 							<div class="flex items-center gap-1">
 								<i class="ri-team-fill"></i>
-								<span>{{ location.attributes.noGuests }} {{ location.attributes.noGuests| pluralize: 'huesped' : 'huéspedes' }}</span>
+								<span>{{ location.noGuests }} {{ location.noGuests| pluralize: 'huesped' : 'huéspedes' }}</span>
 							</div>
 
 							<div class="flex items-center gap-1">
 								<i class="ri-hotel-bed-fill"></i>
-								<span>{{ location.attributes.noBeds }} {{ location.attributes.noBeds| pluralize: 'cama' : 'camas' }}</span>
+								<span>{{ location.noBeds }} {{ location.noBeds| pluralize: 'cama' : 'camas' }}</span>
 							</div>
 
 							<div class="flex items-center gap-1">
 								<i class="ri-drop-fill"></i>
-								<span>{{ location.attributes.noBaths | halfFraction }} {{ location.attributes.noBaths | pluralize: 'baño' : 'baños' }}</span>
+								<span>{{ location.noBaths | halfFraction }} {{ location.noBaths | pluralize: 'baño' : 'baños' }}</span>
 							</div>
 						</div>
 					</div>

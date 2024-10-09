@@ -6,8 +6,8 @@
     <!-- Content -->
     <div class="relative z-10 flex items-center justify-center h-full px-4">
       <div class="text-center text-white">
-        <h1 class="hero__title text-3xl md:text-6xl font-bold mb-4">{{ homeInfo?.title }}</h1>
-        <p class="hero__subtitle text-xl mb-8">{{ homeInfo?.heroDescription }}</p>
+        <h1 class="hero__title text-3xl md:text-6xl font-bold mb-4">Discovery Mérida</h1>
+        <p class="hero__subtitle text-xl mb-8">Estás a punto de comenzar su próxima gran aventura.</p>
 
         <div class="hero__form w-full max-w-3xl mx-auto bg-white/90 backdrop-blur-md rounded-lg p-6">
           <div class="mb-4">
@@ -33,7 +33,7 @@
 
   <!-- Top houses -->
   <section class="container mx-auto px-4 py-12">
-    <h2 class="text-2xl font-bold mb-6">{{ homeInfo?.topHousesTitle }}</h2>
+    <h2 class="text-2xl font-bold mb-6">Nuestra selección especial para ti</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
 
       <!-- Card -->
@@ -190,7 +190,7 @@
   <!-- Reviews -->
   <section class="bg-gray-100 py-16">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">{{ homeInfo?.reviewsTitle }}</h2>
+      <h2 class="text-3xl font-bold text-center mb-12">¿Qué opinan nuestros clientes?</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
         <div class="reviews__card bg-white rounded-lg shadow-md p-6">
@@ -255,7 +255,7 @@
 
   <!-- Gallery -->
   <section class="container mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold text-center mb-8">{{ homeInfo?.galleryTitle }}</h1>
+    <h1 class="text-3xl font-bold text-center mb-8">Vive la experiencia Discovery</h1>
 
     <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
       <!-- Imagen grande -->
@@ -297,7 +297,7 @@
   <!-- Preguntas frecuentes -->
 
   <section class="container mx-auto px-4 py-8">
-    <h2 class="text-3xl font-bold text-center mb-8">{{ homeInfo?.faqTitle }}</h2>
+    <h2 class="text-3xl font-bold text-center mb-8">Preguntas Frecuentes</h2>
 
     <div class="max-w-3xl mx-auto space-y-4">
       @for (faq of faqs; track $index) {
@@ -311,7 +311,7 @@
     <img src="img/locations/matisse/casa-matisse-1.jpg" alt="" class="w-full h-full object-cover">
     <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
       <div class="text-center text-white">
-        <h2 class="text-4xl font-semibold mb-4">{{ homeInfo?.contactTitle }}</h2>
+        <h2 class="text-4xl font-semibold mb-4">Estás a un paso de iniciar tu próxima gran aventura.</h2>
         <button routerLink="contact"
           class="bg-cyan-700 hover:bg-cyan-900 text-white px-6 py-3 rounded-md text-lg font-semibold">Contactar</button>
       </div>

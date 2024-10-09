@@ -1,100 +1,98 @@
 <main *ngIf="roomInfo">
     <!-- Hero -->
-    <section class="relative h-[500px] md:h-[700px] bg-cover bg-center" [style]="'background-image: url(' + baseUrl + roomInfo.attributes.cover.data?.attributes?.url + ')'">
-        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+    <section class="relative h-[500px] md:h-[700px] bg-cover bg-center" [style]="'background-image: url(' + baseUrl + roomInfo.coverPicture?.url + ')'">
+      <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
 
-          <h1 class="text-4xl md:text-6xl font-bold text-white text-center">{{ roomInfo.attributes.name }}</h1>
-        </div>
-      </section>
-    
-      <!-- Description -->
-      <section class="container mx-auto px-4 py-12">
-        <div class="flex flex-col md:flex-row items-center">
-          <div class="md:w-1/2 mb-8 md:mb-0">
-            <h2 class="text-3xl font-semibold mb-4">Conoce tu próximo destino</h2>
-              <p class="text-gray-600 mb-4">{{ roomInfo.attributes.description }}</p>
-            </div>
-            <div class="md:w-1/2 md:pl-8">
-              <img [src]="baseUrl + roomInfo.attributes.descriptionPicture.data?.attributes?.url" [alt]="roomInfo.attributes.name" class="rounded-lg shadow-lg w-full">
-              
-            </div>
-        </div>
-      </section>
-    
-      <!-- Características principales de la casa -->
-      <section class="bg-cyan-700 py-12">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-semibold mb-8 text-center text-white">Amenidades</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                @for (amenidad of roomInfo.attributes.amenities; track $index) {
-                  <div class="flex items-center">
-                    <i class="ri-arrow-right-s-line text-cyan-50 mr-4"></i>
-                    <span class="text-white">{{ amenidad.amenityName }}</span>
-                  </div>
-                }
-            </div>
-        </div>
-      </section>
-    
-      <!-- Google Maps -->
-      <section class="py-12">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-semibold mb-8 text-center">Ubicación aproximada</h2>
-            <div class="aspect-w-16 aspect-h-9">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-      </section>
-    
-      <!-- Reviews -->
-      <section class="bg-gray-100 py-16">
-        <div class="container mx-auto px-4">
-          <h2 class="text-3xl font-bold text-center mb-12">Opiniones de nuestros clientes</h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            
-            @for (comentario of roomInfo.attributes.reviews; track $index) {
-              <div class="reviews__card bg-white rounded-lg shadow-md p-6">
-                <div class="flex items-center mb-4">
-                  <img [src]="baseUrl + comentario.profilePicture.data.attributes.formats?.thumbnail?.url" [alt]="'Foto de perfil de ' + comentario.username" class="w-12 h-12 rounded-full mr-4">
-                  <div>
-                    <h3 class="font-semibold text-lg">{{ comentario.username }}</h3>
-                    <div class="flex text-yellow-400">
-                      <span [innerHTML]="comentario.rating | starRating"></span>
-                    </div>
-                  </div>
-                </div>
-                <p class="text-gray-600">{{ comentario.comment }}</p>
-              </div>
-            }
-    
+        <h1 class="text-4xl md:text-6xl font-bold text-white text-center">{{ roomInfo.name }}</h1>
+      </div>
+    </section>
+
+    <!-- Description -->
+    <section class="container mx-auto px-4 py-12">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 mb-8 md:mb-0">
+          <h2 class="text-3xl font-semibold mb-4">Conoce tu próximo destino</h2>
+            <p class="text-gray-600 mb-4">{{ roomInfo.description }}</p>
           </div>
+          <div class="md:w-1/2 md:pl-8">
+            <img [src]="baseUrl + roomInfo.descriptionPicture.url" [alt]="roomInfo.name" class="rounded-lg shadow-lg w-full">
+          </div>
+      </div>
+    </section>
+
+    <!-- Características principales de la casa -->
+    <section class="bg-cyan-700 py-12">
+      <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-semibold mb-8 text-center text-white">Amenidades</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              @for (amenidad of roomInfo.amenities; track $index) {
+                <div class="flex items-center">
+                  <i class="ri-arrow-right-s-line text-cyan-50 mr-4"></i>
+                  <span class="text-white">{{ amenidad.name }}</span>
+                </div>
+              }
+          </div>
+      </div>
+    </section>
+
+    <!-- Google Maps -->
+    <section class="py-12">
+      <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-semibold mb-8 text-center">Ubicación aproximada</h2>
+          <div class="aspect-w-16 aspect-h-9">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="bg-gray-100 py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Opiniones de nuestros clientes</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          @for (comentario of roomInfo.reviews; track $index) {
+            <div class="reviews__card bg-white rounded-lg shadow-md p-6">
+              <div class="flex items-center mb-4">
+                <img [src]="baseUrl + comentario.profilePicture.formats.thumbnail.url" [alt]="'Foto de perfil de ' + comentario.username" class="w-12 h-12 rounded-full mr-4">
+                <div>
+                  <h3 class="font-semibold text-lg">{{ comentario.username }}</h3>
+                  <div class="flex text-yellow-400">
+                    <span [innerHTML]="comentario.rating | starRating"></span>
+                  </div>
+                </div>
+              </div>
+              <p class="text-gray-600">{{ comentario.comment }}</p>
+            </div>
+          }
         </div>
-      </section>
-    
-      <!-- Formulario de contacto -->
-      <section class="relative py-12 bg-cover bg-center" [style]="'background-image: url(' + baseUrl + roomInfo.attributes.cover.data?.attributes?.url + ')'">
-        <!-- Overlay negro -->
-        <div class="absolute inset-0 bg-black opacity-60"></div>
-    
-        <div class="container mx-auto px-4 relative z-10">
-            <h2 class="text-3xl font-semibold mb-8 text-center text-white">Contáctanos</h2>
-            <form class="max-w-lg mx-auto">
-                <div class="mb-4">
-                    <label for="name" class="block text-slate-100 font-bold mb-2">Nombre</label>
-                    <input type="text" id="name" name="name" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Nombre..." required>
-                </div>
-                <div class="mb-4">
-                    <label for="email" class="block text-slate-100 font-bold mb-2">Correo electrónico</label>
-                    <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Correo electrónico..." required>
-                </div>
-                <div class="mb-4">
-                    <label for="message" class="block text-slate-100 font-bold mb-2">Mensaje</label>
-                    <textarea id="message" name="message" rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Escribe tu mensaje..." required></textarea>
-                </div>
-                <div class="text-center">
-                  <button class="bg-cyan-700 text-white text-xl px-4 py-4 rounded-md">Enviar mensaje</button>
-                </div>
-            </form>
-        </div>
-      </section>
+      </div>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section class="relative py-12 bg-cover bg-center" [style]="'background-image: url(' + baseUrl + roomInfo.coverPicture?.url + ')'">
+      <!-- Overlay negro -->
+      <div class="absolute inset-0 bg-black opacity-60"></div>
+  
+      <div class="container mx-auto px-4 relative z-10">
+          <h2 class="text-3xl font-semibold mb-8 text-center text-white">Contáctanos</h2>
+          <form class="max-w-lg mx-auto">
+              <div class="mb-4">
+                  <label for="name" class="block text-slate-100 font-bold mb-2">Nombre</label>
+                  <input type="text" id="name" name="name" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Nombre..." required>
+              </div>
+              <div class="mb-4">
+                  <label for="email" class="block text-slate-100 font-bold mb-2">Correo electrónico</label>
+                  <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Correo electrónico..." required>
+              </div>
+              <div class="mb-4">
+                  <label for="message" class="block text-slate-100 font-bold mb-2">Mensaje</label>
+                  <textarea id="message" name="message" rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Escribe tu mensaje..." required></textarea>
+              </div>
+              <div class="text-center">
+                <button class="bg-cyan-700 text-white text-xl px-4 py-4 rounded-md">Enviar mensaje</button>
+              </div>
+          </form>
+      </div>
+    </section>
 </main>

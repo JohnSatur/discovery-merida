@@ -7,28 +7,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { FaqItemComponent } from '../../shared/components/faq-item/faq-item.component';
 import { LanguageService } from '../../shared/services/language.service';
 import { Observable } from 'rxjs';
-import { LocationsService } from '../../shared/services/locations.service';
-import { Location } from '../../shared/models/location.interface';
-
-interface FaqItem {
-  question: string;
-  answer: string;
-  isOpen: boolean;
-}
-
-interface HomeInfo {
-  title:           string;
-  createdAt:       Date;
-  updatedAt:       Date;
-  publishedAt:     Date;
-  locale:          string;
-  heroDescription: string;
-  topHousesTitle:  string;
-  reviewsTitle:    string;
-  faqTitle:        string;
-  contactTitle:    string;
-  galleryTitle:    string;
-}
+import { Location } from '../../shared/models/location.interfaces';
+import { HomeInfo } from '../models/homeInfoRequest.interface';
 
 @Component({
   standalone: true,
@@ -46,7 +26,9 @@ export class HomeComponent implements OnInit, AfterViewInit {
     { question: '¿Qué pasa si tengo algún problema durante mi estancia?', answer: '...' },
   ];
   public locations$: Observable<Location[]> = new Observable();
-  public homeInfo?: HomeInfo;
+  
+  // TODO: Definir qué información dinámica quiero que se traduzca
+  // public homeInfo?: HomeInfo;
 
   private languageService = inject(LanguageService); 
 
@@ -59,15 +41,17 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
     // Guardando el lenguaje favorito del usuario (español por defecto) y cambiándolo si es necesario
     const savedLang = localStorage.getItem('preferedLanguage') || 'es-MX';
-    this.languageService.changeLanguage(savedLang);
+  // TODO: Definir qué información dinámica quiero que se traduzca
 
-    // 
-    this.languageService.getCurrentLang().subscribe(lang => {
+    // this.languageService.changeLanguage(savedLang);
 
-      this.languageService.getPageContent(this.apiRoute, lang).subscribe(homeInfo => {
-        this.homeInfo = homeInfo.data.attributes;
-      });
-    });
+    // Obteniendo la información de la página en el idioma actual
+    // TODO: Definir qué información dinámica quiero que se traduzca
+    // this.languageService.getCurrentLang().subscribe(lang => {
+      // this.languageService.getPageContent(this.apiRoute, lang).subscribe(homeInfo => {
+      //   this.homeInfo = homeInfo.data.attributes;
+      // });
+    // });
   }
 
   ngAfterViewInit(): void {

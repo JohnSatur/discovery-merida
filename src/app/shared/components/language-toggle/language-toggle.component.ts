@@ -18,9 +18,10 @@ export class LanguageToggleComponent implements OnInit, OnDestroy {
   constructor(private languageService: LanguageService) { }
 
   ngOnInit(): void {
-    this.langSubscription = this.languageService.getCurrentLang().subscribe((lang: string) => {
-      this.isChecked = (lang === 'en');
-    });
+    // TODO: Definir qué información dinámica quiero que se traduzca
+    // this.langSubscription = this.languageService.getCurrentLang().subscribe((lang: string) => {
+    //   this.isChecked = (lang === 'en');
+    // });
   }
 
   ngOnDestroy(): void {
@@ -28,8 +29,9 @@ export class LanguageToggleComponent implements OnInit, OnDestroy {
   }
 
   public toggleLanguage(event: Event) {
-    const isChecked = (event.target as HTMLInputElement).checked;
-    const newLang = isChecked ? 'en' : 'es-MX';
-    this.languageService.changeLanguage(newLang);
+    // TODO: Definir qué información dinámica quiero que se traduzca
+    // const isChecked = (event.target as HTMLInputElement).checked;
+    // const newLang = isChecked ? 'en' : 'es-MX';
+    // this.languageService.changeLanguage(newLang);
   }
 }

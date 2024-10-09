@@ -6,10 +6,17 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
 
 export const routes: Routes = [
-    { path: '', redirectTo: 'es-MX', pathMatch: 'full'},
-    { path: ':lang', component: HomeComponent },
-    { path: ':lang/about', component: AboutComponent },
-    { path: ':lang/rooms', component: RoomsComponent },
-    { path: ':lang/room/:slug', component: RoomComponent },
-    { path: ':lang/contact', component: ContactComponent },
+    { path: '', component: HomeComponent },
+    { path: 'about', component: AboutComponent },
+    { path: 'rooms', component: RoomsComponent },
+    { path: 'room/:slug', component: RoomComponent },
+    { path: 'contact', component: ContactComponent },
+    { path: '**', redirectTo: ''},
+
+    // { path: '', redirectTo: 'es-MX', pathMatch: 'full'},
+    // { path: ':lang', component: HomeComponent },
+    // { path: ':lang/about', component: AboutComponent },
+    // { path: ':lang/rooms', component: RoomsComponent },
+    // { path: ':lang/room/:slug', component: RoomComponent },
+    // { path: ':lang/contact', component: ContactComponent },
 ];
