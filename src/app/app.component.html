@@ -1,22 +1,13 @@
-<shared-header ></shared-header>
+<shared-header/>
 
-<!-- @if (isLoading) { -->
-  <!-- <app-logo-loader></app-logo-loader> -->
-<!-- } -->
+@if (isLoading) {
+  <app-logo-loader />
+}
 
-<!-- @if (!isLoading) { -->
-  <router-outlet></router-outlet>
-<!-- } -->
+@if (!isLoading) {
+  <router-outlet />
+  <shared-social-media-float />
+  <shared-disclaimer-banner />
+}
 
-<shared-social-media-float></shared-social-media-float>
-
-<shared-footer></shared-footer>
-
-<!-- <div>
-    <button (click)="switchLanguage('en')" [disabled]="currentLang === 'en'">English</button>
-    <button (click)="switchLanguage('es-MX')" [disabled]="currentLang === 'es-MX'">Español</button>
-  </div>
-  
-  <div *ngFor="let location of locations$ | async">
-    <h2>{{location.attributes.name}}</h2>
-</div> -->
+<shared-footer />

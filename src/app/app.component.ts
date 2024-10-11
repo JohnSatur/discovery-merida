@@ -11,11 +11,12 @@ import { LocationsService } from './shared/services/locations.service';
 import { Observable } from 'rxjs';
 import { Location } from './shared/models/location.interfaces';
 import { LogoLoaderComponent } from './shared/components/logo-loader/logo-loader.component';
+import { DisclaimerBannerComponent } from './shared/components/disclaimer-banner/disclaimer-banner.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent, HomeComponent, SocialMediaFloatComponent, LogoLoaderComponent],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent, HomeComponent, SocialMediaFloatComponent, LogoLoaderComponent, DisclaimerBannerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

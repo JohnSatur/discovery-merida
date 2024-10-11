@@ -301,7 +301,7 @@
 
     <div class="max-w-3xl mx-auto space-y-4">
       @for (faq of faqs; track $index) {
-      <shared-faq-item [question]="faq.question" [answer]="faq.answer" class="faq__card"></shared-faq-item>
+      <shared-faq-item [question]="faq.question" [answer]="faq.answer" class="faq__card" />
       }
     </div>
   </section>
