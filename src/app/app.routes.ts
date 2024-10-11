@@ -9,20 +9,14 @@ import { CookiesComponent } from './pages/cookies/cookies.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 export const routes: Routes = [
-    { path: '', component: HomeComponent },
-    { path: 'about', component: AboutComponent },
-    { path: 'rooms', component: RoomsComponent },
-    { path: 'room/:slug', component: RoomComponent },
-    { path: 'contact', component: ContactComponent },
-    { path: 'privacy', component: PrivacyComponent },
-    { path: 'cookies', component: CookiesComponent },
-    { path: '404', component: NotFoundComponent },
-    { path: '**', redirectTo: '404'},
-
-    // { path: '', redirectTo: 'es-MX', pathMatch: 'full'},
-    // { path: ':lang', component: HomeComponent },
-    // { path: ':lang/about', component: AboutComponent },
-    // { path: ':lang/rooms', component: RoomsComponent },
-    // { path: ':lang/room/:slug', component: RoomComponent },
-    // { path: ':lang/contact', component: ContactComponent },
+    { path: '', redirectTo: 'es-MX', pathMatch: 'full'},
+    { path: ':lang', component: HomeComponent },
+    { path: ':lang/about', component: AboutComponent },
+    { path: ':lang/rooms', component: RoomsComponent },
+    { path: ':lang/room/:slug', component: RoomComponent },
+    { path: ':lang/contact', component: ContactComponent },
+    { path: ':lang/privacy', component: PrivacyComponent },
+    { path: ':lang/cookies', component: CookiesComponent },
+    { path: ':lang/404', component: NotFoundComponent },
+    { path: '**', redirectTo: '/es-MX/404', pathMatch: 'full'},
 ];

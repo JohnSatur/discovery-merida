@@ -10,10 +10,10 @@
         <div>
           <h3 class="font-bold mb-4">Menú Principal</h3>
           <ul class="space-y-2">
-            <li><a routerLink="/" class="cursor-pointer hover:underline">Inicio</a></li>
-            <li><a routerLink="/about" class="cursor-pointer hover:underline">Quiénes Somos</a></li>
-            <li><a routerLink="/rooms" class="cursor-pointer hover:underline">Casas</a></li>
-            <li><a routerLink="/contact" class="cursor-pointer hover:underline">Reservar</a></li>
+            <li><a [routerLink]="['/']" class="cursor-pointer hover:underline">Inicio</a></li>
+            <li><a [routerLink]="['/', 'es-MX', 'about']" class="cursor-pointer hover:underline">Quiénes Somos</a></li>
+            <li><a [routerLink]="['/', 'es-MX', 'rooms']" class="cursor-pointer hover:underline">Casas</a></li>
+            <li><a [routerLink]="['/', 'es-MX', 'about']" class="cursor-pointer hover:underline">Reservar</a></li>
           </ul>
         </div>
   
