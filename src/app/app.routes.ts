@@ -6,6 +6,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
 import { PrivacyComponent } from './pages/privacy/privacy.component';
 import { CookiesComponent } from './pages/cookies/cookies.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -15,7 +16,8 @@ export const routes: Routes = [
     { path: 'contact', component: ContactComponent },
     { path: 'privacy', component: PrivacyComponent },
     { path: 'cookies', component: CookiesComponent },
-    { path: '**', redirectTo: ''},
+    { path: '404', component: NotFoundComponent },
+    { path: '**', redirectTo: '404'},
 
     // { path: '', redirectTo: 'es-MX', pathMatch: 'full'},
     // { path: ':lang', component: HomeComponent },
