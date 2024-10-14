@@ -13,11 +13,14 @@ import { environments } from '../../../environments/environment';
   styleUrl: './room.component.scss'
 })
 export class RoomComponent implements OnInit {
-  public roomInfo!: Location;
+  public roomInfo!: Location; // Información de la casa que se está mostrando en el componente
   public baseUrl: string = environments.baseUrl;
 
   constructor( private route: ActivatedRoute, private locationService: LocationsService ) { }
   
+  /**
+   * El método onInit obtiene el slug de la casa para traer la información de la misma del backend a través del servicio "Location Service"
+   */
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
       const slug = params.get('slug') || '';

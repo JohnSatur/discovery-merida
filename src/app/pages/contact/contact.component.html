@@ -1,26 +1,41 @@
 <main>
-    <section class="relative min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 bg-no-repeat bg-cover"
-         style="background-image: url('/img/locations/kitanche/kitanche1.jpg');">
-        <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
-        <div class="container mx-auto px-4 relative z-10">
-          <h2 class="text-3xl font-semibold mb-8 text-center text-white">Ponte en contacto con nosotros</h2>
-          <form class="max-w-lg mx-auto">
-              <div class="mb-4">
-                  <label for="name" class="block text-slate-100 font-bold mb-2">Nombre</label>
-                  <input type="text" id="name" name="name" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500" placeholder="Nombre..." required>
-              </div>
-              <div class="mb-4">
-                  <label for="email" class="block text-slate-100 font-bold mb-2">Correo electrónico</label>
-                  <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500" placeholder="Correo electrónico..." required>
-              </div>
-              <div class="mb-4">
-                  <label for="message" class="block text-slate-100 font-bold mb-2">Mensaje</label>
-                  <textarea id="message" name="message" rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500" placeholder="Escribe tu mensaje..." required></textarea>
-              </div>
-              <div class="text-center">
-                <button class="bg-cyan-700 text-white text-lg px-4 py-2 rounded-md hover:bg-cyan-900">ENVIAR</button>
-              </div>
-          </form>
+  <!-- Contenedor del formulario de contacto (fullscreen) -->
+  <section
+    class="relative min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 bg-no-repeat bg-cover"
+    style="background-image: url('/img/locations/kitanche/kitanche1.jpg');">
+
+    <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
+
+    <div class="container mx-auto px-4 relative z-10">
+      <h2 class="text-3xl font-semibold mb-8 text-center text-white">Ponte en contacto con nosotros</h2>
+
+      <!-- Formulario de contacto -->
+      <form class="max-w-lg mx-auto">
+        <div class="mb-4">
+          <label for="name" class="block text-slate-100 font-bold mb-2">Nombre</label>
+          <input type="text" id="name" name="name"
+            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500"
+            placeholder="Nombre..." required>
         </div>
-    </section>
+
+        <div class="mb-4">
+          <label for="email" class="block text-slate-100 font-bold mb-2">Correo electrónico</label>
+          <input type="email" id="email" name="email"
+            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500"
+            placeholder="Correo electrónico..." required>
+        </div>
+
+        <div class="mb-4">
+          <label for="message" class="block text-slate-100 font-bold mb-2">Mensaje</label>
+          <textarea id="message" name="message" rows="4"
+            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-500"
+            placeholder="Escribe tu mensaje..." required></textarea>
+        </div>
+
+        <div class="text-center">
+          <button class="bg-cyan-700 text-white text-lg px-4 py-2 rounded-md hover:bg-cyan-900">ENVIAR</button>
+        </div>
+      </form>
+    </div>
+  </section>
 </main>

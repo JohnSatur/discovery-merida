@@ -8,6 +8,9 @@ import { PrivacyComponent } from './pages/privacy/privacy.component';
 import { CookiesComponent } from './pages/cookies/cookies.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 
+/**
+ * Definición de rutas de la aplicación
+ */
 export const routes: Routes = [
     { path: '', redirectTo: 'es-MX', pathMatch: 'full'},
     { path: ':lang', component: HomeComponent },

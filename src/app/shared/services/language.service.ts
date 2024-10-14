@@ -5,8 +5,6 @@ import { Router } from '@angular/router';
 import { environments } from '../../../environments/environment';
 import { HomeInfoRequest } from '../../pages/models/homeInfoRequest.interface';
 
-// TODO: Definir qué información dinámica quiero que se traduzca
-
 @Injectable({
   providedIn: 'root'
 })
@@ -29,6 +27,16 @@ export class LanguageService {
    * @param lang código de idioma que se quiere emitir.
    */
   public changeLanguage(lang: string) {
+    const validLangs = ['es-MX', 'en'];
+
+    if (!validLangs.includes(lang)) {
+      console.error(`Idioma no soportado: ${ lang }`);
+      return;
+    }
+
+    // Evitar redirigir si el idioma no ha cambiado
+    if (this.getLang() === lang) return;
+
     // Cambiar el valor del idioma y guardarlo en localStorage
     this.currentLang.next(lang);
     localStorage.setItem('preferedLanguage', lang);

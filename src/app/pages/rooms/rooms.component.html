@@ -7,7 +7,7 @@
 	</section>
 	<div class="container mx-auto px-4 py-8">
 		<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
-			<!-- Location card -->
+			<!-- Tarjetas de las diferentes ubicaciones -->
 			@for (location of locations$ | async; track location.id) {
 				<div class="bg-white rounded-lg shadow-md overflow-hidden group relative transition-all duration-300 ease-in-out hover:shadow-xl" [routerLink]="['/room', location.slug]">
 					<div class="relative overflow-hidden cursor-pointer">

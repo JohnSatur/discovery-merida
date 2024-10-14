@@ -38,13 +38,6 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
     this.animatePage();
-
-    // Guardando el lenguaje favorito del usuario (español por defecto) y cambiándolo si es necesario
-    const savedLang = localStorage.getItem('preferedLanguage') || 'es-MX';
-  // TODO: Definir qué información dinámica quiero que se traduzca
-
-    // this.languageService.changeLanguage(savedLang);
-
     // Obteniendo la información de la página en el idioma actual
     // TODO: Definir qué información dinámica quiero que se traduzca
     // this.languageService.getCurrentLang().subscribe(lang => {

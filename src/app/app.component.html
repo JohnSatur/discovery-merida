@@ -1,13 +1,17 @@
+<!-- Maneja el encabezado de la página -->
 <shared-header/>
 
-<!-- @if (isLoading && !is404) {
+<!-- Componente para mostrar la pantalla de carga si está se está cargando -->
+@if (isLoading && !is404) {
   <app-logo-loader />
-} -->
+}
 
-<!-- @if (!isLoading) { -->
+<!-- Contenido principal. Se muestra una vez se ha cargado la aplicación -->
+@if (!isLoading) {
   <router-outlet />
   <shared-social-media-float />
   <shared-disclaimer-banner />
-<!-- } -->
+}
 
+<!-- Maneja el pie de página de la aplicación -->
 <shared-footer />
