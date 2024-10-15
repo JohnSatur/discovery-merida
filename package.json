@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration production",
     "backend": "json-server --watch data/locations.json",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
