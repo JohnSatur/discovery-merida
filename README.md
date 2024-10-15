@@ -1,27 +1,89 @@
 # DiscoveryMerida
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+Bienvenidos a la aplicación web de [**Discovery Mérida**](https://www.instagram.com/discovery.merida/), una plataforma para la renta de casas de AirBnb en la ciudad de Mérida, Yuc. La aplicación está construida con Angular para el frontend y utiliza Strapi como backend para la gestión de contenido y datos de las propiedades.
 
-## Development server
+## Tecnologías utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular (v18)**: Framework para construir aplicaciones web de una sola página (SPA).
+- **Strapi**: CMS headless para la administración del contenido.
+- **TypeScript**: Superset de JavaScript utilizado en Angular.
+- **TailwindCSS**: Framework de CSS para el diseño responsivo.
+- **GSAP**: Biblioteca de animación para la experiencia de usuario.
 
-## Code scaffolding
+## Características
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Página principal con lista de casas en renta.
+- Páginas individuales para cada propiedad con detalles como descripción, galería de imágenes y servicios.
+- Sistema de idiomas (español e inglés).
+- Sección de contacto, sobre nosotros y políticas de privacidad.
+- Integración con Strapi para gestionar contenido dinámico.
+- Interfaz limpia y responsiva.
 
-## Build
+## Requisitos previos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Antes de comenzar, asegurarse de tener instalados los siguientes programas:
 
-## Running unit tests
+- **Node.js** (v20.11.1 o superior)
+- npm (10.5.0 o superior)
+- Angular CLI (18.0.7 o superior)
+- Git (v2.44.0.windows.1 o superior)
+- Cuenta en Strapi Cloud (o tener configurado un servidor de Strapi local)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalación
 
-## Running end-to-end tests
+1. Clonar el repositorio:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+``` bash
+git clone https://github.com/usuario/discovery-merida.git
+```
 
-## Further help
+2. Navegar al directorio del proyecto
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+``` bash
+cd discovery-merida
+```
+
+3. Instalar las dependencias del proyecto
+
+``` bash
+npm install
+```
+
+## Configuración
+
+### Variables de entorno
+
+[...]
+
+### Strapi
+
+Descargar e instalar repositorio de [backend de Strapi](https://github.com/JohnSatur/backend-discovery-merida) en local o en Strapi Cloud.
+
+## Ejecución en entorno local
+
+1. Ejecutar la aplicación en modo desarrollo:
+
+``` bash
+ng serve
+```
+
+2. Abrir el navegador en la dirección http://localhost:4200 (puerto por defecto) para visualizar la aplicación.
+
+## Despliegue
+
+1. Configurar la aplicación para producción:
+
+``` bash
+npm run build
+```
+
+2. Subir el contenido de la carpeta `dist/discovery-merida/browser` a tu servidor de producción o a un servicio de hosting estático como [**Netlify**](https://www.netlify.com/) o [**Vercel**](https://vercel.com/).
+
+3. Asegurarse de que la API de Strapi en producción esté correctamente configurada con el dominio público de Strapi Cloud o el servidor que se esté usando.
+
+## Gestión de datos
+
+La aplicación consume los datos desde el backend de Strapi. Se pueden agregar o editar casas en el CMS de Strapi, y estos cambios se reflejarán automáticamente en la aplicación.
+
+- **Local**: Para trabajar con Strapi local, asegurarse de tener el servidor corriendo en http://localhost:1337 (puerto por defecto).
+- **Producción**: Configurar la URL del servidor de Strapi en las variables de entorno o dentro de los archivos de configuración de Angular.
