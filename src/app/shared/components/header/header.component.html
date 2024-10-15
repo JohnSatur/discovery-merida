@@ -54,16 +54,16 @@
     <nav class="mt-12">
       <ul class="space-y-6">
         <li>
-          <a routerLink="home" class="text-white text-lg font-light hover:text-gray-300 block pb-2 border-b border-gray-100 transition-colors duration-75" (click)="toggleNavbar()">Inicio</a>
+          <a [routerLink]="['/']" class="text-white text-lg font-light hover:text-gray-300 block pb-2 border-b border-gray-100 transition-colors duration-75" (click)="toggleNavbar()">Inicio</a>
         </li>
         <li>
-          <a href="#" class="text-white text-lg font-light hover:text-gray-300 block pb-2 border-b border-gray-100 transition-colors duration-75" (click)="toggleNavbar()">Quienes Somos</a>
+          <a [routerLink]="['/', 'es-MX', 'about']" class="text-white text-lg font-light hover:text-gray-300 block pb-2 border-b border-gray-100 transition-colors duration-75" (click)="toggleNavbar()">Quienes Somos</a>
         </li>
         <li>
-          <a routerLink="rooms" class="text-white text-lg font-light hover:text-gray-300 block pb-2 border-b border-gray-100 transition-colors duration-75" (click)="toggleNavbar()">Casas</a>
+          <a [routerLink]="['/', 'es-MX', 'rooms']" class="text-white text-lg font-light hover:text-gray-300 block pb-2 border-b border-gray-100 transition-colors duration-75" (click)="toggleNavbar()">Casas</a>
         </li>
         <li>
-          <a routerLink="contact" class="text-white text-lg font-light hover:text-gray-300 block pb-2 border-b border-gray-100 transition-colors duration-75" (click)="toggleNavbar()">Reservar</a>
+          <a [routerLink]="['/', 'es-MX', 'contact']" class="text-white text-lg font-light hover:text-gray-300 block pb-2 border-b border-gray-100 transition-colors duration-75" (click)="toggleNavbar()">Reservar</a>
         </li>
       </ul>
     </nav>

@@ -18,12 +18,17 @@ import { HalfFractionPipe } from '../../shared/pipes/half-fraction.pipe';
 })
 export class RoomsComponent implements OnInit {
   public locations$: Observable<Location[]> = new Observable();
-  public baseUrl: string = environments.baseUrl;
+  public baseMediaUrl: string = environments.baseMediaUrl;
   public currentLang: string = 'es-MX';
 
   constructor(private locationsService: LocationsService) { }
 
   ngOnInit(): void {
     this.locations$ = this.locationsService.getLocations(this.currentLang);
+  }
+
+  // Método para validar si la URL es relativa
+  isRelativeUrl(url: string | undefined): boolean {
+    return url ? url.startsWith('/') : false;
   }
 }

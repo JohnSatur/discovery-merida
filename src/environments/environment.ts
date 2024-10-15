@@ -1,4 +1,5 @@
 export const environments = {
     baseAPIUrl: 'http://localhost:1337/api',
-    baseUrl: 'http://localhost:1337'
+    baseUrl: 'http://localhost:1337',
+    baseMediaUrl: 'http://localhost:1337',
 };

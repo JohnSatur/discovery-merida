@@ -1,4 +1,5 @@
 export const environments = {
-    baseAPIUrl: 'https://backend-discovery-merida.onrender.com/api',
-    baseUrl: 'https://backend-discovery-merida.onrender.com'
+    baseAPIUrl: 'https://outgoing-dogs-ba01d5f654.strapiapp.com/api',
+    baseUrl: 'https://outgoing-dogs-ba01d5f654.strapiapp.com',
+    baseMediaUrl: '',
 };
