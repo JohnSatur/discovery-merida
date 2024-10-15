@@ -87,3 +87,18 @@ La aplicación consume los datos desde el backend de Strapi. Se pueden agregar o
 
 - **Local**: Para trabajar con Strapi local, asegurarse de tener el servidor corriendo en http://localhost:1337 (puerto por defecto).
 - **Producción**: Configurar la URL del servidor de Strapi en las variables de entorno o dentro de los archivos de configuración de Angular.
+
+---
+
+## Ecosistema Hisoka, tu solución integral de digitalización de empresas
+
+Este sitio web fue creado por **Ecosistema Hisoka**, una empresa dedicada al marketing digital y desarrollo de software en la ciudad de Xalapa, México. Nos especializamos en proporcionar soluciones innovadoras y efectivas para nuestros clientes.
+
+Si tienes preguntas, necesitas soporte o estás interesado en trabajar con nosotros, no dudes en ponerte en contactarnos.
+
+### Contacto
+
+- **Guillemo Muñoz Arcos, CEO de Ecosistema Hisoka**
+- **Correo Electrónico**: fastolf_@hotmail.com
+- **Teléfono**: +52 (228) 835 14 79
+- **Sitio Web**: [digitalmediaplan.solutions](https://digitalmediaplan.solutions)
