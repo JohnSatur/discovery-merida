@@ -1,14 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, inject, OnInit } from '@angular/core';
-import { ActivatedRoute, RouterLink } from '@angular/router';
+import { RouterLink } from '@angular/router';
 
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { FaqItemComponent } from '../../shared/components/faq-item/faq-item.component';
-import { LanguageService } from '../../shared/services/language.service';
 import { Observable } from 'rxjs';
 import { Location } from '../../shared/models/location.interfaces';
-import { HomeInfo } from '../models/homeInfoRequest.interface';
 
 @Component({
   standalone: true,
@@ -18,6 +16,7 @@ import { HomeInfo } from '../models/homeInfoRequest.interface';
 })
 export class HomeComponent implements OnInit, AfterViewInit {
   private apiRoute: string = 'home-page';
+
   public faqs = [
     { question: '¿Cómo puedo hacer una reserva?', answer: '...' },
     { question: '¿Cuál es la política de cancelación?', answer: '...' },
@@ -26,11 +25,6 @@ export class HomeComponent implements OnInit, AfterViewInit {
     { question: '¿Qué pasa si tengo algún problema durante mi estancia?', answer: '...' },
   ];
   public locations$: Observable<Location[]> = new Observable();
-  
-  // TODO: Definir qué información dinámica quiero que se traduzca
-  // public homeInfo?: HomeInfo;
-
-  private languageService = inject(LanguageService); 
 
   constructor (private el: ElementRef) {
     gsap.registerPlugin(ScrollTrigger);

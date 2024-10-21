@@ -3,7 +3,6 @@ import { BehaviorSubject, Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { environments } from '../../../environments/environment';
-import { HomeInfoRequest } from '../../pages/models/homeInfoRequest.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -58,12 +57,5 @@ export class LanguageService {
    */
   public getLang(): string {
     return this.currentLang.getValue();
-  }
-
-  public getPageContent(apiRoute: string, lang: string): Observable<HomeInfoRequest> {
-    const locale = lang === 'es-MX' ? 'es-MX' : 'en';
-    const url = `${ this.baseAPIUrl }/${ apiRoute }?locale=${ locale }`;
-
-    return this.http.get<HomeInfoRequest>(url);
   }
 }

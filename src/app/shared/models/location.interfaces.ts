@@ -29,7 +29,7 @@ export interface Location {
   reviews?:       Review[];
   amenities?:     Amenity[];
   coverPicture?:  Picture;
-  descriptionPicture: Picture;
+  descriptionPicture?: Picture;
   gallery?:       Picture[];
 }
 

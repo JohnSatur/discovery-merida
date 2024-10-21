@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { RoomCardComponent } from '../../shared/components/room-card/room-card.component';
 import { LocationsService } from '../../shared/services/locations.service';
 import { Location } from '../../shared/models/location.interfaces';
@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { Observable } from 'rxjs';
 import { environments } from '../../../environments/environment';
 import { HalfFractionPipe } from '../../shared/pipes/half-fraction.pipe';
+import { LanguageService } from '../../shared/services/language.service';
 
 @Component({
   standalone: true,
@@ -21,9 +22,13 @@ export class RoomsComponent implements OnInit {
   public baseMediaUrl: string = environments.baseMediaUrl;
   public currentLang: string = 'es-MX';
 
-  constructor(private locationsService: LocationsService) { }
+  private languageService: LanguageService = inject(LanguageService);
+  private locationsService: LocationsService = inject(LocationsService);
 
   ngOnInit(): void {
+    this.languageService.getCurrentLang().subscribe(lang => {
+      this.currentLang = lang;
+    });
     this.locations$ = this.locationsService.getLocations(this.currentLang);
   }
 

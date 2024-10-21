@@ -10,11 +10,12 @@ import { LanguageService } from './shared/services/language.service';
 import { BehaviorSubject, timer } from 'rxjs';
 import { LogoLoaderComponent } from './shared/components/logo-loader/logo-loader.component';
 import { DisclaimerBannerComponent } from './shared/components/disclaimer-banner/disclaimer-banner.component';
+import { SpinnerComponent } from './shared/components/spinner/spinner.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent, HomeComponent, SocialMediaFloatComponent, LogoLoaderComponent, DisclaimerBannerComponent],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent, HomeComponent, SocialMediaFloatComponent, LogoLoaderComponent, DisclaimerBannerComponent, SpinnerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

@@ -39,4 +39,12 @@ export class LocationsService {
             map( locations => locations[0]) // Mapea para obtener el primer elemento del arreglo
         );
     }
+
+    public getRichCardInfoBySlug(slug: string): Observable<Location> {
+        return this.http.get<StrapiResponse>(`${ this.baseAPIUrl }/locations?populate[0]=coverPicture`)
+        .pipe(
+            map( response => response.data ),
+            map( locations => locations[0] ),
+        );
+    }
 }
