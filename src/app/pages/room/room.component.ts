@@ -15,6 +15,7 @@ import { environments } from '../../../environments/environment';
 export class RoomComponent implements OnInit {
   public roomInfo!: Location; // Información de la casa que se está mostrando en el componente
   public baseUrl: string = environments.baseUrl;
+  public baseMediaUrl: string = environments.baseMediaUrl;
 
   constructor( private route: ActivatedRoute, private locationService: LocationsService ) { }
   
