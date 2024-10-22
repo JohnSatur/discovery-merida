@@ -1,5 +1,5 @@
 export const environments = {
-    baseAPIUrl: 'https://outgoing-dogs-ba01d5f654.strapiapp.com/api',
-    baseUrl: 'https://outgoing-dogs-ba01d5f654.strapiapp.com',
+    baseAPIUrl: 'https://lively-cuddle-578168b048.strapiapp.com//api',
+    baseUrl: 'https://lively-cuddle-578168b048.strapiapp.com/',
     baseMediaUrl: '',
 };
