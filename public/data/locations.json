@@ -316,5 +316,407 @@
     "rating": 4.81,
     "noReviews": 177,
     "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 7,
+    "name": "Departamento Kandinski",
+    "description": "Hermoso apartamento con una Iincreíble y deseada ubicación, a una cuadra del Parque Santa Ana, de Paseo Montejo y el Corredor Gastronómico. Este lujoso apartamento ofrece todo lo necesario para tus vacaciones o trabajo: WiFi de 300Mb, TV, cocina equipada, ropa de cama de alta calidad. El departamento de encuentra en el segundo piso.",
+    "noGuests": 4,
+    "noRooms": 2,
+    "noBeds": 5,
+    "noBaths": 1,
+    "available": true,
+    "slug": "departamento-kandinski",
+    "pricePerNight": 1452,
+    "coverPicture": "img/locations/Departamento Kandinski/departamento-kandinski-1.webp",
+    "descriptionPicture": "img/locations/Departamento Kandinski/departamento-kandinski-2.webp",
+    "gallery": [
+      "img/locations/Departamento Kandinski/departamento-kandinski-1.webp",
+      "img/locations/Departamento Kandinski/departamento-kandinski-2.webp",
+      "img/locations/Departamento Kandinski/departamento-kandinski-3.webp",
+      "img/locations/Departamento Kandinski/departamento-kandinski-4.jpg",
+      "img/locations/Departamento Kandinski/departamento-kandinski-5.jpeg",
+      "img/locations/Departamento Kandinski/departamento-kandinski-6.webp",
+      "img/locations/Departamento Kandinski/departamento-kandinski-7.jpg"
+    ],
+    "reviews": [
+      {
+        "username": "Doga",
+        "comment": "Un departamento tan bonito en una zona tan agradable. Todo estaba tan limpio y ordenado. Si alguna vez vuelvo a Mérida, me quedaré aquí.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Doga.webp"
+      },
+      {
+        "username": "Victoria",
+        "comment": "Increíble, el lugar tal cual se muestra en fotos y súper tranquilo cerca de buenos restaurantes y de paseo Montejo. Nos manejamos en bicicleta y ayudó mucho que el parque que estaba cerca tuviera una estación. La casa huele muy bien, a madera. Todo muy bonito",
+        "rating": 5,
+        "profilePicture": "img/profiles/Victoria.webp"
+      },
+      {
+        "username": "Anel",
+        "comment": "Los anfitriones fueron más que acogedores, ya que respondieron con prontitud y amabilidad a cualquier pregunta o comentario. El lugar es hermoso y da un lugar muy agradable para descansar justo en el borde de las actividades del centro de Mérida. ¡El aparcamiento privado es una bendición para la zona!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Anel.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.75,
+    "noReviews": 28,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 8,
+    "name": "Loft Dos Camellos",
+    "description": "En la histórica esquina de Dos Camellos en el corazón de la ciudad y llena de tradiciones en el barrio más antiguo y vibrante de la ciudad. Dos Camellos es perfecta para tu estancia en Mérida, con sus techos de doble altura este pequeño loft te encantara. Contamos con todo lo que puedas necesitar durante tu estancia con cocina equipada, wifi 300Mb, comedor, TV, cama king size, roofs de cama de alta calidad, baño completo.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "loft-dos-camellos",
+    "pricePerNight": 1634,
+    "coverPicture": "img/locations/Loft Dos Camellos/loft-dos-camellos-1.webp",
+    "descriptionPicture": "img/locations/Loft Dos Camellos/loft-dos-camellos-2.webp",
+    "gallery": [
+      "img/locations/Loft Dos Camellos/loft-dos-camellos-1.webp",
+      "img/locations/Loft Dos Camellos/loft-dos-camellos-2.webp",
+      "img/locations/Loft Dos Camellos/loft-dos-camellos-3.webp",
+      "img/locations/Loft Dos Camellos/loft-dos-camellos-4.webp",
+      "img/locations/Loft Dos Camellos/loft-dos-camellos-5.webp",
+      "img/locations/Loft Dos Camellos/loft-dos-camellos-6.webp",
+      "img/locations/Loft Dos Camellos/loft-dos-camellos-7.webp"
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 9,
+    "name": "Suite Banksy",
+    "description": "¡Bienvenidos a Suite Banksy! Te presentamos una hermosa casita completamente privada, ubicada en el codiciado barrio de Santa Ana. Contarás con una gran cama king size con ropa de cama de alta calidad, internet de alta velocidad 300Mb y una cocina equipada. A solo unos pasos encontrarás los mejores restaurantes, bares, así como las más importantes plazas y mercados y plazas de la ciudad, por lo que podrás explorar la ciudad a tu antojo y regresar a tu refugio con total privacidad.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "suite-bansky",
+    "pricePerNight": 1392,
+    "coverPicture": "img/locations/Suite Bansky/suite-bansky-1.webp",
+    "descriptionPicture": "img/locations/Suite Bansky/suite-bansky-2.webp",
+    "gallery": [
+      "img/locations/Suite Bansky/suite-bansky-1.webp",
+      "img/locations/Suite Bansky/suite-bansky-2.webp",
+      "img/locations/Suite Bansky/suite-bansky-3.webp",
+      "img/locations/Suite Bansky/suite-bansky-4.webp",
+      "img/locations/Suite Bansky/suite-bansky-5.webp",
+      "img/locations/Suite Bansky/suite-bansky-6.webp",
+      "img/locations/Suite Bansky/suite-bansky-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Bertha",
+        "comment": "¡El alojamiento de Ana estuvo genial! El aire acondicionado era agradable y frío. Me sentí seguro. Está un poco más lejos de la plaza de lo que pensábamos, pero no está tan mal. Está a unos 20 o 25 minutos a pie de la Plaza desde el alquiler. Muchas tiendas y lugares para comer a lo largo del camino. ¡Definitivamente volvería a alquilar!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Bertha.webp"
+      },
+      {
+        "username": "Valery",
+        "comment": "Todo tal cual se anuncia, muy bonito muy limpio todo, excelente ubicación y buena comunicación con el anfitrión.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Valery.webp"
+      },
+      {
+        "username": "Omar",
+        "comment": "Excelente lugar, ubicación perfecta y encantadora para un fin de semana diferente",
+        "rating": 5,
+        "profilePicture": "img/profiles/Omar.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.83,
+    "noReviews": 101,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 10,
+    "name": "Suite Lufo",
+    "description": "Esta hermosa Master Suite rinde honor al artista Lucas Olivero LUFO radicado en Berlín @lufo.art y nos transporta a un lugar de ensueño con espacio increíbles en el Corazón de Mérida. La ubicación es espectacular, a solo unos pasos del Parque de La Plancha y una cuadra del Corredor Gastronómico Calle 47. Sorpréndete con el aprovechamiento del espacio: aire ac, internet alta velocidad, TV 55”, regadera de alta presión, cama ks con ropa de cama de alta calidad y su patio con piscina de inmersión",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "suite-lufo",
+    "pricePerNight": 1286,
+    "coverPicture": "img/locations/Suite Lufo/suite-lufo-1.webp",
+    "descriptionPicture": "img/locations/Suite Lufo/suite-lufo-2.webp",
+    "gallery": [
+      "img/locations/Suite Lufo/suite-lufo-1.webp",
+      "img/locations/Suite Lufo/suite-lufo-2.webp",
+      "img/locations/Suite Lufo/suite-lufo-3.webp",
+      "img/locations/Suite Lufo/suite-lufo-4.webp",
+      "img/locations/Suite Lufo/suite-lufo-5.webp",
+      "img/locations/Suite Lufo/suite-lufo-6.webp",
+      "img/locations/Suite Lufo/suite-lufo-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "David",
+        "comment": "Excelente ubicación, inmejorable para recorrer el centro",
+        "rating": 5,
+        "profilePicture": "img/profiles/David2.webp"
+      },
+      {
+        "username": "Luis",
+        "comment": "Lugar bueno y pequeño cerca de restaurantes y bares",
+        "rating": 5,
+        "profilePicture": "img/profiles/Luis2.webp"
+      },
+      {
+        "username": "Wendy",
+        "comment": "Fueron muy amables y estuvieron al pendiente de nuestras dudas. Su ubicación está en la mejor zona turística y hay mucho que hacer al rededor. El alojamiento es perfecto para relajarse y cuenta con todo lo básico. Sin duda una excelente opción!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Wendy.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.75,
+    "noReviews": 12,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 11,
+    "name": "Casa Cielo",
+    "description": "¡Bienvenido a Casa Cielo en el Centro de Mérida! A solo 11 minutos del Parque de Santa Lucía y 12 minutos del Parque Santa Ana y Paseo Montejo, este espacio artístico ofrece confort y estilo moderno con una selección cuidadosa de obras de arte. Disfruta de la luminosidad y la cocina equipada. Explora el centro histórico con plazas y restaurantes a pasos de distancia. ¡Descubre la fusión entre arte, cultura y comodidad en el corazón de Mérida!",
+    "noGuests": 4,
+    "noRooms": 2,
+    "noBeds": 2,
+    "noBaths": 2,
+    "available": true,
+    "slug": "casa-cielo",
+    "pricePerNight": 1286,
+    "coverPicture": "img/locations/Casa Cielo/casa-cielo-1.webp",
+    "descriptionPicture": "img/locations/Casa Cielo/casa-cielo-2.webp",
+    "gallery": [
+      "img/locations/Casa Cielo/casa-cielo-1.webp",
+      "img/locations/Casa Cielo/casa-cielo-2.webp",
+      "img/locations/Casa Cielo/casa-cielo-3.webp",
+      "img/locations/Casa Cielo/casa-cielo-4.webp",
+      "img/locations/Casa Cielo/casa-cielo-5.webp",
+      "img/locations/Casa Cielo/casa-cielo-6.webp",
+      "img/locations/Casa Cielo/casa-cielo-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Adan",
+        "comment": "El lugar muy bello y muy a gusto. La casa huele delicioso y las camas son muy cómodas. Sin problemas volvería !",
+        "rating": 5,
+        "profilePicture": "img/profiles/Adan.webp"
+      },
+      {
+        "username": "Adriana",
+        "comment": "¡Excelente lugar para hospedarse! Es una hermosa casa con una excelente ubicación y anfitriones amables. Una recomendación definitiva.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Adriana.webp"
+      },
+      {
+        "username": "Esther",
+        "comment": "Tal como se anuncia. El alojamiento tiene todo lo necesario. Es encantador. ¡El aire acondicionado en todas las habitaciones es genial!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Esther.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.87,
+    "noReviews": 23,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 12,
+    "name": "Casa Miró",
+    "description": "La casa más exclusiva y ubicación premium en el Distrito Gastronómico, el lugar para estar en el corazón de Merida. Su ubicación es perfecta para todos aquellos en búsqueda de una experiencia increíble. La casa tiene todo lo que necesites durante tu estancia, cuenta con 4 recamaras con baño completo cada una, cocina súper equipada, centro de lavado, alberca con sus exteriores dedicados para la comodidad del huésped, WiFi, aire acondicionado. Es el lugar perfecto para una experiencia inolvidable",
+    "noGuests": 11,
+    "noRooms": 4,
+    "noBeds": 6,
+    "noBaths": 4.5,
+    "available": true,
+    "slug": "casa-miro",
+    "pricePerNight": 6230,
+    "coverPicture": "img/locations/Casa Miro/casa-miro-1.webp",
+    "descriptionPicture": "img/locations/Casa Miro/casa-miro-2.webp",
+    "gallery": [
+      "img/locations/Casa Miro/casa-miro-1.webp",
+      "img/locations/Casa Miro/casa-miro-2.webp",
+      "img/locations/Casa Miro/casa-miro-3.webp",
+      "img/locations/Casa Miro/casa-miro-4.webp",
+      "img/locations/Casa Miro/casa-miro-5.webp",
+      "img/locations/Casa Miro/casa-miro-6.webp",
+      "img/locations/Casa Miro/casa-miro-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Alfonso",
+        "comment": "Siempre un buen lugar para regresar. Excelente ubicación y todo de 10",
+        "rating": 5,
+        "profilePicture": "img/profiles/Alfonso.webp"
+      },
+      {
+        "username": "Rosalía",
+        "comment": "La casa es muy bonita, la cocina me encantó está equipada, muy hermoso todo, las habitaciones súper bien y las camas muy cómodas.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Rosalia.webp"
+      },
+      {
+        "username": "Isaac",
+        "comment": "Excelente alojamiento, sumamente bonito y espacioso. Siempre cordiales y dispuestos para ayudar. Sin lugar a dudas regresaría!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Isaac.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.89,
+    "noReviews": 114,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 13,
+    "name": "Casa Klimt",
+    "description": "Casa Klimt Catedral Merida es una de la casas más exclusivas y cuenta con una ubicación excepcional para tus vacaciones. A solo unos 3 calles de la catedral principal en el Barrio de Santiago y de los mejores restaurantes de la ciudad. Aire acondicionado, gran alberca, WiFi, bar, muebles exteriores, estacionamiento dentro de la casa y una decoración impresionante con detalles deslumbrantes. Zona fitness. Contamos con concierge durante tu estancia para que tu solo disfrutes!",
+    "noGuests": 12,
+    "noRooms": 6,
+    "noBeds": 4,
+    "noBaths": 4.5,
+    "available": true,
+    "slug": "casa-klimt",
+    "pricePerNight": 7624,
+    "coverPicture": "img/locations/Casa Klimt/casa-klimt-1.webp",
+    "descriptionPicture": "img/locations/Casa Klimt/casa-klimt-2.webp",
+    "gallery": [
+      "img/locations/Casa Klimt/casa-klimt-1.webp",
+      "img/locations/Casa Klimt/casa-klimt-2.webp",
+      "img/locations/Casa Klimt/casa-klimt-3.webp",
+      "img/locations/Casa Klimt/casa-klimt-4.webp",
+      "img/locations/Casa Klimt/casa-klimt-5.webp",
+      "img/locations/Casa Klimt/casa-klimt-6.webp",
+      "img/locations/Casa Klimt/casa-klimt-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Adrian",
+        "comment": "Siempre un buen lugar para regresar. Excelente ubicación y todo de 10",
+        "rating": 5,
+        "profilePicture": "img/profiles/Adrian.webp"
+      },
+      {
+        "username": "Ricardo Arturo",
+        "comment": "Muy bonita la casa, todo limpio y ordenado y buena comunicación con los anfitriones.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Ricardo Arturo.webp"
+      },
+      {
+        "username": "Edna",
+        "comment": "Hermosa casa y un lugar perfecto para un grupo grande que busca alojarse en el centro de Mérida. Todo está a poca distancia a pie y las fotos coinciden con el aspecto de este lugar. La casa está muy limpia y el anfitrión hizo un gran trabajo al proporcionarnos todos los elementos esenciales, como toallas para la piscina y la cafetera. ¡Recomiendo encarecidamente este alojamiento!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Edna.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.81,
+    "noReviews": 59,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 14,
+    "name": "Casa Gaudí",
+    "description": "Ubicación, ubicación, ubicación. Te presentamos una hermosa casa, completamente privada y con estacionamiento propio, ubicada en el codiciado barrio de Santa Ana. Aquí encontrarás una amplia gama de restaurantes, bares y lugares de interés, todo a solo unos pasos de distancia. Brinda la comodidad de explorar la ciudad a tu antojo y regresar a tu refugio con total privacidad. La esencia auténtica de una casa en el centro de la ciudad mientras disfrutas de las comodidades de un hogar exclusivo.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "casa-gaudi",
+    "pricePerNight": 1654,
+    "coverPicture": "img/locations/Casa Gaudi/casa-gaudi-1.webp",
+    "descriptionPicture": "img/locations/Casa Gaudi/casa-gaudi-2.webp",
+    "gallery": [
+      "img/locations/Casa Gaudi/casa-gaudi-1.webp",
+      "img/locations/Casa Gaudi/casa-gaudi-2.webp",
+      "img/locations/Casa Gaudi/casa-gaudi-3.webp",
+      "img/locations/Casa Gaudi/casa-gaudi-4.webp",
+      "img/locations/Casa Gaudi/casa-gaudi-5.webp",
+      "img/locations/Casa Gaudi/casa-gaudi-6.webp",
+      "img/locations/Casa Gaudi/casa-gaudi-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Alex",
+        "comment": "Excelente lugar!! Todo impecable!! Cercano a Paseo Montejo y otros parques! El estacionamiento es privado. Y las instalaciones son una chulada!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Alex.webp"
+      },
+      {
+        "username": "Miguel Angel",
+        "comment": "céntrico, tranquilo , seguro y limpio . perfecto para unos días de descanso en el centro de Mérida",
+        "rating": 5,
+        "profilePicture": "img/profiles/Miguel Angel.webp"
+      },
+      {
+        "username": "Ivy",
+        "comment": "Gran lugar para alojarte en Mérida. ¡La casa está bellamente decorada, techo súper alto, gran sensación! Los tres días que estuvimos en Mérida, hace casi 40 grados afuera, súper caluroso, pero los dos aparatos de aire acondicionado mantuvieron las habitaciones relajadas y cómodas. La anfitriona es súper receptiva, cada vez que teníamos preguntas, se ponía en contacto con nosotros muy rápidamente. Muy contento con la estadía",
+        "rating": 5,
+        "profilePicture": "img/profiles/Ivy.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.89,
+    "noReviews": 83,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
   }
 ]

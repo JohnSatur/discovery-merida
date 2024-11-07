@@ -12,10 +12,10 @@ export interface Location {
   coverPicture:       string;
   descriptionPicture: string;
   gallery:            string[];
-  reviews:            Review[];
+  reviews?:            Review[];
   amenities:          string[];
-  rating:             number;
-  noReviews:          number;
+  rating?:             number;
+  noReviews?:          number;
   avgCoords:          string;
 }
 
