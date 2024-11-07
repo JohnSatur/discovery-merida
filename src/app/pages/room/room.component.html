@@ -14,16 +14,46 @@
           <h2 class="text-3xl font-semibold mb-4">Conoce tu próximo destino</h2>
             <p class="text-gray-600 mb-4">{{ roomInfo.description }}</p>
           </div>
-          <div class="md:w-1/2 md:pl-8">
-            <img [src]="roomInfo.descriptionPicture" [alt]="roomInfo.name" class="rounded-lg shadow-lg w-full">
+          <div class="md:w-1/2 md:pl-8 md:h-96 overflow-hidden">
+            <img [src]="roomInfo.descriptionPicture" [alt]="roomInfo.name" class="rounded-lg shadow-lg w-full h-full object-cover object-center">
           </div>
+      </div>
+    </section>
+
+    <section class="py-12">
+      <!-- Fotos de la casa  -->
+      <div class="container mx-auto px-4 py-8">
+        <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Tu próxima experiencia de lujo</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+          <div class="relative overflow-hidden rounded-lg shadow-lg col-span-2 row-span-2 lg:row-span-3 h-full">
+              <img [src]="roomInfo.gallery[0]" [alt]="roomInfo.name" class="w-full h-full object-cover transition duration-300 ease-in-out transform hover:scale-110">
+          </div>
+          <div class="relative overflow-hidden rounded-lg shadow-lg col-span-2 sm:col-span-1 sm:row-span-2">
+              <img [src]="roomInfo.gallery[1]" [alt]="roomInfo.name" class="w-full h-full object-cover transition duration-300 ease-in-out transform hover:scale-110">
+          </div>
+          <div class="relative overflow-hidden rounded-lg shadow-lg col-span-2 sm:col-span-1 sm:row-span-2">
+              <img [src]="roomInfo.gallery[2]" [alt]="roomInfo.name" class="w-full h-full object-cover transition duration-300 ease-in-out transform hover:scale-110">
+          </div>
+          <div class="relative overflow-hidden rounded-lg shadow-lg col-span-2 md:col-span-1">
+              <img [src]="roomInfo.gallery[3]" [alt]="roomInfo.name" class="w-full h-full object-cover transition duration-300 ease-in-out transform hover:scale-110">
+          </div>
+          <div class="relative overflow-hidden rounded-lg shadow-lg col-span-2 md:col-span-1">
+              <img [src]="roomInfo.gallery[4]" [alt]="roomInfo.name" class="w-full h-full object-cover transition duration-300 ease-in-out transform hover:scale-110">
+          </div>
+          <div class="relative overflow-hidden rounded-lg shadow-lg col-span-2 sm:col-span-3 md:col-span-2 md:row-span-2">
+              <img [src]="roomInfo.gallery[5]" [alt]="roomInfo.name" class="w-full h-full object-cover transition duration-300 ease-in-out transform hover:scale-110">
+          </div>
+          <div class="relative overflow-hidden rounded-lg shadow-lg col-span-2 sm:col-span-3 md:col-span-2">
+              <img [src]="roomInfo.gallery[6]" [alt]="roomInfo.name" class="w-full h-full object-cover transition duration-300 ease-in-out transform hover:scale-110">
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Características principales de la casa -->
     <section class="bg-cyan-700 py-12">
       <div class="container mx-auto px-4">
-          <h2 class="text-3xl font-semibold mb-8 text-center text-white">Amenidades</h2>
+          <h2 class="text-3xl font-semibold mb-8 text-center text-white">Todo lo que necesitas para <br class="md:hidden"> sentirte en casa</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               @for (amenidad of roomInfo.amenities; track $index) {
                 <div class="flex items-center">

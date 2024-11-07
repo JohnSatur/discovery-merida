@@ -8,7 +8,6 @@ import { environments } from '../../../environments/environment';
   providedIn: 'root'
 })
 export class LanguageService {
-  private baseAPIUrl: string = environments.baseAPIUrl;
   private currentLang = new BehaviorSubject<string>(localStorage.getItem('preferedLanguage')  || 'es-MX');
 
   constructor(private http: HttpClient, private router: Router) { }

@@ -24,7 +24,6 @@ export class HomeComponent implements OnInit, AfterViewInit {
     { question: '¿Cómo puedo contactar al anfitrión?', answer: '...' },
     { question: '¿Qué pasa si tengo algún problema durante mi estancia?', answer: '...' },
   ];
-  public locations$: Observable<Location[]> = new Observable();
 
   constructor (private el: ElementRef) {
     gsap.registerPlugin(ScrollTrigger);
