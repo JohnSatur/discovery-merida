@@ -29,7 +29,7 @@ export class RoomsComponent implements OnInit {
     this.languageService.getCurrentLang().subscribe(lang => {
       this.currentLang = lang;
     });
-    this.locations$ = this.locationsService.getLocations(this.currentLang);
+    this.locations$ = this.locationsService.getAllLocations(this.currentLang);
   }
 
   // Método para validar si la URL es relativa

@@ -17,10 +17,23 @@ export class LocationsService {
      * @param locale Código de idioma para obtener las ubicaciones
      * @returns {Observable<Location[]>} Un observable que emite todas las casas
      */
-    public getLocations(locale: string): Observable<any> {
+    public getAllLocations(locale: string): Observable<any> {
         return this.http.get(this.locationsUrl);
     }
 
+    /**
+     * Método para obtener un arreglo de casas cuyos slugs estén incluidos en el arreglo de slugs proporcionado
+     * 
+     * @param slugs Arreglo de slugs únicos de las casas
+     * @param locale Código de idioma para obtener las ubicaciones
+     * @returns {Observable<Location[]>} Un observable que emite un arreglo de casas cuyos slugs coinciden con los proporcionados
+     */
+    public getLocationsBySlugs(slugs: string[], locale: string): Observable<Location[]> {
+        return this.http.get<Location[]>(this.locationsUrl).pipe(
+            map(locations => locations.filter(location => slugs.includes(location.slug)))
+        );
+    }
+    
     /**
      * Método para obtener la ubicación de una sola casa (con base en su slug)
      * 

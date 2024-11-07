@@ -1,30 +1,32 @@
 import { CommonModule } from '@angular/common';
-import { AfterViewInit, Component, ElementRef, inject, OnInit } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { FaqItemComponent } from '../../shared/components/faq-item/faq-item.component';
-import { Observable } from 'rxjs';
-import { Location } from '../../shared/models/location.interfaces';
+
+import { HomeHeroSectionComponent } from './components/home-hero-section/home-hero-section.component';
+import { HomeTopHousesSectionComponent } from './components/home-top-houses-section/home-top-houses-section.component';
+import { ReviewsSectionComponent } from '../../shared/components/reviews-section/reviews-section.component';
+import { FaqSectionComponent } from '../../shared/components/faq-section/faq-section.component';
+import { HomeContactSectionComponent } from './components/home-contact-section/home-contact-section.component';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, FaqItemComponent, RouterLink],
+  imports: [
+    CommonModule,
+    RouterLink,
+    
+    HomeHeroSectionComponent,
+    HomeTopHousesSectionComponent,
+    ReviewsSectionComponent,
+    FaqSectionComponent,
+    HomeContactSectionComponent
+  ],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styles: ``
 })
 export class HomeComponent implements OnInit, AfterViewInit {
-  private apiRoute: string = 'home-page';
-
-  public faqs = [
-    { question: '¿Cómo puedo hacer una reserva?', answer: '...' },
-    { question: '¿Cuál es la política de cancelación?', answer: '...' },
-    { question: '¿Cuáles son las formas de pago aceptadas?', answer: '...' },
-    { question: '¿Cómo puedo contactar al anfitrión?', answer: '...' },
-    { question: '¿Qué pasa si tengo algún problema durante mi estancia?', answer: '...' },
-  ];
-
   constructor (private el: ElementRef) {
     gsap.registerPlugin(ScrollTrigger);
   }
