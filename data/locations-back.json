@@ -1,87 +1,388 @@
-[
-  {
-    "id": 1,
-    "name": "Casa Picasso",
-    "description": "Esta hermosa casa que ha sido reconocida con premios por su diseño y funcionalidad en el centro de Mérida, simplemente es perfecta para vacacionar o trabajar . Se encuentra en una privilegiada ubicación en el corazón de la ciudad, de Paseo de Montejo y del Parque de Santa Lucía en donde se puede disfrutar de los mejores restaurantes y de sus monumentos históricos. Cuenta con todas las facilidades Wifi de 300MB, TV, aire acondicionado.",
-    "topFeatures": {
-      "capacity": 6,
-      "beds": 3,
-      "baths": 2.5
-    },
-    "photos": [
-      "picasso/picasso1.jpg",
-      "picasso/picasso2.jpg",
-      "picasso/picasso3.jpg"
-    ],
-    "location": {
-      "nearFrom": "(Cerca de ...)",
-      "mapsURL": "!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
-    },
-    "amenities": [
-      "Vista al patio",
-      "Vista a la alberca",
-      "Secadora de cabello",
-      "Shampoo",
-      "Agua caliente",
-      "Lavadora",
-      "Secadora",
-      "Elementos básicos (toallas, sábanas, jabón, papel higiénico)",
-      "Ganchos",
-      "Ropa de cama",
-      "Almohadas y cobijas adicionales",
-      "Persianas",
-      "Plancha",
-      "Televisión HD con pantalla de 55''",
-      "Cuna (disponible previa solicitud)",
-      "Aire acondicionado de ventana",
-      "Cámaras de seguridad",
-      "Wifi",
-      "Área para trabajar",
-      "Wifi móvil",
-      "Cocina",
-      "Refrigerador",
-      "Microongas",
-      "Artículos básicos de cocina",
-      "Platos y cubiertos",
-      "Estufa de gas de acero inoxidable",
-      "Horno",
-      "Cafetera",
-      "Entrada privada",
-      "Patio",
-      "Jardín privado",
-      "Artículos básicos de playa",
-      "Estacionamiento gratuito",
-      "Alberca exterior privada",
-      "Caja de seguridad para llaves"
-    ],
-    "pricePerNight": {
-      "mxn": 3084,
-      "usd": 149.99
-    },
-    "available": true,
-    "rating": {
-      "stars": 4.90,
-      "reviews": 242
-    },
-    "comments": [
-      {
-        "username": "Andrew",
-        "profileUrl": "andrew.webp",
-        "stars": 5,
-        "text": "Bien ubicado, hermoso, tal como se describe"
+{
+  "locations": [
+    {
+      "id": 1,
+      "nombre": "Casa Dalí",
+      "descripcion": "¡Bienvenidos a Casa Dali! En el corazón de Mérida, a solo unos pasos de Paseo Montejo, te damos la bienvenida a una experiencia única. Nuestra casa, diseñada para tu comodidad cuenta con Internet de alta velocidad, televisión, cocina equipada, una lujosa cama king-size con vista a la alberca desde la recamara principal, cómodo sofá cama en la sala de estar y aire la acondicionados, un oasis en el corazón de la ciudad!",
+      "topCaracteristicas": {
+        "personas": 3,
+        "camas": 2,
+        "banios": 1
       },
-      {
-        "username": "Nohemí",
-        "profileUrl": "nohemi.webp",
-        "stars": 5,
-        "text": "Muy bonito lugar, limpio y muy céntrico! Súper recomendado"
+      "fotos": [
+        "dali/dali1.jpg",
+        "dali/dali2.jpg",
+        "dali/dali3.jpg",
+        "dali/dali4.webp",
+        "dali/dali5.webp",
+        "dali/dali6.webp",
+        "dali/dali7.webp"
+      ],
+      "ubicacion": [
+        "(Cerca de ...)",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+      ],
+      "amenidades": [
+        "Vista al patio",
+        "Vista a la alberca",
+        "Secadora de cabello",
+        "Productos de limpieza",
+        "Shampoo",
+        "Jabón corporal",
+        "Agua caliente",
+        "Gel para baño",
+        "Elementos básicos (toallas, sábanas, jabón, papel higiénico)",
+        "Ganchos",
+        "Ropa de cama",
+        "Almohadas y cobijas adicionales",
+        "Persianas",
+        "Plancha",
+        "Ropero",
+        "Conexión Ethernet",
+        "Televisión HD con pantalla de 55''",
+        "Libros y material de lectura",
+        "Cuna (disponible previa solicitud)",
+        "Periquera",
+        "Seguros para ventanas",
+        "Aire acondicionado de ventana",
+        "Wifi",
+        "Área para trabajar",
+        "Wifi móvil",
+        "Cocina",
+        "Refrigerador",
+        "Microondas",
+        "Artículos básicos de cocina",
+        "Platos y cubiertos",
+        "Estufa eléctrica",
+        "Jarra eléctrica para agua caliente",
+        "Copas de vino",
+        "Tostadora",
+        "Licuadora",
+        "Mesa de comedor",
+        "Cafetera",
+        "Entrada privada",
+        "Lavandería cercana",
+        "Patio",
+        "Jardín privado",
+        "Muebles exteriores",
+        "Estacionamiento gratuito",
+        "Alberca exterior privada",
+        "Alojamiento sin escaleras",
+        "Caja de seguridad para llaves"
+      ],
+      "precioPorNoche": {
+        "mxn": 2149,
+        "usd": 107
       },
-      {
-        "username": "Madison",
-        "profileUrl": "madison.webp",
-        "stars": 5,
-        "text": "Hermosa casa, piscina perfecta y fácil de encontrar"
-      }
-    ]
-  }
-]
+      "disponible": true,
+      "calificacion": {
+        "estrellas": 4.89,
+        "evaluaciones": 242
+      },
+      "comentarios": [
+        {
+          "usuario": "David",
+          "profileUrl": "andrew.webp",
+          "calificacion": 5,
+          "texto": "Bien ubicado, hermoso, tal como se describe"
+        },
+        {
+          "usuario": "Nohemí",
+          "profileUrl": "nohemi.webp",
+          "calificacion": 5,
+          "texto": "Muy bonito lugar, limpio y muy céntrico! Súper recomendado"
+        },
+        {
+          "usuario": "Madison",
+          "profileUrl": "madison.webp",
+          "calificacion": 5,
+          "texto": "Hermosa casa, piscina perfecta y fácil de encontrar"
+        }
+      ],
+      "slug": "casa-dali"
+    },
+    {
+      "id": 2,
+      "nombre": "Casa Picasso",
+      "descripcion": "Esta hermosa casa que ha sido reconocida con premios por su diseño y funcionalidad en el centro de Mérida, simplemente es perfecta para vacacionar o trabajar . Se encuentra en una privilegiada ubicación en el corazón de la ciudad, de Paseo de Montejo y del Parque de Santa Lucía en donde se puede disfrutar de los mejores restaurantes y de sus monumentos históricos. Cuenta con todas las facilidades Wifi de 300MB, TV, aire acondicionado.",
+      "topCaracteristicas": {
+        "personas": 6,
+        "camas": 3,
+        "banios": 2.5
+      },
+      "fotos": [
+        "picasso/picasso1.jpg",
+        "picasso/picasso2.jpg",
+        "picasso/picasso3.jpg"
+      ],
+      "ubicacion": [
+        "(Cerca de ...)",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+      ],
+      "amenidades": [
+        "Vista al patio",
+        "Vista a la alberca",
+        "Secadora de cabello",
+        "Shampoo",
+        "Agua caliente",
+        "Lavadora",
+        "Secadora",
+        "Elementos básicos (toallas, sábanas, jabón, papel higiénico)",
+        "Ganchos",
+        "Ropa de cama",
+        "Almohadas y cobijas adicionales",
+        "Persianas",
+        "Plancha",
+        "Televisión HD con pantalla de 55''",
+        "Cuna (disponible previa solicitud)",
+        "Aire acondicionado de ventana",
+        "Cámaras de seguridad",
+        "Wifi",
+        "Área para trabajar",
+        "Wifi móvil",
+        "Cocina",
+        "Refrigerador",
+        "Microondas",
+        "Artículos básicos de cocina",
+        "Platos y cubiertos",
+        "Estufa de gas de acero inoxidable",
+        "Horno",
+        "Cafetera",
+        "Entrada privada",
+        "Patio",
+        "Jardín privado",
+        "Artículos básicos de playa",
+        "Estacionamiento gratuito",
+        "Alberca exterior privada",
+        "Caja de seguridad para llaves"
+      ],
+      "precioPorNoche": {
+        "mxn": 3084,
+        "usd": 149.99
+      },
+      "disponible": true,
+      "calificacion": {
+        "estrellas": 4.90,
+        "evaluaciones": 242
+      },
+      "comentarios": [
+        {
+          "usuario": "Andrew",
+          "profileUrl": "andrew.webp",
+          "calificacion": 5,
+          "texto": "Bien ubicado, hermoso, tal como se describe"
+        },
+        {
+          "usuario": "Nohemí",
+          "profileUrl": "nohemi.webp",
+          "calificacion": 5,
+          "texto": "Muy bonito lugar, limpio y muy céntrico! Súper recomendado"
+        },
+        {
+          "usuario": "Madison",
+          "profileUrl": "madison.webp",
+          "calificacion": 5,
+          "texto": "Hermosa casa, piscina perfecta y fácil de encontrar"
+        }
+      ],
+      "slug": "casa-picasso"
+    },
+    {
+      "id": 3,
+      "nombre": "Casa Matisse",
+      "descripcion": "Casa Matisse está ubicada en el Barrio de Santa Lucía, lo más deseado y tradicional en el corazón de Mérida. Perfecta para vacaciones o trabajo, ofrece WiFi 300Mb, 2 TV de 55'', mini piscina, cafetera, cocina completa, lavadora, cama king y un sofá cama en la sala de estar. A una cuadra de Parque Santa Lucía, cerca de la Catedral y Paseo de Montejo.",
+      "topCaracteristicas": {
+        "personas": 2,
+        "camas": 1,
+        "banios": 1.5
+      },
+      "fotos": [
+        "matisse/matisse1.jpg",
+        "matisse/matisse2.jpg",
+        "matisse/matisse3.jpg"
+      ],
+      "ubicacion": [
+        "(Cerca de ...)",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+      ],
+      "amenidades": [
+        "Vista al patio",
+        "Vista a la alberca",
+        "Secadora de cabello",
+        "Productos de limpieza",
+        "Shampoo",
+        "Agua caliente",
+        "Gel para baño",
+        "Lavadora",
+        "Secadora",
+        "Elementos básicos (toallas, sábanas, jabón, papel higiénico)",
+        "Ganchos",
+        "Ropa de cama",
+        "Almohadas y cobijas adicionales",
+        "Persianas",
+        "Plancha",
+        "Televisión HD con pantalla de 55''",
+        "Plataformas de streaming (HBO Max y Netflix)",
+        "Libros y material de lectura",
+        "Cuna (disponible previa solicitud)",
+        "Periquera tipo booster (disponible previa solicitud)",
+        "Aire acondicionado de ventana",
+        "Ventiladores portables",
+        "Botiquín",
+        "Wifi",
+        "Área para trabajar",
+        "Cocina",
+        "Refrigerador",
+        "Microondas",
+        "Artículos básicos de cocina",
+        "Platos y cubiertos",
+        "Congelador",
+        "Estufa eléctrica",
+        "Jarra eléctrica para agua caliente",
+        "Cafetera de filtro",
+        "Copas de vino",
+        "Tostadora",
+        "Licuadora",
+        "Mesa de comedor",
+        "Café",
+        "Entrada privada",
+        "Jardín privado",
+        "Estacionamiento gratuito",
+        "Alberca exterior privada",
+        "Caja de seguridad para llaves",
+        "Limpieza disponible durante la estancia"
+      ],
+      "precioPorNoche": {
+        "mxn": 2209,
+        "usd": 109.5
+      },
+      "disponible": true,
+      "calificacion": {
+        "estrellas": 4.82,
+        "evaluaciones": 175
+      },
+      "comentarios": [
+        {
+          "usuario": "Glenna",
+          "profileUrl": "glenna.webp",
+          "calificacion": 5,
+          "texto": "Esta vez fue un viaje rápido, ¡pero volveremos! El lugar era impresionante y tan único. El anfitrión fue increíblemente receptivo y fue una noche perfecta. No puedo esperar para volver."
+        },
+        {
+          "usuario": "Rosario",
+          "profileUrl": "rosario.webp",
+          "calificacion": 5,
+          "texto": "Muy buen lugar, tan cómodo, tan tranquilo, tan privado. Mi esposo y yo nos quedamos poco tiempo, pero disfrutamos mucho del lugar. Te lo recomendamos encarecidamente."
+        },
+        {
+          "usuario": "Cristina",
+          "profileUrl": "cristina.webp",
+          "calificacion": 5,
+          "texto": "Me encantó el espacio, muy íntimo y excelente diseño, espero poder regresar pronto! Gracias !!"
+        }
+      ],
+      "slug": "casa-matisse"
+    },
+    {
+      "id": 4,
+      "nombre": "Loft Kitanche",
+      "descripcion": "¡Nuevo estacionamiento privado! La Increíble Ubicación lo hace un oasis en el barrio de Santa Lucía en el corazón de Mérida, un BARRIO VIBRANTE con una GRAN VIDA DIURNA Y NOCTURNA con muchos restaurantes, bares y más para disfrutar a solo unos pasos, así como los mercados y parques más importantes del centro. Cuenta con una piscina para refrescarse y relajarse, área de trabajo, WiFi de 300 Mb, 2 aires acondicionados, cocina, TV. Cama King size con ropa de cama de alta calidad",
+      "topCaracteristicas": {
+        "personas": 2,
+        "camas": 1,
+        "banios": 1
+      },
+      "fotos": [
+        "kitanche/kitanche1.jpg",
+        "kitanche/kitanche2.jpg",
+        "kitanche/kitanche3.jpg"
+      ],
+      "ubicacion": [
+        "(Cerca de ...)",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+      ],
+      "amenidades": [
+        "Vista al patio",
+        "Vista a la alberca",
+        "Secadora de cabello",
+        "Productos de limpieza",
+        "Shampoo",
+        "Acondicionador",
+        "Jabón corporal",
+        "Agua caliente",
+        "Gel para baño",
+        "Lavadora",
+        "Elementos básicos (toallas, sábanas, jabón, papel higiénico)",
+        "Ganchos",
+        "Ropa de cama",
+        "Almohadas y cobijas adicionales",
+        "Persianas",
+        "Plancha",
+        "Tendedero para ropa",
+        "Clóset",
+        "Televisión HD con pantalla de 55''",
+        "Cuna (disponible previa solicitud)",
+        "Periquera independiente (disponible previa solicitud)",
+        "Aire acondicionado de ventana",
+        "Ventilador de techo",
+        "Wifi",
+        "Área para trabajar",
+        "Wifi móvil",
+        "Cocina",
+        "Refrigerador",
+        "Microondas",
+        "Artículos básicos de cocina",
+        "Platos y cubiertos",
+        "Congelador",
+        "Estufa eléctrica",
+        "Jarra eléctrica para agua caliente",
+        "Cafetera de filtro",
+        "Copas de vino",
+        "Tostadora",
+        "Licuadora",
+        "Mesa de comedor",
+        "Café",
+        "Entrada privada",
+        "Lavandería privada",
+        "Jardín privado",
+        "Muebles exteriores",
+        "Camastros",
+        "Estacionamiento techado gratuito para 1 vehículo",
+        "Estacionamiento gratuito",
+        "Alberca exterior privada",
+        "Alojamiento sin escaleras",
+        "Caja de seguridad para llaves"
+      ],
+      "precioPorNoche": {
+        "mxn": 2348,
+        "usd": 116.50
+      },
+      "disponible": true,
+      "calificacion": {
+        "estrellas": 4.76,
+        "evaluaciones": 108
+      },
+      "comentarios": [
+        {
+          "usuario": "María de Lourdes",
+          "profileUrl": "mariaLourdes.webp",
+          "calificacion": 5,
+          "texto": "Agradable estancia , muy cerca de todo, podíamos ir y venir caminando mayormente a los puntos turísticos del centro histórico, la alberquita genial , solo la temporada que nos toco con abundantes mosquitos pero la libramos un poco con repelente e insecticida que nos proporcionó el anfitrión . Ampliamos nuestra estancia de hecho !"
+        },
+        {
+          "usuario": "Seila Mariana",
+          "profileUrl": "seilaMariana.webp",
+          "calificacion": 5,
+          "texto": "Súper ubicación, por las mañanas salía a caminar a paseo Montejo que se encuentra a 5 minutos. Es un lugar genial para hospedarse, la piscina estaba genial para poder estar en cualquier hora, disfruté broncearme en las mañanas !!!! Recomendado porque tiene una lavadora automática donde por las noches lave, me encantó este sitio, en mi próximo viaje regreso ❤️"
+        },
+        {
+          "usuario": "Xiomara",
+          "profileUrl": "xiomara.webp",
+          "calificacion": 5,
+          "texto": "El lugar es muy bonito y tiene muchas actividades cerca!"
+        }
+      ],
+      "slug": "loft-kitanche"
+    }
+  ]
+}

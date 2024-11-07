@@ -1,0 +1,320 @@
+[
+  {
+    "id": 1,
+    "name": "Casa Dalí",
+    "description": "¡Bienvenidos a Casa Dali! En el corazón de Mérida, a solo unos pasos de Paseo Montejo, te damos la bienvenida a una experiencia única. Nuestra casa, diseñada para tu comodidad cuenta con Internet de alta velocidad, televisión, cocina equipada, una lujosa cama king-size con vista a la alberca desde la recamara principal, cómodo sofá cama en la sala de estar y aire la acondicionados, un oasis en el corazón de la ciudad!",
+    "noGuests": 3,
+    "noRooms": 1,
+    "noBeds": 2,
+    "noBaths": 1,
+    "available": true,
+    "slug": "casa-dali",
+    "pricePerNight": 2161,
+    "coverPicture": "img/locations/Casa Dali/casa-dali-1.jpg",
+    "descriptionPicture": "img/locations/Casa Dali/casa-dali-2.jpg",
+    "gallery": [
+      "img/locations/Casa Dali/casa-dali-1.jpg",
+      "img/locations/Casa Dali/casa-dali-2.jpg",
+      "img/locations/Casa Dali/casa-dali-3.jpg",
+      "img/locations/Casa Dali/casa-dali-4.webp",
+      "img/locations/Casa Dali/casa-dali-5.webp",
+      "img/locations/Casa Dali/casa-dali-6.webp",
+      "img/locations/Casa Dali/casa-dali-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Carlos",
+        "comment": "muy bonito y agradable para ir en pareja.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Carlos.webp"
+      },
+      {
+        "username": "Ana Karina",
+        "comment": "El lugar está hermoso y confortable… la ubicación es increíble, definitivamente regreso",
+        "rating": 5,
+        "profilePicture": "img/profiles/Ana Karina.webp"
+      },
+      {
+        "username": "David",
+        "comment": "La ubicación es inmejorable. El lugar es bonito y cómodo.",
+        "rating": 5,
+        "profilePicture": "img/profiles/David.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.89,
+    "noReviews": 153,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 2,
+    "name": "Casa Picasso",
+    "description": "Esta hermosa casa que ha sido reconocida con premios por su diseño y funcionalidad en el centro de Mérida, simplemente es perfecta para vacacionar o trabajar . Se encuentra en una privilegiada ubicación en el corazón de la ciudad, de Paseo de Montejo y del Parque de Santa Lucía en donde se puede disfrutar de los mejores restaurantes y de sus monumentos históricos. Cuenta con todas las facilidades Wifi de 300MB, TV, aire acondicionado.",
+    "noGuests": 6,
+    "noRooms": 2,
+    "noBeds": 3,
+    "noBaths": 2.5,
+    "available": true,
+    "slug": "casa-picasso",
+    "pricePerNight": 3526 ,
+    "coverPicture": "img/locations/Casa Picasso/casa-picasso-1.jpg",
+    "descriptionPicture": "img/locations/Casa Picasso/casa-picasso-2.jpg",
+    "gallery": [
+      "img/locations/Casa Picasso/casa-picasso-1.jpg",
+      "img/locations/Casa Picasso/casa-picasso-2.jpg",
+      "img/locations/Casa Picasso/casa-picasso-3.jpg",
+      "img/locations/Casa Picasso/casa-picasso-4.JPEG",
+      "img/locations/Casa Picasso/casa-picasso-5.JPEG",
+      "img/locations/Casa Picasso/casa-picasso-6.JPEG",
+      "img/locations/Casa Picasso/casa-picasso-7.JPEG"
+    ],
+    "reviews": [
+      {
+        "username": "Luis",
+        "comment": "Hermoso lugar, bastante buenas las instalaciones, lo súper recomiendo !",
+        "rating": 5,
+        "profilePicture": "img/profiles/luis.webp"
+      },
+      {
+        "username": "Andrew",
+        "comment": "Bien ubicado, hermoso, tal como se describe",
+        "rating": 5,
+        "profilePicture": "img/profiles/andrew.jpg"
+      },
+      {
+        "username": "David",
+        "comment": "La ubicación es inmejorable. El lugar es bonito y cómodo.",
+        "rating": 5,
+        "profilePicture": "img/profiles/David.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.9,
+    "noReviews": 246,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 3,
+    "name": "Casa Matisse",
+    "description": "Casa Matisse está ubicada en el Barrio de Santa Lucía, lo más deseado y tradicional en el corazón de Mérida. Perfecta para vacaciones o trabajo, ofrece WiFi 300Mb, 2 TV de 55\", mini piscina, cafetera, cocina completa, lavadora, cama king y un sofá cama en la sala de estar. A una cuadra de Parque Santa Lucía, cerca de la Catedral y Paseo de Montejo.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1.5,
+    "available": true,
+    "slug": "casa-matisse",
+    "pricePerNight": 2239 ,
+    "coverPicture": "img/locations/Casa Matisse/casa-matisse-1.jpg",
+    "descriptionPicture": "img/locations/Casa Matisse/casa-matisse-2.jpg",
+    "gallery": [
+      "img/locations/Casa Matisse/casa-matisse-1.jpg",
+      "img/locations/Casa Matisse/casa-matisse-2.jpg",
+      "img/locations/Casa Matisse/casa-matisse-3.jpg",
+      "img/locations/Casa Matisse/casa-matisse-4.JPEG",
+      "img/locations/Casa Matisse/casa-matisse-5.JPEG",
+      "img/locations/Casa Matisse/casa-matisse-6.JPEG",
+      "img/locations/Casa Matisse/casa-matisse-7.JPEG"
+    ],
+    "reviews": [
+      {
+        "username": "Danny",
+        "comment": "La propiedad muy cómoda, en buena ubicación, y la coordinación amable y sin ningún problema.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Danny.webp"
+      },
+      {
+        "username": "Rosario",
+        "comment": "Muy buen lugar, tan cómodo, tan tranquilo, tan privado. Mi esposo y yo nos quedamos poco tiempo, pero disfrutamos mucho del lugar. Te lo recomendamos encarecidamente.",
+        "rating": 5,
+        "profilePicture": "img/profiles/rosario.jpg"
+      },
+      {
+        "username": "Rodrigo",
+        "comment": "Excelente nuestra estadia, el lugar es exactamente igual o mejor a la descripcion, el lugar esta hermoso, la ubicacion ni se diga, vale la pena ir a conocerlo.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Rodrigo.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.81,
+    "noReviews": 181,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 4,
+    "name": "Loft Kitanche",
+    "description": "¡Nuevo estacionamiento privado! La Increíble Ubicación lo hace un oasis en el barrio de Santa Lucía en el corazón de Mérida, un BARRIO VIBRANTE con una GRAN VIDA DIURNA Y NOCTURNA con muchos restaurantes, bares y más para disfrutar a solo unos pasos, así como los mercados y parques más importantes del centro. Cuenta con una piscina para refrescarse y relajarse, área de trabajo, WiFi de 300 Mb, 2 aires acondicionados, cocina, TV. Cama King size con ropa de cama de alta calidad.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "loft-kitanche",
+    "pricePerNight": 1932 ,
+    "coverPicture": "img/locations/Loft Kitanche/kitanche1.jpg",
+    "descriptionPicture": "img/locations/Loft Kitanche/kitanche2.jpg",
+    "gallery": [
+      "img/locations/Loft Kitanche/kitanche1.jpg",
+      "img/locations/Loft Kitanche/kitanche2.jpg",
+      "img/locations/Loft Kitanche/kitanche3.jpg",
+      "img/locations/Loft Kitanche/kitanche4.jpg",
+      "img/locations/Loft Kitanche/kitanche5.jpg",
+      "img/locations/Loft Kitanche/kitanche6.jpg",
+      "img/locations/Loft Kitanche/kitanche7.jpg"
+    ],
+    "reviews": [
+      {
+        "username": "Michael",
+        "comment": "Llegada autónoma con caja de seguridad para llaves, fácil comunicación con el anfitrión. Apartamento bien ubicado y cómodo. La zona de entrada tiene mucho espacio. Cama cómoda, TV grande en el dormitorio. Estacionamiento privado a 2 minutos a pie. Pequeño patio con piscina no tan agradable como las fotos.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Michael.webp"
+      },
+      {
+        "username": "Manuel",
+        "comment": "Excelente lugar para relajarse, parece un oasis.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Manuel.webp"
+      },
+      {
+        "username": "Robert",
+        "comment": "¡Excelente lugar!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Robert.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.74,
+    "noReviews": 115,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 5,
+    "name": "Casa Toledo",
+    "description": "¡Bienvenidos a Casa Toledo! Un Oasis inimaginable en el corazón de Mérida, a solo unos pasos de Paseo Montejo, te damos la bienvenida a una experiencia única. Esta hermosa casa, diseñada para tu comodidad, cuenta con Internet de alta velocidad de 300Mb, TV, cocina equipada, una lujosa cama king-size con ropa de cama de alta calidad y aire acondicionado en todas la áreas.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "casa-toledo",
+    "pricePerNight": 2023 ,
+    "coverPicture": "img/locations/Casa Toledo/casa-toledo-1.webp",
+    "descriptionPicture": "img/locations/Casa Toledo/casa-toledo-2.webp",
+    "gallery": [
+      "img/locations/Casa Toledo/casa-toledo-1.webp",
+      "img/locations/Casa Toledo/casa-toledo-2.webp",
+      "img/locations/Casa Toledo/casa-toledo-3.webp",
+      "img/locations/Casa Toledo/casa-toledo-4.webp",
+      "img/locations/Casa Toledo/casa-toledo-5.webp",
+      "img/locations/Casa Toledo/casa-toledo-6.webp",
+      "img/locations/Casa Toledo/casa-toledo-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "James",
+        "comment": "La ubicación era genial, justo al lado del Paseo Montejo. Podría caminar afuera y estar en la calle principal en 2 minutos. El interior estaba limpio y la cama tenía un gran apoyo trasero, solo un poco duro en la superficie (podría haber conseguido un relleno si fuera necesario, pero todavía estaba bien). El anfitrión también respondió muy bien. 10/10 ¡Definitivamente lo recomiendo",
+        "rating": 5,
+        "profilePicture": "img/profiles/James.webp"
+      },
+      {
+        "username": "Aracelly",
+        "comment": "Es muy agradable el lugar, se encuentra en una buena zona.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Aracelly.webp"
+      },
+      {
+        "username": "Rodrigo",
+        "comment": "Eficiente, espacioso, cómodo.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Rodrigo.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.81,
+    "noReviews": 177,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 6,
+    "name": "Casa Linda",
+    "description": "Una hermosa y encantadora casa de revista, ubicada en el mejor barrio del centro de Merida tiene todo cerca y a la vez paz absoluta en una grandiosa calle con cafés y restaurantes y a solo 4 cuadras del Paseo Montejo y Santa Lucía. Además, es una casa muy completa con todos los detalles y servicios como su pequeña y hermosa alberca, enfriador de vinos, aire acondicionado en todas las áreas, cocina súper completa. El internet de 300MB permite trabajar con Zoom con toda comodidad",
+    "noGuests": 6,
+    "noRooms": 2,
+    "noBeds": 3,
+    "noBaths": 2.5,
+    "available": true,
+    "slug": "casa-linda",
+    "pricePerNight": 2023 ,
+    "coverPicture": "img/locations/Casa Linda/casa-linda-1.JPG",
+    "descriptionPicture": "img/locations/Casa Linda/casa-linda-2.jpg",
+    "gallery": [
+      "img/locations/Casa Linda/casa-linda-1.jpg",
+      "img/locations/Casa Linda/casa-linda-2.jpg",
+      "img/locations/Casa Linda/casa-linda-3.JPG",
+      "img/locations/Casa Linda/casa-linda-4.JPG",
+      "img/locations/Casa Linda/casa-linda-5.JPG",
+      "img/locations/Casa Linda/casa-linda-6.jpg",
+      "img/locations/Casa Linda/casa-linda-7.JPG"
+    ],
+    "reviews": [
+      {
+        "username": "Anais",
+        "comment": "Excelente lugar",
+        "rating": 5,
+        "profilePicture": "img/profiles/Anais.webp"
+      },
+      {
+        "username": "Roberto",
+        "comment": "Muy bonita casa, muy limpia a nuestra llegada y los a/c funcionando al 100%. Muy recomendable.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Roberto.webp"
+      },
+      {
+        "username": "Alma",
+        "comment": "muy bonita decoración, buena ubicación, muy tranquilo y limpio",
+        "rating": 5,
+        "profilePicture": "img/profiles/Alma.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.81,
+    "noReviews": 177,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  }
+]

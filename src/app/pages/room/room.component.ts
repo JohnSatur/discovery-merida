@@ -13,8 +13,7 @@ import { environments } from '../../../environments/environment';
   styleUrl: './room.component.scss'
 })
 export class RoomComponent implements OnInit {
-  public roomInfo!: Location; // Información de la casa que se está mostrando en el componente
-  public baseUrl: string = environments.baseUrl;
+  public roomInfo?: Location; // Información de la casa que se está mostrando en el componente
   public baseMediaUrl: string = environments.baseMediaUrl;
 
   constructor( private route: ActivatedRoute, private locationService: LocationsService ) { }
@@ -25,7 +24,7 @@ export class RoomComponent implements OnInit {
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
       const slug = params.get('slug') || '';
-      
+
       this.locationService.getLocationBySlug(slug)
       .subscribe(location => {
         this.roomInfo = location;

@@ -1,6 +1,6 @@
 <main *ngIf="roomInfo">
     <!-- Hero -->
-    <section class="relative h-[500px] md:h-[700px] bg-cover bg-center" [style]="'background-image: url(' + baseMediaUrl + roomInfo.coverPicture?.url + ')'">
+    <section class="relative h-[500px] md:h-[700px] bg-cover bg-center" [style]="'background-image: url(\'' + roomInfo.coverPicture + '\');'">
       <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
 
         <h1 class="text-4xl md:text-6xl font-bold text-white text-center">{{ roomInfo.name }}</h1>
@@ -15,7 +15,7 @@
             <p class="text-gray-600 mb-4">{{ roomInfo.description }}</p>
           </div>
           <div class="md:w-1/2 md:pl-8">
-            <img [src]="baseMediaUrl + roomInfo.descriptionPicture?.url" [alt]="roomInfo.name" class="rounded-lg shadow-lg w-full">
+            <img [src]="roomInfo.descriptionPicture" [alt]="roomInfo.name" class="rounded-lg shadow-lg w-full">
           </div>
       </div>
     </section>
@@ -28,7 +28,7 @@
               @for (amenidad of roomInfo.amenities; track $index) {
                 <div class="flex items-center">
                   <i class="ri-arrow-right-s-line text-cyan-50 mr-4"></i>
-                  <span class="text-white">{{ amenidad.name }}</span>
+                  <span class="text-white">{{ amenidad }}</span>
                 </div>
               }
           </div>
@@ -54,7 +54,7 @@
           @for (comentario of roomInfo.reviews; track $index) {
             <div class="reviews__card bg-white rounded-lg shadow-md p-6">
               <div class="flex items-center mb-4">
-                <img [src]="baseMediaUrl + comentario.profilePicture.formats.thumbnail.url" [alt]="'Foto de perfil de ' + comentario.username" class="w-12 h-12 rounded-full mr-4">
+                <img [src]="comentario.profilePicture" [alt]="'Foto de perfil de ' + comentario.username" class="w-12 h-12 rounded-full mr-4">
                 <div>
                   <h3 class="font-semibold text-lg">{{ comentario.username }}</h3>
                   <div class="flex text-yellow-400">
@@ -70,7 +70,7 @@
     </section>
 
     <!-- Formulario de contacto -->
-    <section class="relative py-12 bg-cover bg-center" [style]="'background-image: url(' + baseMediaUrl + roomInfo.coverPicture?.url + ')'">
+    <section class="relative py-12 bg-cover bg-center" [style]="'background-image: url(\'' + roomInfo.coverPicture + '\')'">
       <!-- Overlay negro -->
       <div class="absolute inset-0 bg-black opacity-60"></div>
   
