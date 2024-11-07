@@ -4,7 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { LocationsService } from '../../shared/services/locations.service';
 import { Location } from '../../shared/models/location.interfaces';
 import { StarRatingPipe } from '../../shared/pipes/star-rating.pipe';
-import { environments } from '../../../environments/environment';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   standalone: true,
@@ -14,9 +14,12 @@ import { environments } from '../../../environments/environment';
 })
 export class RoomComponent implements OnInit {
   public roomInfo?: Location; // Información de la casa que se está mostrando en el componente
-  public baseMediaUrl: string = environments.baseMediaUrl;
+  public safeMapUrl?: SafeResourceUrl;
 
-  constructor( private route: ActivatedRoute, private locationService: LocationsService ) { }
+  constructor(
+    private route: ActivatedRoute,
+    private locationService: LocationsService,
+    private sanitizer: DomSanitizer) { }
   
   /**
    * El método onInit obtiene el slug de la casa para traer la información de la misma del backend a través del servicio "Location Service"
@@ -28,7 +31,12 @@ export class RoomComponent implements OnInit {
       this.locationService.getLocationBySlug(slug)
       .subscribe(location => {
         this.roomInfo = location;
+        this.setMapUrl(this.roomInfo.avgCoords);
       });
     });
+  }
+
+  public setMapUrl(googleMapsUrl: string): void {
+    this.safeMapUrl = this.sanitizer.bypassSecurityTrustResourceUrl(googleMapsUrl);
   }
 }
