@@ -8,7 +8,7 @@ export interface Location {
   noBaths:            number;
   available:          boolean;
   slug:               string;
-  pricePerNight:      number;
+  pricePerNight?:      number;
   coverPicture:       string;
   descriptionPicture: string;
   gallery:            string[];

@@ -718,5 +718,474 @@
     "rating": 4.89,
     "noReviews": 83,
     "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 15,
+    "name": "Departamento Basquiat",
+    "description": "Increíble ubicación, a una cuadra del Parque Santa Ana y dos de Paseo Montejo y el Corredor Gastronómico. Este lujoso apartamento ofrece todo lo necesario para tus vacaciones o trabajo: WiFi de 300M, 2 TV, cocina equipada, ropa de cama de alta calidad.",
+    "noGuests": 4,
+    "noRooms": 2,
+    "noBeds": 2,
+    "noBaths": 2,
+    "available": true,
+    "slug": "departamento-basquiat",
+    "pricePerNight": 1624,
+    "coverPicture": "img/locations/Departamento Basquiat/departamento-basquiat-1.webp",
+    "descriptionPicture": "img/locations/Departamento Basquiat/departamento-basquiat-2.webp",
+    "gallery": [
+      "img/locations/Departamento Basquiat/departamento-basquiat-1.webp",
+      "img/locations/Departamento Basquiat/departamento-basquiat-2.webp",
+      "img/locations/Departamento Basquiat/departamento-basquiat-3.webp",
+      "img/locations/Departamento Basquiat/departamento-basquiat-4.webp",
+      "img/locations/Departamento Basquiat/departamento-basquiat-5.webp",
+      "img/locations/Departamento Basquiat/departamento-basquiat-6.webp",
+      "img/locations/Departamento Basquiat/departamento-basquiat-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Marco",
+        "comment": "Está en una excelente ubicación, el alojamiento está en perfecto estado tal como aparece en la publicación. La comunicación con el anfitrión fue muy buena y clara. No dudaría en regresar",
+        "rating": 5,
+        "profilePicture": "img/profiles/Marco.webp"
+      },
+      {
+        "username": "Nicole",
+        "comment": "Fantástica ubicación a poca distancia a pie de casi todo en el Centro. La unidad en sí es espaciosa, limpia y tranquila. El estacionamiento seguro a la vuelta de la esquina fue genial. Instrucciones muy claras y excelente comunicación del anfitrión.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Nicole.webp"
+      },
+      {
+        "username": "Guillermo",
+        "comment": "Nuestra experiencia fue muy agradable, ya que los espacios están muy bien aprovechados, en especial mi favorito es el cuarto de tele",
+        "rating": 5,
+        "profilePicture": "img/profiles/Guillermo.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.91,
+    "noReviews": 68,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 16,
+    "name": "Suite Marian",
+    "description": "¡Sumérgete en el encanto único de Máster Suite Marian! Ubicada en el corazón de la nueva calle gastronómica 47, este oasis moderno está rodeado de los sabores y aromas más exquisitos de la ciudad. A pasos de la historia, explora plazas y mercados tradicionales, o piérdete en un paseo junto al lago del Parque La Plancha, a solo una cuadra. Vive la magia de Paseo Montejo, a solo 3 cuadras, y deja que cada rincón de la ciudad te sorprenda. ¡Tu aventura inolvidable te espera aquí!",
+    "noGuests": 3,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "suite-marian",
+    "coverPicture": "img/locations/Suite Marian/suite-marian-1.webp",
+    "descriptionPicture": "img/locations/Suite Marian/suite-marian-2.webp",
+    "gallery": [
+      "img/locations/Suite Marian/suite-marian-1.webp",
+      "img/locations/Suite Marian/suite-marian-2.webp",
+      "img/locations/Suite Marian/suite-marian-3.webp",
+      "img/locations/Suite Marian/suite-marian-4.webp",
+      "img/locations/Suite Marian/suite-marian-5.webp",
+      "img/locations/Suite Marian/suite-marian-6.webp",
+      "img/locations/Suite Marian/suite-marian-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Abraham",
+        "comment": "Gran lugar para descansar",
+        "rating": 5,
+        "profilePicture": "img/profiles/Abraham.webp"
+      },
+      {
+        "username": "Karla",
+        "comment": "El alojamiento fue excepcional, amé mucho el lugar y la accesibilidad para el check in y check out",
+        "rating": 5,
+        "profilePicture": "img/profiles/Karla.webp"
+      },
+      {
+        "username": "Andrea",
+        "comment": "Nuestra experiencia fue muy agradable, ya que los espacios están muy bien aprovechados, en especial mi favorito es el cuarto de tele",
+        "rating": 5,
+        "profilePicture": "img/profiles/Andrea.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.69,
+    "noReviews": 16,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 17,
+    "name": "Suite Marian II",
+    "description": "Bienvenidos al corazón de Merida, Calle 47 Distrito Gastronómico. A solo unos pasos de los mejores restaurantes y cafeterías de la ciudad y a dos cuadras de Paseo Montejo, este oasis no dejará de sorprenderte por todas sus facilidades, internet de 300Mb, fantástico para trabajar ajar por zoom de manera estable, Cama King Size con ropa de cama de alta calidad, TV 55”, cocina equipada, lavadora y una increíble terraza. A solo dos cuadras del nuevo Parque de La Plancha, te lo mereces, reserva ya!",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "suite-marian-ii",
+    "coverPicture": "img/locations/Suite Marian II/suite-marian-ii-1.jpg",
+    "descriptionPicture": "img/locations/Suite Marian II/suite-marian-ii-2.jpg",
+    "gallery": [
+      "img/locations/Suite Marian II/suite-marian-ii-1.jpg",
+      "img/locations/Suite Marian II/suite-marian-ii-2.jpg",
+      "img/locations/Suite Marian II/suite-marian-ii-3.jpg",
+      "img/locations/Suite Marian II/suite-marian-ii-4.jpg",
+      "img/locations/Suite Marian II/suite-marian-ii-5.jpg",
+      "img/locations/Suite Marian II/suite-marian-ii-6.jpg",
+      "img/locations/Suite Marian II/suite-marian-ii-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "David Bhima",
+        "comment": "Gran lugar para descansar",
+        "rating": 5,
+        "profilePicture": "img/profiles/David Bhima.webp"
+      },
+      {
+        "username": "Miles",
+        "comment": "Excelente lugar",
+        "rating": 5,
+        "profilePicture": "img/profiles/Miles.webp"
+      },
+      {
+        "username": "Michael",
+        "comment": "Una estancia increíble. ¡Se puede caminar a todos los restaurantes y bares!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Michael.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.95,
+    "noReviews": 21,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 18,
+    "name": "Departamento Zula",
+    "description": "Situado en el corazón de Mérida, en la Calle 45 y a solo unos pasos del Parque Santa Ana, con acceso a Internet de alta velocidad, TV, una cafetera, una cocina completamente equipada, una lujosa cama king-size, ropa de cama de alta calidad y sistema de aire acondicionado. Ubicado a tan solo una cuadra del Parque Santa Ana, a pocos pasos del Parque Santa Lucía y a escasos minutos del encantador Paseo de Montejo, esta residencia promete ser tu entrada a una experiencia inolvidable en Mérida.",
+    "noGuests": 3,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "departamento-zula",
+    "coverPicture": "img/locations/Departamento Zula/zula1.jpg",
+    "descriptionPicture": "img/locations/Departamento Zula/zula2.jpg",
+    "gallery": [
+      "img/locations/Departamento Zula/zula1.jpg",
+      "img/locations/Departamento Zula/zula2.jpg",
+      "img/locations/Departamento Zula/zula3.jpg",
+      "img/locations/Departamento Zula/zula4.jpg",
+      "img/locations/Departamento Zula/zula5.jpg",
+      "img/locations/Departamento Zula/zula6.jpg",
+      "img/locations/Departamento Zula/zula7.jpg"
+    ],
+    "reviews": [
+      {
+        "username": "Karina",
+        "comment": "Súper bonito",
+        "rating": 5,
+        "profilePicture": "img/profiles/Karina.webp"
+      },
+      {
+        "username": "Ana A. Abigail",
+        "comment": "Excelente lugar",
+        "rating": 5,
+        "profilePicture": "img/profiles/Ana A Abigail.webp"
+      },
+      {
+        "username": "Agueda",
+        "comment": "El apartamento lucia tal como las fotos, estaba limpio y fueron muy amables.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Agueda.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.92,
+    "noReviews": 12,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 19,
+    "name": "Departamento Oasis",
+    "description": "En el corazón de Santa Ana y a solo una calle del Paseo Montejo y el Corredor Gastronómico de la Calle 47. La ubicación más deseada en el centro de Mérida, de alta velocidad 300Mb, 2 TV 55” con Netflix, cocina equipada, dos cuartos con baño privado cada uno, cama ks, ropa de cama de alta calidad, regadera de alta presión y aire ac. Departamento en 2do piso. También tendrás a solo 3 calles el Parque Santa Lucía y a escasos minutos el encantador Parque la Plancha. Bienvenido al corazón de Mérida",
+    "noGuests": 4,
+    "noRooms": 2,
+    "noBeds": 2,
+    "noBaths": 2,
+    "available": true,
+    "slug": "departamento-oasis",
+    "coverPicture": "img/locations/Departamento Oasis/departamento-oasis-1.jpg",
+    "descriptionPicture": "img/locations/Departamento Oasis/departamento-oasis-2.jpg",
+    "gallery": [
+      "img/locations/Departamento Oasis/departamento-oasis-1.jpg",
+      "img/locations/Departamento Oasis/departamento-oasis-2.jpg",
+      "img/locations/Departamento Oasis/departamento-oasis-3.jpg",
+      "img/locations/Departamento Oasis/departamento-oasis-4.jpg",
+      "img/locations/Departamento Oasis/departamento-oasis-5.jpg",
+      "img/locations/Departamento Oasis/departamento-oasis-6.jpg",
+      "img/locations/Departamento Oasis/departamento-oasis-7.jpg"
+    ],
+    "reviews": [
+      {
+        "username": "Denise",
+        "comment": "excelente lugar y excelente ubicación",
+        "rating": 5,
+        "profilePicture": "img/profiles/Denise.webp"
+      },
+      {
+        "username": "Claudia",
+        "comment": "¡Gran lugar! Me encantó el interior, mucha madera y buena decoración. Las camas eran extremadamente cómodas y las almohadas también. Definitivamente lo recomendaría",
+        "rating": 5,
+        "profilePicture": "img/profiles/Claudia.webp"
+      },
+      {
+        "username": "Dafne Rosalinda",
+        "comment": "Muy bien ubicado, súper buena atención y muy bonito",
+        "rating": 5,
+        "profilePicture": "img/profiles/Dafne Rosalinda.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.81,
+    "noReviews": 21,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 20,
+    "name": "Casa Shanti",
+    "description": "¡Bienvenidos a Casa Shanti, en el corazón de Mérida! Ubicada en el nuevo y vibrante Distrito Gastronómica de la 47, a solo unos pasos de los mejores restaurantes de la ciudad, cafeterías y bares. Disfruta de paseos a pie o en bicicleta junto al lago del Parque La Plancha, a solo una cuadra de distancia. A cuatro cuadras del emblemático Paseo de Montejo y de las plazas y mercados más importantes de la ciudad.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "casa-shanti",
+    "coverPicture": "img/locations/Casa Shanti/casa-shanti-1.jpg",
+    "descriptionPicture": "img/locations/Casa Shanti/casa-shanti-2.jpg",
+    "gallery": [
+      "img/locations/Casa Shanti/casa-shanti-1.jpg",
+      "img/locations/Casa Shanti/casa-shanti-2.jpg",
+      "img/locations/Casa Shanti/casa-shanti-3.webp",
+      "img/locations/Casa Shanti/casa-shanti-4.webp",
+      "img/locations/Casa Shanti/casa-shanti-5.webp",
+      "img/locations/Casa Shanti/casa-shanti-6.webp",
+      "img/locations/Casa Shanti/casa-shanti-7.jpg"
+    ],
+    "reviews": [
+      {
+        "username": "Omar",
+        "comment": "Hermoso lugar. Excelente ubicación. Se puede caminar a muchas atracciones. El anfitrión fue servicial y respondió rápidamente. Muy recomendable.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Omar2.webp"
+      },
+      {
+        "username": "Steven",
+        "comment": "Excelente ubicación.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Steven.webp"
+      },
+      {
+        "username": "Jesus",
+        "comment": "Lugar con buena ubicación, muy cómodo.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Jesus.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.9,
+    "noReviews": 48,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 21,
+    "name": "Casa Yam",
+    "description": "¡Bienvenidos a Casa Yam, en el corazón de Mérida! Ubicada en la nueva y vibrante calle gastronómica de la 47, rodeada de los mejores restaurantes, cafeterías y bares. Disfruta de paseos a pie o en bicicleta junto al lago del Parque La Plancha, a solo una cuadra de distancia, a tres cuadras del emblemático Paseo de Montejo y de las principales plazas y mercados tradicionales de la ciudad. Todo te quedará caminando, por lo que podrás regresar a este oasis y refrescarte en su hermosa piscina.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "casa-yam",
+    "coverPicture": "img/locations/Casa Yam/casa-yam-1.jpg",
+    "descriptionPicture": "img/locations/Casa Yam/casa-yam-2.webp",
+    "gallery": [
+      "img/locations/Casa Yam/casa-yam-1.jpg",
+      "img/locations/Casa Yam/casa-yam-2.webp",
+      "img/locations/Casa Yam/casa-yam-3.webp",
+      "img/locations/Casa Yam/casa-yam-4.webp",
+      "img/locations/Casa Yam/casa-yam-5.webp",
+      "img/locations/Casa Yam/casa-yam-6.jpg",
+      "img/locations/Casa Yam/casa-yam-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Ingrid",
+        "comment": "Era un lugar encantador y encantador, perfecto para dos personas. En la calle 47, bastantes restaurantes, pero a una cuadra del ajetreo de la calle, por lo que es muy tranquilo. A poca distancia a pie del Paseo Montejo y otras partes del centro de la ciudad. Recomiendo encarecidamente.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Ingrid.webp"
+      },
+      {
+        "username": "Peter",
+        "comment": "cada vez que voy a Mérida trato de quedarme aquí. Excelente ubicación, linda casa pequeña. Limpio y cerca de los mejores restaurantes",
+        "rating": 5,
+        "profilePicture": "img/profiles/Peter.jpeg"
+      },
+      {
+        "username": "Montserrat",
+        "comment": "Lugar con buena ubicación, muy cómodo.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Montserrat.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 4.88,
+    "noReviews": 50,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 22,
+    "name": "Casa Yum Ha",
+    "description": "Ubicada cerca del Parque de la Plancha y el corredor gastronómico de la calle 47, esta casa ofrece dos hermosas habitaciones, una con cama king y otra con dos queen, ideal para hasta seis personas. Con dos baños completos y medio, sala de estar, cocina y su encantadora terraza con alberca, esta residencia combina elegancia y comodidad.",
+    "noGuests": 6,
+    "noRooms": 2,
+    "noBeds": 2,
+    "noBaths": 2.5,
+    "available": true,
+    "slug": "casa-yum-ha",
+    "coverPicture": "img/locations/Casa Yum Ha/casa-yum-ha-1.webp",
+    "descriptionPicture": "img/locations/Casa Yum Ha/casa-yum-ha-2.webp",
+    "gallery": [
+      "img/locations/Casa Yum Ha/casa-yum-ha-1.webp",
+      "img/locations/Casa Yum Ha/casa-yum-ha-2.webp",
+      "img/locations/Casa Yum Ha/casa-yum-ha-3.webp",
+      "img/locations/Casa Yum Ha/casa-yum-ha-4.webp",
+      "img/locations/Casa Yum Ha/casa-yum-ha-5.webp",
+      "img/locations/Casa Yum Ha/casa-yum-ha-6.webp",
+      "img/locations/Casa Yum Ha/casa-yum-ha-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Sonia",
+        "comment": "Hermoso diseño, espacio muy cómodo. Está muy cerca de la calle 47, que es la principal franja gastronómica del centro de la ciudad. Recomendamos encarecidamente hospedarse aquí. Seguro y accesible a pie.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Sonia.webp"
+      },
+      {
+        "username": "Paulina",
+        "comment": "Hermosa casa !! Nos encantó",
+        "rating": 5,
+        "profilePicture": "img/profiles/Paulina.webp"
+      },
+      {
+        "username": "Ab",
+        "comment": "Maravillosa estancia en una casa moderna y limpia. Excelente ubicación para llegar a todos los lugares de Mérida relativamente rápido. Muy respuesta y anfitrión atento. Resérvalo.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Ab.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 5,
+    "noReviews": 5,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+  },
+  {
+    "id": 23,
+    "name": "Vía Montejo",
+    "description": "Disfruta de la vida en la exclusiva Torre Atlántida en Vía Montejo, al norte de Mérida. Este hermoso y moderno departamento de 2 recámaras ofrece comodidad y estilo con alberca y asoleadero, 2.5 baños, sala, comedor y cocina equipada. Relájate con las impresionantes vistas y las amenidades de lujo del edificio. A solo unos pasos de The Harbour, cines, restaurantes y SRE, este es el lugar perfecto para disfrutar la parte más moderna de Mérida.",
+    "noGuests": 4,
+    "noRooms": 2,
+    "noBeds": 2,
+    "noBaths": 2.5,
+    "available": true,
+    "slug": "via-montejo",
+    "coverPicture": "img/locations/Via Montejo/via-montejo-1.webp",
+    "descriptionPicture": "img/locations/Via Montejo/via-montejo-2.webp",
+    "gallery": [
+      "img/locations/Via Montejo/via-montejo-1.webp",
+      "img/locations/Via Montejo/via-montejo-2.webp",
+      "img/locations/Via Montejo/via-montejo-3.webp",
+      "img/locations/Via Montejo/via-montejo-4.webp",
+      "img/locations/Via Montejo/via-montejo-5.webp",
+      "img/locations/Via Montejo/via-montejo-6.webp",
+      "img/locations/Via Montejo/via-montejo-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Alejandra",
+        "comment": "Excelente alojamiento, super bien ubicado! La anfitriona excelente! Definitivamente volveremos!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Alejandra.webp"
+      },
+      {
+        "username": "Enrique",
+        "comment": "Excelente apartamento! Muy buena ubicación. Tuvimos un problema con el aire acondicionado, pero nos ayudaron a resolverlo de inmediato, muy buena atención!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Enrique.webp"
+      },
+      {
+        "username": "Wilberth",
+        "comment": "Un excelente lugar para estar, muy cómodo, fácil de llegar, lugar tranquilo, están pendientes por cualquier cosa!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Wilberth.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Cocina",
+      "Wifi",
+      "Área para trabajar",
+      "Estacionamiento gratuito en la calle"
+    ],
+    "rating": 5,
+    "noReviews": 5,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
   }
 ]
