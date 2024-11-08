@@ -27,9 +27,9 @@ export class HomeTopHousesSectionComponent implements OnInit {
   public topHouses: Location[] = [];
 
   ngOnInit(): void {
-    this.locationsService.getLocationsBySlugs(this.topHousesSlugs, 'es-MX').subscribe(
-      locations => this.topHouses = locations,
-      error => console.error('Error al obtener las ubicaciones:', error)
-    );
+    this.locationsService.getLocationsBySlugs(this.topHousesSlugs, 'es-MX').subscribe({
+      next: locations => this.topHouses = locations,
+      error: error => console.error('Error al obtener las ubicaciones:', error)
+    });
   }
 }
