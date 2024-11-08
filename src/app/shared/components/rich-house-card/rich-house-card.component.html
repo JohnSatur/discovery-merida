@@ -1,0 +1,32 @@
+<div class="recomended__card bg-white rounded-lg shadow-md overflow-hidden">
+    <img [src]="house.coverPicture" [alt]="house.name" class="w-full h-48 object-cover">
+
+    <div class="p-4">
+      <h3 class="font-semibold mb-2">{{ house.name }}</h3>
+      <!-- Stars -->
+      <div class="flex items-center mb-2">
+        <div class="flex text-yellow-400">
+          <span [innerHTML]="house.rating ?? 0 | starRating"></span>
+        </div>
+        <span class="text-gray-600 text-sm ml-2">{{ house.rating }} ({{ house.noReviews }} reseñas)</span>
+      </div>
+      <p class="text-sm text-gray-600 mb-4">{{ house.description | truncate }}</p>
+      <!-- Icons -->
+      <div class="flex justify-between items-center text-gray-500 text-sm mb-4">
+        <div class="flex items-center gap-1">
+          <i class="ri-hotel-bed-fill"></i>
+          <span class="">{{ house.noRooms }} {{ house.noRooms | pluralize: 'habitación' : 'habitaciones' }}</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <i class="ri-drop-fill"></i>
+          <span>{{ house.noBaths | halfFraction }} {{ house.noBaths | pluralize: 'baño' : 'baños' }}</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <i class="ri-team-fill"></i>
+          <span>{{ house.noGuests }} {{ house.noGuests| pluralize: 'huesped' : 'huéspedes' }}</span>
+        </div>
+      </div>
+
+      <button [routerLink]="[ '/es-MX', 'room', house.slug]" class="bg-cyan-700 text-white px-4 py-2 rounded-md hover:bg-cyan-900">Ver más</button>
+    </div>
+</div>

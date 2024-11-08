@@ -9,15 +9,16 @@ import { RouterModule } from '@angular/router';
 import { Observable } from 'rxjs';
 import { HalfFractionPipe } from '@pipes/half-fraction.pipe';
 import { LanguageService } from '@services/language.service';
+import { BasicHouseCardComponent } from '@shared/components/basic-house-card/basic-house-card.component';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, RoomCardComponent, TruncatePipe, PluralizePipe, HalfFractionPipe, RouterModule],
+  imports: [CommonModule, RoomCardComponent, TruncatePipe, PluralizePipe, HalfFractionPipe, RouterModule, BasicHouseCardComponent],
   templateUrl: './rooms.component.html',
   styles: ``
 })
 export class RoomsComponent implements OnInit {
-  public locations$: Observable<Location[]> = new Observable();
+  public houses$: Observable<Location[]> = new Observable();
   public currentLang: string = 'es-MX';
 
   private languageService: LanguageService = inject(LanguageService);
@@ -27,11 +28,7 @@ export class RoomsComponent implements OnInit {
     this.languageService.getCurrentLang().subscribe(lang => {
       this.currentLang = lang;
     });
-    this.locations$ = this.locationsService.getAllLocations(this.currentLang);
+    this.houses$ = this.locationsService.getAllLocations(this.currentLang);
   }
 
-  // Método para validar si la URL es relativa
-  isRelativeUrl(url: string | undefined): boolean {
-    return url ? url.startsWith('/') : false;
-  }
 }

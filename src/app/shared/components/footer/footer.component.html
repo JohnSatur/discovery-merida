@@ -4,7 +4,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
       <!-- Logo -->
       <div class="col-span-1 lg:col-span-2">
-        <img src="img/logo.png" alt="" class="w-48 h-auto">
+        <img src="img/logo.png" alt="Logo de Discovery Mérida" class="w-48 h-auto">
       </div>
 
       <!-- Menú 1 -->
@@ -14,7 +14,7 @@
           <li><a [routerLink]="['/']" class="cursor-pointer hover:underline">Inicio</a></li>
           <li><a [routerLink]="['/', 'es-MX', 'about']" class="cursor-pointer hover:underline">Quiénes Somos</a></li>
           <li><a [routerLink]="['/', 'es-MX', 'rooms']" class="cursor-pointer hover:underline">Casas</a></li>
-          <li><a [routerLink]="['/', 'es-MX', 'about']" class="cursor-pointer hover:underline">Reservar</a></li>
+          <li><a [routerLink]="['/', 'es-MX', 'contact']" class="cursor-pointer hover:underline">Reservar</a></li>
         </ul>
       </div>
 
@@ -22,8 +22,8 @@
       <div>
         <h3 class="font-bold mb-4">Legal</h3>
         <ul class="space-y-2">
-          <li><a routerLink="privacy" class="hover:underline">Aviso de privacidad</a></li>
-          <li><a routerLink="cookies" class="hover:underline">Política de cookies</a></li>
+          <li><a [routerLink]="['/', 'es-MX', 'privacy']" class="hover:underline">Aviso de privacidad</a></li>
+          <li><a [routerLink]="['/', 'es-MX', 'cookies']" class="hover:underline">Política de cookies</a></li>
         </ul>
       </div>
 

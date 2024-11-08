@@ -7,11 +7,12 @@ import { PluralizePipe } from '@pipes/pluralize.pipe';
 import { HalfFractionPipe } from '@pipes/half-fraction.pipe';
 import { StarRatingPipe } from '@pipes/star-rating.pipe';
 import { RouterModule } from '@angular/router';
+import { RichHouseCardComponent } from '@shared/components/rich-house-card/rich-house-card.component';
 
 @Component({
   selector: 'home-top-houses-section',
   standalone: true,
-  imports: [CommonModule, TruncatePipe, PluralizePipe, HalfFractionPipe, StarRatingPipe, RouterModule],
+  imports: [CommonModule, TruncatePipe, PluralizePipe, HalfFractionPipe, StarRatingPipe, RouterModule, RichHouseCardComponent],
   templateUrl: './home-top-houses-section.component.html',
   styles: ``
 })

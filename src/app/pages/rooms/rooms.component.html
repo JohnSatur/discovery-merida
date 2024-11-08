@@ -5,46 +5,15 @@
 			<h1 class="text-4xl md:text-6xl font-bold text-white text-center">Nuestras ubicaciones</h1>
 		</div>
 	</section>
-	<div class="container mx-auto px-4 py-8">
-		<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
-			<!-- Tarjetas de las diferentes ubicaciones -->
-			@for (location of locations$ | async; track location.id) {
-				<div class="bg-white rounded-lg shadow-md overflow-hidden group relative transition-all duration-300 ease-in-out hover:shadow-xl" [routerLink]="['/', currentLang, 'room', location.slug]">
-					<div class="relative overflow-hidden cursor-pointer">
-						<img [src]="location.coverPicture" [alt]="location.name" class="w-full h-48 object-cover transition-transform duration-300 ease-in-out group-hover:scale-110">
 
-						<div class="absolute inset-0 bg-black bg-opacity-50 transition-all duration-300 ease-in-out group-hover:bg-opacity-70"></div>
-
-						<div class="absolute bottom-0 left-0 p-4 text-white transition-all duration-300 ease-in-out group-hover:translate-y-[-10px]">
-							<h2 class="text-xl font-semibold mb-1">{{ location.name }}</h2>
-							<p class="text-sm">{{ location.description | truncate }}</p>
-						</div>
-
-						<div class="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
-							<span class="bg-cyan-700 text-white px-4 py-2 rounded-full font-semibold shadow-lg text-lg">Ver más</span>
-						</div>
-					</div>
-
-					<div class="p-4">
-						<div class="flex justify-between items-center md:flex-col md:items-start xl:items-center xl:flex-row text-sm text-gray-600">
-							<div class="flex items-center gap-1">
-								<i class="ri-team-fill"></i>
-								<span>{{ location.noGuests }} {{ location.noGuests| pluralize: 'huesped' : 'huéspedes' }}</span>
-							</div>
-
-							<div class="flex items-center gap-1">
-								<i class="ri-hotel-bed-fill"></i>
-								<span>{{ location.noBeds }} {{ location.noBeds| pluralize: 'cama' : 'camas' }}</span>
-							</div>
-
-							<div class="flex items-center gap-1">
-								<i class="ri-drop-fill"></i>
-								<span>{{ location.noBaths | halfFraction }} {{ location.noBaths | pluralize: 'baño' : 'baños' }}</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			}
+	<section class="py-10">
+		<div class="container mx-auto px-4 py-8">
+			<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+				<!-- Tarjetas de las diferentes ubicaciones -->
+				@for (house of houses$ | async; track house.id) {
+					<shared-basic-house-card [house]="house" />
+				}
+			</div>
 		</div>
-	</div>
+	</section>
 </main>

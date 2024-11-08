@@ -1,0 +1,13 @@
+<section class="bg-cyan-700 py-12">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-semibold mb-8 text-center text-white">Todo lo que necesitas para <br class="md:hidden"> sentirte en casa</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            @for (amenity of amenities; track $index) {
+              <div class="flex items-center">
+                <i class="ri-arrow-right-s-line text-cyan-50 mr-4"></i>
+                <span class="text-white">{{ amenity }}</span>
+              </div>
+            }
+        </div>
+    </div>
+</section>

@@ -10,6 +10,7 @@ import { HomeTopHousesSectionComponent } from './components/home-top-houses-sect
 import { ReviewsSectionComponent } from '@components/reviews-section/reviews-section.component';
 import { FaqSectionComponent } from '@components/faq-section/faq-section.component';
 import { HomeContactSectionComponent } from './components/home-contact-section/home-contact-section.component';
+import { Review } from '@shared/models/location.interfaces';
 
 @Component({
   standalone: true,
@@ -27,6 +28,27 @@ import { HomeContactSectionComponent } from './components/home-contact-section/h
   styles: ``
 })
 export class HomeComponent implements OnInit, AfterViewInit {
+  public topReviews: Review[] = [
+    {
+      username: 'Oscar',
+      comment: 'Es un lugar perfectamente bien ubicado para llegar caminando a lugares como La Negrita, el paseo gastronómico o el Parque La Plancha. El lugar es lindo, limpio cómodo. Justo como en las fotos. Además, Mariana, La co-anfitriona, fue muy atenta y responsiva durante mi estancia. Un lugar que volvería a visitar sin duda.',
+      rating: 5,
+      profilePicture: 'img/profiles/oscar.jpg'
+    },
+    {
+      username: 'Abhishek',
+      comment: 'Nuestra estancia fue maravillosa. La casa tenía todas las comodidades que necesitábamos y estaba a poca distancia de los parques. ¡Altamente recomendado para familias!',
+      rating: 5,
+      profilePicture: 'img/profiles/abhishek.jpg'
+    },
+    {
+      username: 'Kenna',
+      comment: '¡Muy recomendable! Captura el ambiente de México y está a cuadras de excelentes restaurantes, lugares con música en vivo, etc.',
+      rating: 5,
+      profilePicture: 'img/profiles/kenna.jpg'
+    }
+  ];
+
   constructor (private el: ElementRef) {
     gsap.registerPlugin(ScrollTrigger);
   }

@@ -1,0 +1,12 @@
+<div class="bg-white rounded-lg shadow-md p-6 h-full">
+    <div class="flex items-center mb-4">
+      <img [src]="review.profilePicture" alt="Foto de perfil de Oscar" class="w-12 h-12 rounded-full mr-4">
+      <div>
+        <h3 class="font-semibold text-lg">{{review.username}}</h3>
+        <div class="flex text-yellow-400">
+            <span [innerHTML]="review.rating | starRating"></span>
+          </div>
+      </div>
+    </div>
+    <p class="text-gray-600">{{ review.comment }}</p>
+</div>
