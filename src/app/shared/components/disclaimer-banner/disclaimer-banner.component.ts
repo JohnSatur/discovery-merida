@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './disclaimer-banner.component.html',
-  styleUrl: './disclaimer-banner.component.scss'
+  styles: ``
 })
 export class DisclaimerBannerComponent implements OnInit {
   public showBanner = false;

@@ -14,7 +14,7 @@ import { LanguageToggleComponent } from '@components/language-toggle/language-to
   standalone: true,
   imports: [CommonModule, RouterModule, LanguageToggleComponent],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styles: ``
 })
 export class HeaderComponent implements AfterViewInit{
   // Controla la visibilidad del menú en dispositivos móviles

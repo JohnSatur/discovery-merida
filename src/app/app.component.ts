@@ -17,7 +17,7 @@ import { SpinnerComponent } from './shared/components/spinner/spinner.component'
   standalone: true,
   imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent, HomeComponent, SocialMediaFloatComponent, LogoLoaderComponent, DisclaimerBannerComponent, SpinnerComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styles: ``
 })
 export class AppComponent implements OnInit {
   public title = 'discovery-merida';

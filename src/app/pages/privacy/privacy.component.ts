@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './privacy.component.html',
-  styleUrl: './privacy.component.scss'
+  styles: ``
 })
 export class PrivacyComponent {
 

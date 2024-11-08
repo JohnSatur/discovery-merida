@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './spinner.component.html',
-  styleUrl: './spinner.component.scss'
+  styles: ``
 })
 export class SpinnerComponent implements OnInit {
   @ViewChild('spinner', { static: true }) spinner!: ElementRef;

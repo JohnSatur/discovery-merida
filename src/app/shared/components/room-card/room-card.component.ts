@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   selector: 'shared-room-card',
   imports: [CommonModule],
   templateUrl: './room-card.component.html',
-  styleUrl: './room-card.component.scss'
+  styles: ``
 })
 export class RoomCardComponent {
   @Input() name: string = '';

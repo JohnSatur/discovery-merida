@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './social-media-float.component.html',
-  styleUrl: './social-media-float.component.scss'
+  styles: ``
 })
 export class SocialMediaFloatComponent {
 

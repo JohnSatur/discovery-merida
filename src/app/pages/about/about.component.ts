@@ -9,7 +9,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
   standalone: true,
   imports: [CommonModule, RouterModule],
   templateUrl: './about.component.html',
-  styleUrl: './about.component.scss'
+  styles: ``
 })
 export class AboutComponent implements OnInit {
   public language: string | null = '';

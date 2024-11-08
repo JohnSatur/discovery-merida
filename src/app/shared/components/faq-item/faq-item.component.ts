@@ -9,7 +9,7 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './faq-item.component.html',
-  styleUrl: './faq-item.component.scss'
+  styles: ``
 })
 export class FaqItemComponent {
   // Pregunta y respuesta que se muestran en la tarjeta proporcionados por el padre

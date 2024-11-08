@@ -14,7 +14,7 @@ import { LanguageService } from '@services/language.service';
   standalone: true,
   imports: [CommonModule, RoomCardComponent, TruncatePipe, PluralizePipe, HalfFractionPipe, RouterModule],
   templateUrl: './rooms.component.html',
-  styleUrl: './rooms.component.scss',
+  styles: ``
 })
 export class RoomsComponent implements OnInit {
   public locations$: Observable<Location[]> = new Observable();

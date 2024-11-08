@@ -10,7 +10,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
   standalone: true,
   imports: [CommonModule, StarRatingPipe],
   templateUrl: './room.component.html',
-  styleUrl: './room.component.scss'
+  styles: ``
 })
 export class RoomComponent implements OnInit {
   public roomInfo?: Location; // Información de la casa que se está mostrando en el componente

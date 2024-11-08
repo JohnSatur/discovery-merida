@@ -8,7 +8,7 @@ import { gsap } from 'gsap';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './logo-loader.component.html',
-  styleUrl: './logo-loader.component.scss'
+  styles: ``
 })
 export class LogoLoaderComponent implements OnInit {
   

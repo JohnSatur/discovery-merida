@@ -12,7 +12,7 @@ import { Subscription } from 'rxjs';
   standalone: true,
   imports: [CommonModule, RouterModule],
   templateUrl: './language-toggle.component.html',
-  styleUrl: './language-toggle.component.scss'
+  styles: ``
 })
 export class LanguageToggleComponent implements OnInit, OnDestroy {
   // Suscripción al observable del isioma actual
