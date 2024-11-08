@@ -7,8 +7,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import { HomeHeroSectionComponent } from './components/home-hero-section/home-hero-section.component';
 import { HomeTopHousesSectionComponent } from './components/home-top-houses-section/home-top-houses-section.component';
-import { ReviewsSectionComponent } from '../../shared/components/reviews-section/reviews-section.component';
-import { FaqSectionComponent } from '../../shared/components/faq-section/faq-section.component';
+import { ReviewsSectionComponent } from '@components/reviews-section/reviews-section.component';
+import { FaqSectionComponent } from '@components/faq-section/faq-section.component';
 import { HomeContactSectionComponent } from './components/home-contact-section/home-contact-section.component';
 
 @Component({

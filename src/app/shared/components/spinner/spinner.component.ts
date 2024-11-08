@@ -1,6 +1,6 @@
 import { Component, ElementRef, inject, OnInit, ViewChild } from '@angular/core';
 import { gsap } from 'gsap';
-import { SpinnerService } from '../../services/spinner.service';
+import { SpinnerService } from '@services/spinner.service';
 import { CommonModule } from '@angular/common';
 
 @Component({

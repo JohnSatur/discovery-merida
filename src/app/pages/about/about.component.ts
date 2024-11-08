@@ -4,7 +4,6 @@ import { ActivatedRoute, RouterModule } from '@angular/router';
 
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { environments } from '../../../environments/environment';
 
 @Component({
   standalone: true,
@@ -13,7 +12,6 @@ import { environments } from '../../../environments/environment';
   styleUrl: './about.component.scss'
 })
 export class AboutComponent implements OnInit {
-  public baseUrl: string = environments.baseUrl;
   public language: string | null = '';
   private route = inject(ActivatedRoute);
   

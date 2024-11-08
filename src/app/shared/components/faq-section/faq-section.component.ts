@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { FaqItemComponent } from '../faq-item/faq-item.component';
+import { FaqItemComponent } from '@components/faq-item/faq-item.component';
 
 @Component({
   selector: 'shared-faq-section',

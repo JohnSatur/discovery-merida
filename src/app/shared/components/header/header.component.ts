@@ -4,7 +4,7 @@ import { RouterModule } from '@angular/router';
 
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { LanguageToggleComponent } from '../language-toggle/language-toggle.component';
+import { LanguageToggleComponent } from '@components/language-toggle/language-toggle.component';
 
 /**
  * Componente para el encabezado de la aplicación. Incluye el menú principal y el componente para cambiar el idioma.

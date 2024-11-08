@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { LocationsService } from '../../shared/services/locations.service';
-import { Location } from '../../shared/models/location.interfaces';
-import { StarRatingPipe } from '../../shared/pipes/star-rating.pipe';
+import { LocationsService } from '@services/locations.service';
+import { Location } from '@models/location.interfaces';
+import { StarRatingPipe } from '@pipes/star-rating.pipe';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
