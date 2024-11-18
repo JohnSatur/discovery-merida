@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
-import { Location } from '@shared/models/location.interfaces';
+import { Location } from '@shared/models/location';
 import { HalfFractionPipe } from '@shared/pipes/half-fraction.pipe';
 import { PluralizePipe } from '@shared/pipes/pluralize.pipe';
 import { StarRatingPipe } from '@shared/pipes/star-rating.pipe';

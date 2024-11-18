@@ -1,9 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { LocationsService } from '@services/locations.service';
-import { Location } from '@models/location.interfaces';
-import { StarRatingPipe } from '@pipes/star-rating.pipe';
+
 import { RoomHeroSectionComponent } from './components/room-hero-section/room-hero-section.component';
 import { RoomDescriptionSectionComponent } from './components/room-description-section/room-description-section.component';
 import { RoomGallerySectionComponent } from './components/room-gallery-section/room-gallery-section.component';
@@ -12,18 +10,21 @@ import { RoomMapSectionComponent } from './components/room-map-section/room-map-
 import { ReviewsSectionComponent } from '@shared/components/reviews-section/reviews-section.component';
 import { ContactSectionComponent } from '@shared/components/contact-section/contact-section.component';
 
+import { LocationsService } from '@services/locations.service';
+import { Location } from '@shared/models/location';
+
 @Component({
   standalone: true,
   imports: [
     CommonModule,
-    StarRatingPipe,
+
     RoomHeroSectionComponent,
     RoomDescriptionSectionComponent,
     RoomGallerySectionComponent,
     RoomAmenitiesSectionComponent,
     RoomMapSectionComponent,
     ReviewsSectionComponent,
-    ContactSectionComponent
+    ContactSectionComponent,
   ],
   templateUrl: './room.component.html',
   styles: ``

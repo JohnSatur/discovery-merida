@@ -1,18 +1,16 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject, OnInit } from '@angular/core';
 import { LocationsService } from '@services/locations.service';
-import { Location } from '@models/location.interfaces';
-import { TruncatePipe } from '@pipes/truncate.pipe';
-import { PluralizePipe } from '@pipes/pluralize.pipe';
-import { HalfFractionPipe } from '@pipes/half-fraction.pipe';
-import { StarRatingPipe } from '@pipes/star-rating.pipe';
-import { RouterModule } from '@angular/router';
+import { Location } from '@shared/models/location';
 import { RichHouseCardComponent } from '@shared/components/rich-house-card/rich-house-card.component';
 
 @Component({
   selector: 'home-top-houses-section',
   standalone: true,
-  imports: [CommonModule, TruncatePipe, PluralizePipe, HalfFractionPipe, StarRatingPipe, RouterModule, RichHouseCardComponent],
+  imports: [
+    CommonModule,
+    RichHouseCardComponent
+  ],
   templateUrl: './home-top-houses-section.component.html',
   styles: ``
 })

@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Location } from '@models/location.interfaces';
+import { Location } from '@shared/models/location';
 import { map, Observable } from 'rxjs';
 
 /**

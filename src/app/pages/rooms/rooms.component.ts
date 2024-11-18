@@ -1,19 +1,25 @@
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 import { Component, inject, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+
 import { RoomCardComponent } from '@components/room-card/room-card.component';
-import { LocationsService } from '@services/locations.service';
-import { Location } from '@models/location.interfaces';
+import { BasicHouseCardComponent } from '@shared/components/basic-house-card/basic-house-card.component';
+
+import { Location } from '@shared/models/location';
 import { TruncatePipe } from '@pipes/truncate.pipe';
 import { PluralizePipe } from '@pipes/pluralize.pipe';
-import { RouterModule } from '@angular/router';
-import { Observable } from 'rxjs';
 import { HalfFractionPipe } from '@pipes/half-fraction.pipe';
+import { LocationsService } from '@services/locations.service';
 import { LanguageService } from '@services/language.service';
-import { BasicHouseCardComponent } from '@shared/components/basic-house-card/basic-house-card.component';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, RoomCardComponent, TruncatePipe, PluralizePipe, HalfFractionPipe, RouterModule, BasicHouseCardComponent],
+  imports: [
+    CommonModule,
+    RouterModule,
+    BasicHouseCardComponent
+  ],
   templateUrl: './rooms.component.html',
   styles: ``
 })

@@ -4,6 +4,7 @@ import { ActivatedRoute, RouterModule } from '@angular/router';
 
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 import { AboutHeroSectionComponent } from './components/about-hero-section/about-hero-section.component';
 import { AboutIntroSectionComponent } from './components/about-intro-section/about-intro-section.component';
 import { AboutTopHousesSectionComponent } from './components/about-top-houses-section/about-top-houses-section.component';
@@ -15,6 +16,7 @@ import { ContactSectionComponent } from '@shared/components/contact-section/cont
   imports: [
     CommonModule,
     RouterModule,
+    
     AboutHeroSectionComponent,
     AboutIntroSectionComponent,
     AboutTopHousesSectionComponent,

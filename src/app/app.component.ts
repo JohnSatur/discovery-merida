@@ -1,16 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './shared/components/header/header.component';
 import { CommonModule } from '@angular/common';
-
-import { HomeComponent } from './pages/home/home.component';
-import { FooterComponent } from './shared/components/footer/footer.component';
-import { SocialMediaFloatComponent } from './shared/components/social-media-float/social-media-float.component';
-import { LanguageService } from './shared/services/language.service';
 import { BehaviorSubject, timer } from 'rxjs';
-import { LogoLoaderComponent } from './shared/components/logo-loader/logo-loader.component';
-import { DisclaimerBannerComponent } from './shared/components/disclaimer-banner/disclaimer-banner.component';
-import { SpinnerComponent } from './shared/components/spinner/spinner.component';
+
+import { HeaderComponent } from '@components/header/header.component';
+import { HomeComponent } from './pages/home/home.component';
+import { FooterComponent } from '@components/footer/footer.component';
+import { SocialMediaFloatComponent } from '@components/social-media-float/social-media-float.component';
+import { LogoLoaderComponent } from '@components/logo-loader/logo-loader.component';
+import { DisclaimerBannerComponent } from '@components/disclaimer-banner/disclaimer-banner.component';
+import { SpinnerComponent } from '@components/spinner/spinner.component';
+
+import { LanguageService } from '@services/language.service';
 
 @Component({
   selector: 'app-root',

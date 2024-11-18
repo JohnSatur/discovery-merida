@@ -10,13 +10,12 @@ import { HomeTopHousesSectionComponent } from './components/home-top-houses-sect
 import { ReviewsSectionComponent } from '@components/reviews-section/reviews-section.component';
 import { FaqSectionComponent } from '@components/faq-section/faq-section.component';
 import { HomeContactSectionComponent } from './components/home-contact-section/home-contact-section.component';
-import { Review } from '@shared/models/location.interfaces';
+import { Review } from '@shared/models/location';
 
 @Component({
   standalone: true,
   imports: [
     CommonModule,
-    RouterLink,
     
     HomeHeroSectionComponent,
     HomeTopHousesSectionComponent,

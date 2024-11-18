@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Review } from '@shared/models/location.interfaces';
+import { Review } from '@shared/models/location';
 import { ReviewCardComponent } from '../review-card/review-card.component';
 
 @Component({

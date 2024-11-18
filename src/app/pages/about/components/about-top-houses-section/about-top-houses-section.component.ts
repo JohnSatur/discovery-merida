@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { LocationsService } from '@shared/services/locations.service';
-import { Location } from '@models/location.interfaces';
+import { Location } from '@shared/models/location';
 import { BasicHouseCardComponent } from '@shared/components/basic-house-card/basic-house-card.component';
 
 
