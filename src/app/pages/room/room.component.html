@@ -1,6 +1,6 @@
 <main *ngIf="roomInfo">
     <!-- Hero -->
-    <room-hero-section [houseName]="roomInfo.name" [coverPicture]="roomInfo.coverPicture" />
+    <room-hero-section [houseName]="roomInfo.name" [coverPicture]="roomInfo.coverPicture" [airbnbId]="roomInfo.airbnbId" />
 
     <!-- Description -->
     <room-description-section [description]="roomInfo.description" [picture]="roomInfo.descriptionPicture" [pictureAlt]="roomInfo.name" />
@@ -18,6 +18,36 @@
     @if (roomInfo.reviews) {
       <shared-reviews-section [topReviews]="roomInfo.reviews" />
     }
+
+    <section class="bg-gradient-to-br from-cyan-600 to-cyan-800 py-12 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-4xl mx-auto">
+          <div class="bg-gradient-to-r from-white to-cyan-50 rounded-lg shadow-xl overflow-hidden">
+              <div class="md:flex">
+                  <div class="md:flex-shrink-0">
+                      <img class="h-48 w-full object-cover md:h-full md:w-48" [src]="roomInfo.coverPicture" [alt]="roomInfo.name">
+                  </div>
+                  <div class="p-8">
+                      <div class="uppercase tracking-wide text-sm text-cyan-900 font-semibold">
+                          Disponible en Airbnb
+                      </div>
+                      <h2 class="block mt-1 text-2xl leading-tight font-bold text-cyan-700">
+                          {{ roomInfo.name }}
+                      </h2>
+                      <p class="mt-2 text-slate-500">
+                        En Vanguardia y Calidad estaremos encantados de ser sus anfitriones en Merida.
+                      </p>
+                      <a [href]="'https://www.airbnb.mx/rooms/' + roomInfo.airbnbId" 
+                         class="mt-4 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-cyan-700 hover:bg-cyan-800 transition duration-150 ease-in-out"
+                         target="_blank" 
+                         rel="noopener noreferrer">
+                          Ver en Airbnb
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
 
     <!-- Formulario de contacto -->
     <shared-contact-section [coverPicture]="roomInfo.coverPicture" />

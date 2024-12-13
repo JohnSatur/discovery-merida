@@ -1,9 +1,9 @@
 <!-- Header -->
-<header #header class="sticky top-0 bg-transparent z-30 -mt-[80px]">
+<header #header class="sticky top-0 bg-transparent z-30 -mt-[104px]">
   <div class="container mx-auto px-4 py-3 flex justify-between items-center">
     <a href="/">
       <img
-        class="h-8 sm:h-10 md:h-12 lg:h-14 w-auto"
+        class="h-20 w-auto"
         #logo
         src="img/logo.png"
         alt="Logo Discovery Mérida"
@@ -26,7 +26,16 @@
       </ul>
     </nav>
     
-    <shared-language-toggle></shared-language-toggle>
+    <!-- Íconos de redes sociales -->
+    <div class="hidden md:flex items-center space-x-4">
+      <a href="https://www.instagram.com/discovery.merida" target="_blank" rel="noopener noreferrer" class="text-4xl text-cyan-50 hover:text-cyan-100 hover:scale-110 transition-all duration-300">
+        <i class="ri-instagram-fill"></i>
+      </a>
+      <a href="https://mx.pinterest.com/discoverymerida/" target="_blank" rel="noopener noreferrer" class="text-4xl text-cyan-50 hover:text-cyan-100 hover:scale-110 transition-all duration-300">
+        <i class="ri-pinterest-fill"></i>
+      </a>
+    </div>
+    <!-- <shared-language-toggle></shared-language-toggle> -->
 
     <button
       #menuToggle
@@ -67,6 +76,16 @@
         </li>
       </ul>
     </nav>
+
+    <!-- Íconos de redes sociales -->
+    <div class="md:flex items-center space-x-4 mt-8">
+      <a href="https://www.instagram.com/discovery.merida" target="_blank" rel="noopener noreferrer" class="text-4xl text-cyan-50 hover:text-cyan-100 hover:scale-110 transition-all duration-300">
+        <i class="ri-instagram-fill"></i>
+      </a>
+      <a href="https://mx.pinterest.com/discoverymerida/" target="_blank" rel="noopener noreferrer" class="text-4xl text-cyan-50 hover:text-cyan-100 hover:scale-110 transition-all duration-300">
+        <i class="ri-pinterest-fill"></i>
+      </a>
+    </div>
   </div>
 </div>
 

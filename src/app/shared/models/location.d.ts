@@ -17,6 +17,7 @@ export interface Location {
   rating?:             number;
   noReviews?:          number;
   avgCoords:          string;
+  airbnbId:            string;
 }
 
 export interface Review {

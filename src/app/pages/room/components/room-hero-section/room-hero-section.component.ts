@@ -10,4 +10,5 @@ import { Component, Input } from '@angular/core';
 export class RoomHeroSectionComponent {
   @Input() houseName!: string;
   @Input() coverPicture!: string;
+  @Input() airbnbId!: string;
 }

@@ -1,31 +1,33 @@
-<section class="hero relative bg-cover bg-center h-[750px]" style="background-image: url('/img/bg-home.jpg');">
-    <div class="absolute inset-0 bg-gradient-to-b from-black/50 to-black/90"></div>
-
-    <!-- Content -->
-    <div class="relative z-10 flex items-center justify-center h-full px-4">
-      <div class="text-center text-white">
-        <h1 class="hero__title text-3xl md:text-6xl font-bold mb-4">Discovery Mérida</h1>
-        <p class="hero__subtitle text-xl mb-8">Estás a punto de comenzar tu próxima gran aventura.</p>
-
-        <!-- Formulario de reservación -->
-        <!-- <div class="hero__form w-full max-w-3xl mx-auto bg-white/90 backdrop-blur-md rounded-lg p-6">
-          <div class="mb-4">
-            <button class="px-4 py-2 bg-cyan-700 text-white rounded-md mr-2">Ida y vuelta</button>
-            <button class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md mr-2">Solo ida</button>
-          </div>
-          
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <input class="col-span-2 md:col-span-1 w-full px-3 py-2 border border-gray-300 rounded-md"
-              placeholder="Fecha de llegada">
-            <input class="col-span-2 md:col-span-1 w-full px-3 py-2 border border-gray-300 rounded-md"
-              placeholder="Fecha de regreso">
-            <input class="col-span-2 md:col-span-1 w-full px-3 py-2 border border-gray-300 rounded-md"
-              placeholder="# huéspedes">
-            <input class="col-span-2 md:col-span-1 w-full px-3 py-2 border border-gray-300 rounded-md"
-              placeholder="# habitaciones">
-          </div>
-          <button class="w-full mt-4 bg-cyan-700 text-white px-4 py-2 rounded-md hover:bg-cyan-900">BUSCAR</button>
-        </div> -->
-      </div>
-    </div>
+<section class="relative h-screen w-full overflow-hidden">
+  <!-- Imagen de fondo -->
+  <img src="/img/bg-home.jpg" alt="Fondo de Mérida" class="absolute inset-0 w-full h-full object-cover object-center">
+  
+  <!-- Gradiente oscuro -->
+  <div class="absolute inset-0 bg-gradient-to-b from-black/50 to-black/90"></div>
+  
+  <!-- Contenido -->
+  <div class="relative z-10 flex flex-col items-center justify-center h-full px-4 text-white">
+      <!-- Logo -->
+      <img src="/img/logo.png" alt="Discovery Mérida Logo" class="w-[500px] h-automb-8">
+      
+      <!-- Título principal -->
+      <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold text-center mb-4 max-w-4xl">
+          Encuentra la casa perfecta para tus momentos únicos
+      </h1>
+      
+      <!-- Subtítulo -->
+      <p class="text-xl md:text-2xl text-center mb-4 max-w-2xl">
+          Fácil, rápido y sin complicaciones
+      </p>
+      
+      <!-- Texto descriptivo secundario -->
+      <p class="text-lg md:text-xl text-center mb-8 max-w-3xl italic text-gray-300">
+          Casas vacacionales exclusivas en el corazón del paraíso
+      </p>
+      
+      <!-- Botón de llamada a la acción -->
+      <a [routerLink]="['/', 'es-MX', 'rooms']" class="bg-cyan-700 text-white font-semibold py-3 px-8 rounded-md text-lg transition-all hover:bg-opacity-90 hover:scale-105">
+          ¡Haz tu próxima reserva hoy!
+      </a>
+  </div>
 </section>
