@@ -8,18 +8,17 @@ import { TruncatePipe } from '@shared/pipes/truncate.pipe';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'shared-rich-house-card',
-  standalone: true,
-  imports: [
-    CommonModule,
-    RouterModule,
-    StarRatingPipe,
-    TruncatePipe,
-    HalfFractionPipe,
-    PluralizePipe
-  ],
-  templateUrl: './rich-house-card.component.html',
-  styles: ``
+    selector: 'shared-rich-house-card',
+    imports: [
+        CommonModule,
+        RouterModule,
+        StarRatingPipe,
+        TruncatePipe,
+        HalfFractionPipe,
+        PluralizePipe
+    ],
+    templateUrl: './rich-house-card.component.html',
+    styles: ``
 })
 export class RichHouseCardComponent {
   @Input() house!: Location;

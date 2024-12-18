@@ -4,11 +4,10 @@ import { SpinnerService } from '@services/spinner.service';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'shared-spinner',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './spinner.component.html',
-  styles: ``
+    selector: 'shared-spinner',
+    imports: [CommonModule],
+    templateUrl: './spinner.component.html',
+    styles: ``
 })
 export class SpinnerComponent implements OnInit {
   @ViewChild('spinner', { static: true }) spinner!: ElementRef;

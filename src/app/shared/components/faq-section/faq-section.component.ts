@@ -3,11 +3,10 @@ import { Component } from '@angular/core';
 import { FaqItemComponent } from '@components/faq-item/faq-item.component';
 
 @Component({
-  selector: 'shared-faq-section',
-  standalone: true,
-  imports: [CommonModule, FaqItemComponent],
-  templateUrl: './faq-section.component.html',
-  styles: ``
+    selector: 'shared-faq-section',
+    imports: [CommonModule, FaqItemComponent],
+    templateUrl: './faq-section.component.html',
+    styles: ``
 })
 export class FaqSectionComponent {
   public faqs = [

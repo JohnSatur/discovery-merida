@@ -3,13 +3,12 @@ import { ValueCardComponent } from '@shared/components/value-card/value-card.com
 import { ValueCardInfo } from '@shared/models/cards';
 
 @Component({
-  selector: 'about-values-section',
-  standalone: true,
-  imports: [
-    ValueCardComponent
-  ],
-  templateUrl: './about-values-section.component.html',
-  styles: ``
+    selector: 'about-values-section',
+    imports: [
+        ValueCardComponent
+    ],
+    templateUrl: './about-values-section.component.html',
+    styles: ``
 })
 export class AboutValuesSectionComponent {
   public values: ValueCardInfo[] = [

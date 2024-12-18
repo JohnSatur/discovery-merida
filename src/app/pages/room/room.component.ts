@@ -14,20 +14,18 @@ import { LocationsService } from '@services/locations.service';
 import { Location } from '@shared/models/location';
 
 @Component({
-  standalone: true,
-  imports: [
-    CommonModule,
-
-    RoomHeroSectionComponent,
-    RoomDescriptionSectionComponent,
-    RoomGallerySectionComponent,
-    RoomAmenitiesSectionComponent,
-    RoomMapSectionComponent,
-    ReviewsSectionComponent,
-    ContactSectionComponent,
-  ],
-  templateUrl: './room.component.html',
-  styles: ``
+    imports: [
+        CommonModule,
+        RoomHeroSectionComponent,
+        RoomDescriptionSectionComponent,
+        RoomGallerySectionComponent,
+        RoomAmenitiesSectionComponent,
+        RoomMapSectionComponent,
+        ReviewsSectionComponent,
+        ContactSectionComponent,
+    ],
+    templateUrl: './room.component.html',
+    styles: ``
 })
 export class RoomComponent implements OnInit {
   public roomInfo?: Location; // Información de la casa que se está mostrando en el componente

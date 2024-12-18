@@ -6,11 +6,10 @@ import { PluralizePipe } from '@shared/pipes/pluralize.pipe';
 import { TruncatePipe } from '@shared/pipes/truncate.pipe';
 
 @Component({
-  selector: 'shared-basic-house-card',
-  standalone: true,
-  imports: [RouterModule, TruncatePipe, HalfFractionPipe, PluralizePipe],
-  templateUrl: './basic-house-card.component.html',
-  styles: ``
+    selector: 'shared-basic-house-card',
+    imports: [RouterModule, TruncatePipe, HalfFractionPipe, PluralizePipe],
+    templateUrl: './basic-house-card.component.html',
+    styles: ``
 })
 export class BasicHouseCardComponent {
   @Input() house!: Location;

@@ -1,11 +1,10 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'room-gallery-section',
-  standalone: true,
-  imports: [],
-  templateUrl: './room-gallery-section.component.html',
-  styles: ``
+    selector: 'room-gallery-section',
+    imports: [],
+    templateUrl: './room-gallery-section.component.html',
+    styles: ``
 })
 export class RoomGallerySectionComponent {
   @Input() pictures!: string[];

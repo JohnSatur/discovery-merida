@@ -1,24 +1,27 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { BehaviorSubject, timer } from 'rxjs';
 
 import { HeaderComponent } from '@components/header/header.component';
-import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from '@components/footer/footer.component';
-import { SocialMediaFloatComponent } from '@components/social-media-float/social-media-float.component';
-import { LogoLoaderComponent } from '@components/logo-loader/logo-loader.component';
 import { DisclaimerBannerComponent } from '@components/disclaimer-banner/disclaimer-banner.component';
-import { SpinnerComponent } from '@components/spinner/spinner.component';
 
 import { LanguageService } from '@services/language.service';
+import { PromoModalComponent } from '@shared/components/promo-modal/promo-modal.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent, HomeComponent, SocialMediaFloatComponent, LogoLoaderComponent, DisclaimerBannerComponent, SpinnerComponent],
-  templateUrl: './app.component.html',
-  styles: ``
+    selector: 'app-root',
+    imports: [
+      CommonModule,
+      RouterOutlet,
+      HeaderComponent,
+      FooterComponent,
+      DisclaimerBannerComponent,
+      PromoModalComponent,
+    ],
+    templateUrl: './app.component.html',
+    styles: ``
 })
 export class AppComponent implements OnInit {
   public title = 'discovery-merida';
@@ -26,6 +29,7 @@ export class AppComponent implements OnInit {
   public is404: boolean = false;
   private isTimerStarted: boolean = false;
   public currentUrl$: BehaviorSubject<string> = new BehaviorSubject<string>('');
+  private router = inject(Router);
 
   /**
    * El constructor suscribe a los eventos de enrutamiento para detectar cambios de URL y gestionar la carga de contenido y el cambio de idioma.
@@ -33,7 +37,7 @@ export class AppComponent implements OnInit {
    * @param languageService Servicio centralizado para gestionar el idioma
    * @param router Angular Router
    */
-  constructor( private languageService: LanguageService, private router: Router) {
+  constructor( private languageService: LanguageService) {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
         this.currentUrl$.next(event.url);

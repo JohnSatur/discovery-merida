@@ -1,0 +1,39 @@
+@if (showModal) {
+  <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+    <div class="bg-white rounded-lg shadow-xl max-w-md w-full overflow-hidden">
+      <div class="relative">
+        <button class="absolute top-2 right-2 text-white text-xl hover:text-gray-300 transition-colors duration-200" (click)="closeModal()">
+          <i class="ri-close-large-fill"></i>
+        </button>
+        <img 
+          class="w-full h-48 object-cover"
+          src="img/modal-img.jpg"
+          alt="Promoción de Casas en Mérida"
+        >
+      </div>
+      
+      <div class="p-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">¡Oferta Especial por temporada!</h2>
+        <p class="text-gray-600 mb-6">
+          Recibe un cupón por <span class="text-green-600 font-semibold">$500 MXN</span> para disfrutar en uno de los mejores restaurantes de la ciudad.
+        </p>
+  
+        <div class="mb-6">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">Términos y Condiciones</h3>
+          <ul class="text-sm text-gray-600 space-y-1 list-disc list-inside">
+            <li>Promoción válida por tiempo limitado, exclusivamente en las casas participantes.</li>
+            <li>No aplica en días festivos, Semana Santa, ni en el período de Pascua.</li>
+            <li>Estancia mínima requerida: 3 noches de hospedaje.</li>
+            <li>Encontrarás la información de las casas participantes en este sitio web y realizarás la reserva a través de Airbnb.</li>
+            <li>Es necesario ingresar el código de promoción en tu reserva para identificar que llegaste desde nuestra página.</li>
+          </ul>
+        </div>
+  
+        <button class="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors duration-200" (click)="closeModal()">
+          Entendido
+        </button>
+      </div>
+    </div>
+  </div>
+}
+

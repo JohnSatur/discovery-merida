@@ -13,18 +13,16 @@ import { HomeContactSectionComponent } from './components/home-contact-section/h
 import { Review } from '@shared/models/location';
 
 @Component({
-  standalone: true,
-  imports: [
-    CommonModule,
-    
-    HomeHeroSectionComponent,
-    HomeTopHousesSectionComponent,
-    ReviewsSectionComponent,
-    FaqSectionComponent,
-    HomeContactSectionComponent
-  ],
-  templateUrl: './home.component.html',
-  styles: ``
+    imports: [
+        CommonModule,
+        HomeHeroSectionComponent,
+        HomeTopHousesSectionComponent,
+        ReviewsSectionComponent,
+        FaqSectionComponent,
+        HomeContactSectionComponent
+    ],
+    templateUrl: './home.component.html',
+    styles: ``
 })
 export class HomeComponent implements OnInit, AfterViewInit {
   public topReviews: Review[] = [

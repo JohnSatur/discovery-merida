@@ -3,13 +3,12 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  standalone: true,
-  imports: [
-    CommonModule,
-    RouterModule
-  ],
-  templateUrl: './not-found.component.html',
-  styles: ``
+    imports: [
+        CommonModule,
+        RouterModule
+    ],
+    templateUrl: './not-found.component.html',
+    styles: ``
 })
 export class NotFoundComponent {
 

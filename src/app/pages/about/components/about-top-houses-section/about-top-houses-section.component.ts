@@ -5,11 +5,10 @@ import { BasicHouseCardComponent } from '@shared/components/basic-house-card/bas
 
 
 @Component({
-  selector: 'about-top-houses-section',
-  standalone: true,
-  imports: [BasicHouseCardComponent],
-  templateUrl: './about-top-houses-section.component.html',
-  styles: ``
+    selector: 'about-top-houses-section',
+    imports: [BasicHouseCardComponent],
+    templateUrl: './about-top-houses-section.component.html',
+    styles: ``
 })
 export class AboutTopHousesSectionComponent {
   private locationsService = inject(LocationsService);

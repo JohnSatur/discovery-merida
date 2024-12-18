@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
  * Componente encargado de mostrar el baner de aceptación de cookies y política de privacidad
  */
 @Component({
-  selector: 'shared-disclaimer-banner',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './disclaimer-banner.component.html',
-  styles: ``
+    selector: 'shared-disclaimer-banner',
+    imports: [CommonModule],
+    templateUrl: './disclaimer-banner.component.html',
+    styles: ``
 })
 export class DisclaimerBannerComponent implements OnInit {
   public showBanner = false;

@@ -5,11 +5,10 @@ import { Component, Input } from '@angular/core';
  * Muestra una tarjeta desplegable de las preguntas frecuentes (FAQ)
  */
 @Component({
-  selector: 'shared-faq-item',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './faq-item.component.html',
-  styles: ``
+    selector: 'shared-faq-item',
+    imports: [CommonModule],
+    templateUrl: './faq-item.component.html',
+    styles: ``
 })
 export class FaqItemComponent {
   // Pregunta y respuesta que se muestran en la tarjeta proporcionados por el padre

@@ -8,11 +8,10 @@ import { Subscription } from 'rxjs';
  * Componente del interruptor para cambiar de idioma en el menú principal
  */
 @Component({
-  selector: 'shared-language-toggle',
-  standalone: true,
-  imports: [CommonModule, RouterModule],
-  templateUrl: './language-toggle.component.html',
-  styles: ``
+    selector: 'shared-language-toggle',
+    imports: [CommonModule, RouterModule],
+    templateUrl: './language-toggle.component.html',
+    styles: ``
 })
 export class LanguageToggleComponent implements OnInit, OnDestroy {
   // Suscripción al observable del isioma actual

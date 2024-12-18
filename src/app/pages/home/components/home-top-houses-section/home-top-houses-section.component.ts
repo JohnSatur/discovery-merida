@@ -5,14 +5,13 @@ import { Location } from '@shared/models/location';
 import { RichHouseCardComponent } from '@shared/components/rich-house-card/rich-house-card.component';
 
 @Component({
-  selector: 'home-top-houses-section',
-  standalone: true,
-  imports: [
-    CommonModule,
-    RichHouseCardComponent
-  ],
-  templateUrl: './home-top-houses-section.component.html',
-  styles: ``
+    selector: 'home-top-houses-section',
+    imports: [
+        CommonModule,
+        RichHouseCardComponent
+    ],
+    templateUrl: './home-top-houses-section.component.html',
+    styles: ``
 })
 export class HomeTopHousesSectionComponent implements OnInit {
   private locationsService = inject(LocationsService);

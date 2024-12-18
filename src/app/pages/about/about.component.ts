@@ -12,19 +12,17 @@ import { AboutValuesSectionComponent } from './components/about-values-section/a
 import { ContactSectionComponent } from '@shared/components/contact-section/contact-section.component';
 
 @Component({
-  standalone: true,
-  imports: [
-    CommonModule,
-    RouterModule,
-    
-    AboutHeroSectionComponent,
-    AboutIntroSectionComponent,
-    AboutTopHousesSectionComponent,
-    AboutValuesSectionComponent,
-    ContactSectionComponent
-  ],
-  templateUrl: './about.component.html',
-  styles: ``
+    imports: [
+        CommonModule,
+        RouterModule,
+        AboutHeroSectionComponent,
+        AboutIntroSectionComponent,
+        AboutTopHousesSectionComponent,
+        AboutValuesSectionComponent,
+        ContactSectionComponent
+    ],
+    templateUrl: './about.component.html',
+    styles: ``
 })
 export class AboutComponent implements OnInit {
   public language: string | null = '';

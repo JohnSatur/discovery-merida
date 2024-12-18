@@ -2,11 +2,10 @@ import { Component, Input, OnInit } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
-  selector: 'room-map-section',
-  standalone: true,
-  imports: [],
-  templateUrl: './room-map-section.component.html',
-  styles: ``
+    selector: 'room-map-section',
+    imports: [],
+    templateUrl: './room-map-section.component.html',
+    styles: ``
 })
 export class RoomMapSectionComponent implements OnInit {
   @Input() avgCoords!: string;

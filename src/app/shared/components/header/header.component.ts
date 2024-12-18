@@ -10,11 +10,10 @@ import { LanguageToggleComponent } from '@components/language-toggle/language-to
  * Componente para el encabezado de la aplicación. Incluye el menú principal y el componente para cambiar el idioma.
  */
 @Component({
-  selector: 'shared-header',
-  standalone: true,
-  imports: [CommonModule, RouterModule, LanguageToggleComponent],
-  templateUrl: './header.component.html',
-  styles: ``
+    selector: 'shared-header',
+    imports: [CommonModule, RouterModule],
+    templateUrl: './header.component.html',
+    styles: ``
 })
 export class HeaderComponent implements AfterViewInit{
   // Controla la visibilidad del menú en dispositivos móviles

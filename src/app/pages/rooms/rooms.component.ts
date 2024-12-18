@@ -14,14 +14,13 @@ import { LocationsService } from '@services/locations.service';
 import { LanguageService } from '@services/language.service';
 
 @Component({
-  standalone: true,
-  imports: [
-    CommonModule,
-    RouterModule,
-    BasicHouseCardComponent
-  ],
-  templateUrl: './rooms.component.html',
-  styles: ``
+    imports: [
+        CommonModule,
+        RouterModule,
+        BasicHouseCardComponent
+    ],
+    templateUrl: './rooms.component.html',
+    styles: ``
 })
 export class RoomsComponent implements OnInit {
   public houses$: Observable<Location[]> = new Observable();

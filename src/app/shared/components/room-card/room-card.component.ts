@@ -2,11 +2,10 @@ import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
-  standalone: true,
-  selector: 'shared-room-card',
-  imports: [CommonModule],
-  templateUrl: './room-card.component.html',
-  styles: ``
+    selector: 'shared-room-card',
+    imports: [CommonModule],
+    templateUrl: './room-card.component.html',
+    styles: ``
 })
 export class RoomCardComponent {
   @Input() name: string = '';
