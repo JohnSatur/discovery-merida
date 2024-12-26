@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Casa Dalí",
-    "description": "¡Bienvenidos a Casa Dali! En el corazón de Mérida, a solo unos pasos de Paseo Montejo, te damos la bienvenida a una experiencia única. Nuestra casa, diseñada para tu comodidad cuenta con Internet de alta velocidad, televisión, cocina equipada, una lujosa cama king-size con vista a la alberca desde la recamara principal, cómodo sofá cama en la sala de estar y aire la acondicionados, un oasis en el corazón de la ciudad!",
+    "description": "¡Bienvenidos a Casa Dalí! En el corazón de Mérida, a solo unos pasos de Paseo Montejo, te damos la bienvenida a una experiencia única. Nuestra casa, diseñada para tu comodidad cuenta con Internet de alta velocidad, televisión, cocina equipada, una lujosa cama king-size con vista a la alberca desde la recamara principal, cómodo sofá cama en la sala de estar y aire la acondicionados, un oasis en el corazón de la ciudad!",
     "noGuests": 3,
     "noRooms": 1,
     "noBeds": 2,
@@ -10,47 +10,64 @@
     "available": true,
     "slug": "casa-dali",
     "pricePerNight": 2161,
-    "coverPicture": "dali/dali1.jpg",
-    "descriptionPicture": "dali/dali2.jpg",
+    "coverPicture": "img/locations/Casa Dali/casa-dali-7.webp",
+    "descriptionPicture": "img/locations/Casa Dali/casa-dali-2.jpg",
     "gallery": [
-      "dali/dali3.jpg",
-      "dali/dali4.webp",
-      "dali/dali5.webp",
-      "dali/dali6.webp",
-      "dali/dali7.webp",
-      "dali/dali8.webp",
-      "dali/dali9.webp"
+      "img/locations/Casa Dali/casa-dali-1.jpg",
+      "img/locations/Casa Dali/casa-dali-2.jpg",
+      "img/locations/Casa Dali/casa-dali-3.jpg",
+      "img/locations/Casa Dali/casa-dali-4.webp",
+      "img/locations/Casa Dali/casa-dali-5.webp",
+      "img/locations/Casa Dali/casa-dali-6.webp",
+      "img/locations/Casa Dali/casa-dali-7.webp"
     ],
     "reviews": [
       {
         "username": "Carlos",
         "comment": "muy bonito y agradable para ir en pareja.",
         "rating": 5,
-        "profilePicture": "profiles/carlos.webp"
+        "profilePicture": "img/profiles/Carlos.webp"
       },
       {
         "username": "Ana Karina",
         "comment": "El lugar está hermoso y confortable… la ubicación es increíble, definitivamente regreso",
         "rating": 5,
-        "profilePicture": "profiles/Ana Karina.webp"
+        "profilePicture": "img/profiles/Ana Karina.webp"
       },
       {
         "username": "David",
         "comment": "La ubicación es inmejorable. El lugar es bonito y cómodo.",
         "rating": 5,
-        "profilePicture": "profiles/David.webp"
+        "profilePicture": "img/profiles/David.webp"
       }
     ],
     "amenities": [
       "Vista al patio",
-      "Cocina",
-      "Wifi",
-      "Área para trabajar",
-      "Estacionamiento gratuito en la calle"
+      "Vista a la alberca",
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Toallas, sábanas, jabón, papel higiénico",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas",
+      "Plancha",
+      "Ropero",
+      "Conexión Ethernet",
+      "Televisión HD con pantalla de 55''",
+      "Libros y material de lectura",
+      "Cuna (disponible previa solicitud)",
+      "Periquera",
+      "Seguros para ventana"
     ],
     "rating": 4.89,
-    "noReviews": 150,
-    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+    "noReviews": 153,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380.42708341175216!2d-89.61800866677056!3d20.980410501623176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56715b7f11689f%3A0x56b258e5f4d6fdf6!2sALERTER!5e0!3m2!1ses!2smx!4v1731006843429!5m2!1ses!2smx",
+    "airbnbId": "53736405"
   },
   {
     "id": 2,
@@ -63,46 +80,1519 @@
     "available": true,
     "slug": "casa-picasso",
     "pricePerNight": 3526 ,
-    "coverPicture": "picasso/picasso1.jpg",
-    "descriptionPicture": "picasso/picasso2.jpg",
+    "coverPicture": "img/locations/Casa Picasso/casa-picasso-3.webp",
+    "descriptionPicture": "img/locations/Casa Picasso/casa-picasso-2.jpg",
     "gallery": [
-      "picasso/picasso3.jpg",
-      "picasso/picasso4.webp",
-      "picasso/picasso5.webp",
-      "picasso/picasso6.webp",
-      "picasso/picasso7.webp",
-      "picasso/picasso8.webp",
-      "picasso/picasso9.webp"
+      "img/locations/Casa Picasso/casa-picasso-1.jpg",
+      "img/locations/Casa Picasso/casa-picasso-2.jpg",
+      "img/locations/Casa Picasso/casa-picasso-3.jpg",
+      "img/locations/Casa Picasso/casa-picasso-4.JPEG",
+      "img/locations/Casa Picasso/casa-picasso-5.JPEG",
+      "img/locations/Casa Picasso/casa-picasso-6.JPEG",
+      "img/locations/Casa Picasso/casa-picasso-7.JPEG"
     ],
     "reviews": [
       {
-        "username": "Carlos",
-        "comment": "muy bonito y agradable para ir en pareja.",
+        "username": "Luis",
+        "comment": "Hermoso lugar, bastante buenas las instalaciones, lo súper recomiendo !",
         "rating": 5,
-        "profilePicture": "profiles/carlos.webp"
+        "profilePicture": "img/profiles/luis.webp"
       },
       {
-        "username": "Ana Karina",
-        "comment": "El lugar está hermoso y confortable… la ubicación es increíble, definitivamente regreso",
+        "username": "Andrew",
+        "comment": "Bien ubicado, hermoso, tal como se describe",
         "rating": 5,
-        "profilePicture": "profiles/Ana Karina.webp"
+        "profilePicture": "img/profiles/andrew.jpg"
       },
       {
         "username": "David",
         "comment": "La ubicación es inmejorable. El lugar es bonito y cómodo.",
         "rating": 5,
-        "profilePicture": "profiles/David.webp"
+        "profilePicture": "img/profiles/David.webp"
       }
     ],
     "amenities": [
       "Vista al patio",
-      "Cocina",
+      "Vista a la alberca",
+      "Secadora de pelo",
+      "Shampoo",
+      "Agua caliente",
+      "Lavadora y secadora gratis en el alojamiento",
+      "Toallas, sábanas, jabón, papel higiénico",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas",
+      "Plancha",
+      "Televisión HD con pantalla de 55''",
+      "Cuna (disponible previa solicitud)",
+      "Aire acondicionado de ventana",
+      "Cámaras de seguridad exteriores",
       "Wifi",
       "Área para trabajar",
-      "Estacionamiento gratuito en la calle"
+      "Wifi móvil",
+      "Cocina",
+      "Refrigerador"
     ],
     "rating": 4.9,
     "noReviews": 246,
-    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6564481870837!2d-89.62666412398126!3d20.96630738991918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671626a461d67%3A0xc0d3aa4beba25143!2sMuseo%20Casa%20Montejo!5e0!3m2!1ses-419!2smx!4v1725908508255!5m2!1ses-419!2smx"
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d276.8955047678032!2d-89.62723855700686!3d20.974711745209785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5673e07b743197%3A0x844207749800f33c!2sC.%2070%20438-b%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731006958788!5m2!1ses!2smx",
+    "airbnbId": "47255237"
+  },
+  {
+    "id": 3,
+    "name": "Casa Matisse",
+    "description": "Casa Matisse está ubicada en el Barrio de Santa Lucía, lo más deseado y tradicional en el corazón de Mérida. Perfecta para vacaciones o trabajo, ofrece WiFi 300Mb, 2 TV de 55\", mini piscina, cafetera, cocina completa, lavadora, cama king y un sofá cama en la sala de estar. A una cuadra de Parque Santa Lucía, cerca de la Catedral y Paseo de Montejo.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1.5,
+    "available": true,
+    "slug": "casa-matisse",
+    "pricePerNight": 2239 ,
+    "coverPicture": "img/locations/Casa Matisse/casa-matisse-5.JPG",
+    "descriptionPicture": "img/locations/Casa Matisse/casa-matisse-2.jpg",
+    "gallery": [
+      "img/locations/Casa Matisse/casa-matisse-1.jpg",
+      "img/locations/Casa Matisse/casa-matisse-2.jpg",
+      "img/locations/Casa Matisse/casa-matisse-3.jpg",
+      "img/locations/Casa Matisse/casa-matisse-4.JPG",
+      "img/locations/Casa Matisse/casa-matisse-5.JPG",
+      "img/locations/Casa Matisse/casa-matisse-6.JPG",
+      "img/locations/Casa Matisse/casa-matisse-7.JPG"
+    ],
+    "reviews": [
+      {
+        "username": "Danny",
+        "comment": "La propiedad muy cómoda, en buena ubicación, y la coordinación amable y sin ningún problema.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Danny.webp"
+      },
+      {
+        "username": "Rosario",
+        "comment": "Muy buen lugar, tan cómodo, tan tranquilo, tan privado. Mi esposo y yo nos quedamos poco tiempo, pero disfrutamos mucho del lugar. Te lo recomendamos encarecidamente.",
+        "rating": 5,
+        "profilePicture": "img/profiles/rosario.jpg"
+      },
+      {
+        "username": "Rodrigo",
+        "comment": "Excelente nuestra estadia, el lugar es exactamente igual o mejor a la descripcion, el lugar esta hermoso, la ubicacion ni se diga, vale la pena ir a conocerlo.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Rodrigo.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Vista a la alberca",
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Agua caliente",
+      "Gel para baño",
+      "Lavadora y secadora gratis en el alojamiento",
+      "Toallas, sábanas, jabón, papel higiénico",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas",
+      "Plancha",
+      "Televisión HD con pantalla de 55''",
+      "Libros y material de lectura",
+      "Cuna (disponible previa solicitud)",
+      "Periquera tipo booster (disponible previa solicitud)",
+      "Aire acondicionado de ventana",
+      "Ventiladores portables",
+      "Botiquín"
+    ],
+    "rating": 4.81,
+    "noReviews": 181,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d329.29321383954164!2d-89.6262768304755!3d20.971484638145537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5673df98d1011d%3A0xa6a833c53ccbf59d!2sC.%2066%20470a%2C%20Parque%20Santa%20Lucia%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731007046177!5m2!1ses!2smx",
+    "airbnbId": "51492869"
+  },
+  {
+    "id": 4,
+    "name": "Loft Kitanche",
+    "description": "¡Nuevo estacionamiento privado! La Increíble Ubicación lo hace un oasis en el barrio de Santa Lucía en el corazón de Mérida, un BARRIO VIBRANTE con una GRAN VIDA DIURNA Y NOCTURNA con muchos restaurantes, bares y más para disfrutar a solo unos pasos, así como los mercados y parques más importantes del centro. Cuenta con una piscina para refrescarse y relajarse, área de trabajo, WiFi de 300 Mb, 2 aires acondicionados, cocina, TV. Cama King size con ropa de cama de alta calidad.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "loft-kitanche",
+    "pricePerNight": 1932 ,
+    "coverPicture": "img/locations/Loft Kitanche/kitanche8.webp",
+    "descriptionPicture": "img/locations/Loft Kitanche/kitanche2.jpg",
+    "gallery": [
+      "img/locations/Loft Kitanche/kitanche1.jpg",
+      "img/locations/Loft Kitanche/kitanche2.jpg",
+      "img/locations/Loft Kitanche/kitanche3.jpg",
+      "img/locations/Loft Kitanche/kitanche4.jpg",
+      "img/locations/Loft Kitanche/kitanche5.jpg",
+      "img/locations/Loft Kitanche/kitanche6.jpg",
+      "img/locations/Loft Kitanche/kitanche7.jpg"
+    ],
+    "reviews": [
+      {
+        "username": "Michael",
+        "comment": "Llegada autónoma con caja de seguridad para llaves, fácil comunicación con el anfitrión. Apartamento bien ubicado y cómodo. La zona de entrada tiene mucho espacio. Cama cómoda, TV grande en el dormitorio. Estacionamiento privado a 2 minutos a pie. Pequeño patio con piscina no tan agradable como las fotos.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Michael.webp"
+      },
+      {
+        "username": "Manuel",
+        "comment": "Excelente lugar para relajarse, parece un oasis.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Manuel.webp"
+      },
+      {
+        "username": "Robert",
+        "comment": "¡Excelente lugar!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Robert.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Vista a la alberca",
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Acondicionador",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Lavadora y secadora gratis en el alojamiento",
+      "Toallas, sábanas, jabón, papel higiénico",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas",
+      "Plancha",
+      "Tendedero para ropa",
+      "Clóset",
+      "Televisión HD con pantalla de 55''",
+      "Cuna (disponible previa solicitud)",
+      "Periquera independiente (disponible previa solicitud)"
+    ],
+    "rating": 4.74,
+    "noReviews": 115,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391.59404297339313!2d-89.62333967303366!3d20.972931272139025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671606150268b%3A0x98266c0a5ea67395!2sC.%2062%20438%2C%20Parque%20Santa%20Lucia%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731007132260!5m2!1ses!2smx",
+    "airbnbId": "733454500273488585"
+  },
+  {
+    "id": 5,
+    "name": "Casa Toledo",
+    "description": "¡Bienvenidos a Casa Toledo! Un Oasis inimaginable en el corazón de Mérida, a solo unos pasos de Paseo Montejo, te damos la bienvenida a una experiencia única. Esta hermosa casa, diseñada para tu comodidad, cuenta con Internet de alta velocidad de 300Mb, TV, cocina equipada, una lujosa cama king-size con ropa de cama de alta calidad y aire acondicionado en todas la áreas.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "casa-toledo",
+    "pricePerNight": 2023 ,
+    "coverPicture": "img/locations/Casa Toledo/casa-toledo-8.webp",
+    "descriptionPicture": "img/locations/Casa Toledo/casa-toledo-2.webp",
+    "gallery": [
+      "img/locations/Casa Toledo/casa-toledo-1.webp",
+      "img/locations/Casa Toledo/casa-toledo-2.webp",
+      "img/locations/Casa Toledo/casa-toledo-3.webp",
+      "img/locations/Casa Toledo/casa-toledo-4.webp",
+      "img/locations/Casa Toledo/casa-toledo-5.webp",
+      "img/locations/Casa Toledo/casa-toledo-6.webp",
+      "img/locations/Casa Toledo/casa-toledo-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "James",
+        "comment": "La ubicación era genial, justo al lado del Paseo Montejo. Podría caminar afuera y estar en la calle principal en 2 minutos. El interior estaba limpio y la cama tenía un gran apoyo trasero, solo un poco duro en la superficie (podría haber conseguido un relleno si fuera necesario, pero todavía estaba bien). El anfitrión también respondió muy bien. 10/10 ¡Definitivamente lo recomiendo",
+        "rating": 5,
+        "profilePicture": "img/profiles/James.webp"
+      },
+      {
+        "username": "Aracelly",
+        "comment": "Es muy agradable el lugar, se encuentra en una buena zona.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Aracelly.webp"
+      },
+      {
+        "username": "Rodrigo",
+        "comment": "Eficiente, espacioso, cómodo.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Rodrigo.webp"
+      }
+    ],
+    "amenities": [
+      "Vista a la alberca",
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Agua caliente",
+      "Gel para baño",
+      "Toallas, sábanas, jabón, papel higiénico",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas",
+      "Plancha",
+      "Tendedero para ropa",
+      "Clóset",
+      "Conexión Ethernet",
+      "Televisión HD con pantalla de 55''",
+      "Libros y material de lectura",
+      "Cuna (disponible previa solicitud)",
+      "Parque de juego / cuna de viaje",
+      "Periquera",
+      "Aire acondicionado de ventana"
+    ],
+    "rating": 4.81,
+    "noReviews": 177,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d553.7688591464891!2d-89.61788064695426!3d20.980688903944063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56715b7821c673%3A0x54877a6252f924b4!2sC.%2056%20389a%2C%20Zona%20Paseo%20Montejo%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731007187841!5m2!1ses!2smx",
+    "airbnbId": "539328599734625059"
+  },
+  {
+    "id": 6,
+    "name": "Casa Linda",
+    "description": "Una hermosa y encantadora casa de revista, ubicada en el mejor barrio del centro de Merida tiene todo cerca y a la vez paz absoluta en una grandiosa calle con cafés y restaurantes y a solo 4 cuadras del Paseo Montejo y Santa Lucía. Además, es una casa muy completa con todos los detalles y servicios como su pequeña y hermosa alberca, enfriador de vinos, aire acondicionado en todas las áreas, cocina súper completa. El internet de 300MB permite trabajar con Zoom con toda comodidad",
+    "noGuests": 6,
+    "noRooms": 2,
+    "noBeds": 3,
+    "noBaths": 2.5,
+    "available": true,
+    "slug": "casa-linda",
+    "pricePerNight": 2023 ,
+    "coverPicture": "img/locations/Casa Linda/casa-linda-8.webp",
+    "descriptionPicture": "img/locations/Casa Linda/casa-linda-2.jpg",
+    "gallery": [
+      "img/locations/Casa Linda/casa-linda-1.JPG",
+      "img/locations/Casa Linda/casa-linda-2.jpg",
+      "img/locations/Casa Linda/casa-linda-3.JPG",
+      "img/locations/Casa Linda/casa-linda-4.JPG",
+      "img/locations/Casa Linda/casa-linda-5.JPG",
+      "img/locations/Casa Linda/casa-linda-6.jpg",
+      "img/locations/Casa Linda/casa-linda-7.JPG"
+    ],
+    "reviews": [
+      {
+        "username": "Anais",
+        "comment": "Excelente lugar",
+        "rating": 5,
+        "profilePicture": "img/profiles/Anais.webp"
+      },
+      {
+        "username": "Roberto",
+        "comment": "Muy bonita casa, muy limpia a nuestra llegada y los a/c funcionando al 100%. Muy recomendable.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Roberto.webp"
+      },
+      {
+        "username": "Alma",
+        "comment": "muy bonita decoración, buena ubicación, muy tranquilo y limpio",
+        "rating": 5,
+        "profilePicture": "img/profiles/Alma.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Vista a la alberca",
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Lavadora y secadora gratis en el alojamiento",
+      "Toallas, sábanas, jabón, papel higiénico",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas",
+      "Plancha",
+      "Clóset y ropero",
+      "Televisión HD con pantalla de 55''",
+      "Libros y material de lectura",
+      "Cuna (disponible previa solicitud)",
+      "Periquera",
+      "Aire acondicionado central"
+    ],
+    "rating": 4.81,
+    "noReviews": 177,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d276.89350737247054!2d-89.6260706271639!3d20.975789837360864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5673e03ec762a5%3A0x6a301f441c246132!2sC.%2068%20428%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731007780271!5m2!1ses!2smx",
+    "airbnbId": "47359346"
+  },
+  {
+    "id": 7,
+    "name": "Departamento Kandinski",
+    "description": "Hermoso apartamento con una Iincreíble y deseada ubicación, a una cuadra del Parque Santa Ana, de Paseo Montejo y el Corredor Gastronómico. Este lujoso apartamento ofrece todo lo necesario para tus vacaciones o trabajo: WiFi de 300Mb, TV, cocina equipada, ropa de cama de alta calidad. El departamento de encuentra en el segundo piso.",
+    "noGuests": 4,
+    "noRooms": 2,
+    "noBeds": 5,
+    "noBaths": 1,
+    "available": true,
+    "slug": "departamento-kandinski",
+    "pricePerNight": 1452,
+    "coverPicture": "img/locations/Departamento Kandinski/departamento-kandinski-2.webp",
+    "descriptionPicture": "img/locations/Departamento Kandinski/departamento-kandinski-1.webp",
+    "gallery": [
+      "img/locations/Departamento Kandinski/departamento-kandinski-1.webp",
+      "img/locations/Departamento Kandinski/departamento-kandinski-2.webp",
+      "img/locations/Departamento Kandinski/departamento-kandinski-3.webp",
+      "img/locations/Departamento Kandinski/departamento-kandinski-4.jpg",
+      "img/locations/Departamento Kandinski/departamento-kandinski-5.jpeg",
+      "img/locations/Departamento Kandinski/departamento-kandinski-6.webp",
+      "img/locations/Departamento Kandinski/departamento-kandinski-7.jpg"
+    ],
+    "reviews": [
+      {
+        "username": "Doga",
+        "comment": "Un departamento tan bonito en una zona tan agradable. Todo estaba tan limpio y ordenado. Si alguna vez vuelvo a Mérida, me quedaré aquí.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Doga.webp"
+      },
+      {
+        "username": "Victoria",
+        "comment": "Increíble, el lugar tal cual se muestra en fotos y súper tranquilo cerca de buenos restaurantes y de paseo Montejo. Nos manejamos en bicicleta y ayudó mucho que el parque que estaba cerca tuviera una estación. La casa huele muy bien, a madera. Todo muy bonito",
+        "rating": 5,
+        "profilePicture": "img/profiles/Victoria.webp"
+      },
+      {
+        "username": "Anel",
+        "comment": "Los anfitriones fueron más que acogedores, ya que respondieron con prontitud y amabilidad a cualquier pregunta o comentario. El lugar es hermoso y da un lugar muy agradable para descansar justo en el borde de las actividades del centro de Mérida. ¡El aparcamiento privado es una bendición para la zona!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Anel.webp"
+      }
+    ],
+    "amenities": [
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Acondicionador",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Toallas, sábanas, jabón, papel higiénico",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas",
+      "Plancha",
+      "Espacio para guardar ropa",
+      "TV",
+      "Cuna",
+      "Aire acondicionado",
+      "Ventilador de techo",
+      "Wifi",
+      "Área para trabajar"
+    ],
+    "rating": 4.75,
+    "noReviews": 28,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d232.83922999804605!2d-89.62218620776314!3d20.975486723464098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1731007895420!5m2!1ses!2smx",
+    "airbnbId": "1034020899016726248"
+  },
+  {
+    "id": 8,
+    "name": "Loft Dos Camellos",
+    "description": "En la histórica esquina de Dos Camellos en el corazón de la ciudad y llena de tradiciones en el barrio más antiguo y vibrante de la ciudad. Dos Camellos es perfecta para tu estancia en Mérida, con sus techos de doble altura este pequeño loft te encantara. Contamos con todo lo que puedas necesitar durante tu estancia con cocina equipada, wifi 300Mb, comedor, TV, cama king size, roofs de cama de alta calidad, baño completo.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "loft-dos-camellos",
+    "pricePerNight": 1634,
+    "coverPicture": "img/locations/Loft Dos Camellos/loft-dos-camellos-8.webp",
+    "descriptionPicture": "img/locations/Loft Dos Camellos/loft-dos-camellos-1.webp",
+    "gallery": [
+      "img/locations/Loft Dos Camellos/loft-dos-camellos-1.webp",
+      "img/locations/Loft Dos Camellos/loft-dos-camellos-2.webp",
+      "img/locations/Loft Dos Camellos/loft-dos-camellos-3.webp",
+      "img/locations/Loft Dos Camellos/loft-dos-camellos-4.webp",
+      "img/locations/Loft Dos Camellos/loft-dos-camellos-5.webp",
+      "img/locations/Loft Dos Camellos/loft-dos-camellos-6.webp",
+      "img/locations/Loft Dos Camellos/loft-dos-camellos-7.webp"
+    ],
+    "amenities": [
+      "Productos de limpieza",
+      "Shampoo",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Plancha",
+      "Cómoda",
+      "TV",
+      "Aire acondicionado",
+      "Wifi",
+      "Área para trabajar",
+      "Cocina",
+      "Refrigerador",
+      "Microondas",
+      "Ollas, sartenes, aceite, platos, tazas, etc.",
+      "Congelador",
+      "Estufa eléctrica Other",
+      "Cafetera de filtro"
+    ],
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d465.68016481870535!2d-89.62570460903342!3d20.97493958241603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5673e0225cc353%3A0xd189385f6e4c4aca!2sC.%2066%20422%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731007943696!5m2!1ses!2smx",
+    "airbnbId": "1240076116242206105"
+  },
+  {
+    "id": 9,
+    "name": "Suite Banksy",
+    "description": "¡Bienvenidos a Suite Banksy! Te presentamos una hermosa casita completamente privada, ubicada en el codiciado barrio de Santa Ana. Contarás con una gran cama king size con ropa de cama de alta calidad, internet de alta velocidad 300Mb y una cocina equipada. A solo unos pasos encontrarás los mejores restaurantes, bares, así como las más importantes plazas y mercados y plazas de la ciudad, por lo que podrás explorar la ciudad a tu antojo y regresar a tu refugio con total privacidad.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "suite-banksy",
+    "pricePerNight": 1392,
+    "coverPicture": "img/locations/Suite Bansky/suite-bansky-1.webp",
+    "descriptionPicture": "img/locations/Suite Bansky/suite-bansky-2.webp",
+    "gallery": [
+      "img/locations/Suite Bansky/suite-bansky-1.webp",
+      "img/locations/Suite Bansky/suite-bansky-2.webp",
+      "img/locations/Suite Bansky/suite-bansky-3.webp",
+      "img/locations/Suite Bansky/suite-bansky-4.webp",
+      "img/locations/Suite Bansky/suite-bansky-5.webp",
+      "img/locations/Suite Bansky/suite-bansky-6.webp",
+      "img/locations/Suite Bansky/suite-bansky-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Bertha",
+        "comment": "¡El alojamiento de Ana estuvo genial! El aire acondicionado era agradable y frío. Me sentí seguro. Está un poco más lejos de la plaza de lo que pensábamos, pero no está tan mal. Está a unos 20 o 25 minutos a pie de la Plaza desde el alquiler. Muchas tiendas y lugares para comer a lo largo del camino. ¡Definitivamente volvería a alquilar!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Bertha.webp"
+      },
+      {
+        "username": "Valery",
+        "comment": "Todo tal cual se anuncia, muy bonito muy limpio todo, excelente ubicación y buena comunicación con el anfitrión.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Valery.webp"
+      },
+      {
+        "username": "Omar",
+        "comment": "Excelente lugar, ubicación perfecta y encantadora para un fin de semana diferente",
+        "rating": 5,
+        "profilePicture": "img/profiles/Omar.webp"
+      }
+    ],
+    "amenities": [
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Acondicionador",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Toallas, sábanas, jabón, papel higiénico",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas",
+      "Plancha",
+      "Tendedero para ropa",
+      "Espacio para guardar ropa",
+      "Televisión HD con pantalla de 45''",
+      "Cuna (disponible previa solicitud)",
+      "Sistema de aire acondicionado sin conductos tipo split",
+      "Ventiladores portables",
+      "Wifi",
+      "Área para trabajar"
+    ],
+    "rating": 4.83,
+    "noReviews": 101,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d553.7876919545369!2d-89.62477285524015!3d20.975607079481527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56715f93a71521%3A0x9d0db749509929cc!2sCalle%2047%20501%2C%20Parque%20Santa%20Ana%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731007991427!5m2!1ses!2smx",
+    "airbnbId": "835445755044046357"
+  },
+  {
+    "id": 10,
+    "name": "Suite Lufo",
+    "description": "Esta hermosa Master Suite rinde honor al artista Lucas Olivero LUFO radicado en Berlín @lufo.art y nos transporta a un lugar de ensueño con espacio increíbles en el Corazón de Mérida. La ubicación es espectacular, a solo unos pasos del Parque de La Plancha y una cuadra del Corredor Gastronómico Calle 47. Sorpréndete con el aprovechamiento del espacio: aire ac, internet alta velocidad, TV 55”, regadera de alta presión, cama ks con ropa de cama de alta calidad y su patio con piscina de inmersión",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "suite-lufo",
+    "pricePerNight": 1286,
+    "coverPicture": "img/locations/Suite Lufo/suite-lufo-8.webp",
+    "descriptionPicture": "img/locations/Suite Lufo/suite-lufo-1.webp",
+    "gallery": [
+      "img/locations/Suite Lufo/suite-lufo-1.webp",
+      "img/locations/Suite Lufo/suite-lufo-2.webp",
+      "img/locations/Suite Lufo/suite-lufo-3.webp",
+      "img/locations/Suite Lufo/suite-lufo-4.webp",
+      "img/locations/Suite Lufo/suite-lufo-5.webp",
+      "img/locations/Suite Lufo/suite-lufo-6.webp",
+      "img/locations/Suite Lufo/suite-lufo-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "David",
+        "comment": "Excelente ubicación, inmejorable para recorrer el centro",
+        "rating": 5,
+        "profilePicture": "img/profiles/David2.webp"
+      },
+      {
+        "username": "Luis",
+        "comment": "Lugar bueno y pequeño cerca de restaurantes y bares",
+        "rating": 5,
+        "profilePicture": "img/profiles/Luis2.webp"
+      },
+      {
+        "username": "Wendy",
+        "comment": "Fueron muy amables y estuvieron al pendiente de nuestras dudas. Su ubicación está en la mejor zona turística y hay mucho que hacer al rededor. El alojamiento es perfecto para relajarse y cuenta con todo lo básico. Sin duda una excelente opción!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Wendy.webp"
+      }
+    ],
+    "amenities": [
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Acondicionador",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Toallas, sábanas, jabón, papel higiénico",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas",
+      "Ropero",
+      "TV",
+      "Cuna",
+      "Parque infantil al aire libre",
+      "Aire acondicionado",
+      "Wifi",
+      "Área para trabajar",
+      "Microondas",
+      "Platos y cubiertos"
+    ],
+    "rating": 4.75,
+    "noReviews": 12,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d465.67780228576703!2d-89.61535684450368!3d20.975697803551352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567142ca7eeea9%3A0x6898f6e0b822c171!2sC.%2045%20478C%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731008041190!5m2!1ses!2smx",
+    "airbnbId": "1152908299046547273"
+  },
+  {
+    "id": 11,
+    "name": "Casa Cielo",
+    "description": "¡Bienvenido a Casa Cielo en el Centro de Mérida! A solo 11 minutos del Parque de Santa Lucía y 12 minutos del Parque Santa Ana y Paseo Montejo, este espacio artístico ofrece confort y estilo moderno con una selección cuidadosa de obras de arte. Disfruta de la luminosidad y la cocina equipada. Explora el centro histórico con plazas y restaurantes a pasos de distancia. ¡Descubre la fusión entre arte, cultura y comodidad en el corazón de Mérida!",
+    "noGuests": 4,
+    "noRooms": 2,
+    "noBeds": 2,
+    "noBaths": 2,
+    "available": true,
+    "slug": "casa-cielo",
+    "pricePerNight": 1286,
+    "coverPicture": "img/locations/Casa Cielo/casa-cielo-1.webp",
+    "descriptionPicture": "img/locations/Casa Cielo/casa-cielo-2.webp",
+    "gallery": [
+      "img/locations/Casa Cielo/casa-cielo-1.webp",
+      "img/locations/Casa Cielo/casa-cielo-2.webp",
+      "img/locations/Casa Cielo/casa-cielo-3.webp",
+      "img/locations/Casa Cielo/casa-cielo-4.webp",
+      "img/locations/Casa Cielo/casa-cielo-5.webp",
+      "img/locations/Casa Cielo/casa-cielo-6.webp",
+      "img/locations/Casa Cielo/casa-cielo-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Adan",
+        "comment": "El lugar muy bello y muy a gusto. La casa huele delicioso y las camas son muy cómodas. Sin problemas volvería !",
+        "rating": 5,
+        "profilePicture": "img/profiles/Adan.webp"
+      },
+      {
+        "username": "Adriana",
+        "comment": "¡Excelente lugar para hospedarse! Es una hermosa casa con una excelente ubicación y anfitriones amables. Una recomendación definitiva.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Adriana.webp"
+      },
+      {
+        "username": "Esther",
+        "comment": "Tal como se anuncia. El alojamiento tiene todo lo necesario. Es encantador. ¡El aire acondicionado en todas las habitaciones es genial!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Esther.webp"
+      }
+    ],
+    "amenities": [
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Acondicionador",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Secadora",
+      "Toallas, sábanas, jabón, papel higiénico",
+      "Ganchos",
+      "Almohadas y cobijas adicionales",
+      "Persianas",
+      "Plancha",
+      "Caja fuerte",
+      "Mosquitero",
+      "Espacio para guardar ropa",
+      "Televisión HD",
+      "Libros y material de lectura",
+      "Cuna",
+      "Periquera",
+      "Aire acondicionado"
+    ],
+    "rating": 4.87,
+    "noReviews": 23,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d269.0122640114482!2d-89.62701803605455!3d20.975025691867092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5673e06fb24819%3A0x1759d29cb9fce415!2sC.%2049%20518D%2C%20Centro%2C%2097000%20Centro%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731008104022!5m2!1ses!2smx",
+    "airbnbId": "1052902450289626101"
+  },
+  {
+    "id": 12,
+    "name": "Casa Miró",
+    "description": "La casa más exclusiva y ubicación premium en el Distrito Gastronómico, el lugar para estar en el corazón de Merida. Su ubicación es perfecta para todos aquellos en búsqueda de una experiencia increíble. La casa tiene todo lo que necesites durante tu estancia, cuenta con 4 recamaras con baño completo cada una, cocina súper equipada, centro de lavado, alberca con sus exteriores dedicados para la comodidad del huésped, WiFi, aire acondicionado. Es el lugar perfecto para una experiencia inolvidable",
+    "noGuests": 11,
+    "noRooms": 4,
+    "noBeds": 6,
+    "noBaths": 4.5,
+    "available": true,
+    "slug": "casa-miro",
+    "pricePerNight": 6230,
+    "coverPicture": "img/locations/Casa Miro/casa-miro-1.webp",
+    "descriptionPicture": "img/locations/Casa Miro/casa-miro-2.webp",
+    "gallery": [
+      "img/locations/Casa Miro/casa-miro-1.webp",
+      "img/locations/Casa Miro/casa-miro-2.webp",
+      "img/locations/Casa Miro/casa-miro-3.webp",
+      "img/locations/Casa Miro/casa-miro-4.webp",
+      "img/locations/Casa Miro/casa-miro-5.webp",
+      "img/locations/Casa Miro/casa-miro-6.webp",
+      "img/locations/Casa Miro/casa-miro-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Alfonso",
+        "comment": "Siempre un buen lugar para regresar. Excelente ubicación y todo de 10",
+        "rating": 5,
+        "profilePicture": "img/profiles/Alfonso.webp"
+      },
+      {
+        "username": "Rosalía",
+        "comment": "La casa es muy bonita, la cocina me encantó está equipada, muy hermoso todo, las habitaciones súper bien y las camas muy cómodas.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Rosalia.webp"
+      },
+      {
+        "username": "Isaac",
+        "comment": "Excelente alojamiento, sumamente bonito y espacioso. Siempre cordiales y dispuestos para ayudar. Sin lugar a dudas regresaría!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Isaac.webp"
+      }
+    ],
+    "amenities": [
+      "Vista a la alberca",
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Lavadora y secadora gratis en el alojamiento",
+      "Toallas, sábanas, jabón, papel higiénico",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas",
+      "Plancha",
+      "Televisión HD con pantalla de 55''",
+      "Cuna",
+      "Periquera",
+      "Aire acondicionado central",
+      "Ventilador de techo",
+      "Cámaras de seguridad exteriores",
+      "Detector de humo"
+    ],
+    "rating": 4.89,
+    "noReviews": 114,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d465.6808965650539!2d-89.61801693559474!3d20.97470473358853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56715d774af70f%3A0x34bd82623512859a!2sESTACIONAMIENTO%20PUBLICO%20DE%20LA%2047!5e0!3m2!1ses!2smx!4v1731008207735!5m2!1ses!2smx",
+    "airbnbId": "50048546"
+  },
+  {
+    "id": 13,
+    "name": "Casa Klimt",
+    "description": "Casa Klimt Catedral Merida es una de la casas más exclusivas y cuenta con una ubicación excepcional para tus vacaciones. A solo unos 3 calles de la catedral principal en el Barrio de Santiago y de los mejores restaurantes de la ciudad. Aire acondicionado, gran alberca, WiFi, bar, muebles exteriores, estacionamiento dentro de la casa y una decoración impresionante con detalles deslumbrantes. Zona fitness. Contamos con concierge durante tu estancia para que tu solo disfrutes!",
+    "noGuests": 12,
+    "noRooms": 6,
+    "noBeds": 4,
+    "noBaths": 4.5,
+    "available": true,
+    "slug": "casa-klimt",
+    "pricePerNight": 7624,
+    "coverPicture": "img/locations/Casa Klimt/casa-klimt-8.webp",
+    "descriptionPicture": "img/locations/Casa Klimt/casa-klimt-1.webp",
+    "gallery": [
+      "img/locations/Casa Klimt/casa-klimt-1.webp",
+      "img/locations/Casa Klimt/casa-klimt-2.webp",
+      "img/locations/Casa Klimt/casa-klimt-3.webp",
+      "img/locations/Casa Klimt/casa-klimt-4.webp",
+      "img/locations/Casa Klimt/casa-klimt-5.webp",
+      "img/locations/Casa Klimt/casa-klimt-6.webp",
+      "img/locations/Casa Klimt/casa-klimt-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Adrian",
+        "comment": "Siempre un buen lugar para regresar. Excelente ubicación y todo de 10",
+        "rating": 5,
+        "profilePicture": "img/profiles/Adrian.webp"
+      },
+      {
+        "username": "Ricardo Arturo",
+        "comment": "Muy bonita la casa, todo limpio y ordenado y buena comunicación con los anfitriones.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Ricardo Arturo.webp"
+      },
+      {
+        "username": "Edna",
+        "comment": "Hermosa casa y un lugar perfecto para un grupo grande que busca alojarse en el centro de Mérida. Todo está a poca distancia a pie y las fotos coinciden con el aspecto de este lugar. La casa está muy limpia y el anfitrión hizo un gran trabajo al proporcionarnos todos los elementos esenciales, como toallas para la piscina y la cafetera. ¡Recomiendo encarecidamente este alojamiento!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Edna.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Vista a la alberca",
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Acondicionador",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Elementos básicos",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas o cortinas opacas",
+      "Plancha",
+      "Tendedora para ropa",
+      "Mosquitero",
+      "Espacio para guardar ropa, clóset",
+      "Televisión HD con pantalla 55",
+      "Libros y material de lectura",
+      "Cuna, disponible con previa solicitud"
+    ],
+    "rating": 4.81,
+    "noReviews": 59,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d301.97140170110964!2d-89.63050840684294!3d20.96742832203712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5673dbfbf6dda7%3A0x6f768c5b5e322e4d!2sC.%2063%20529%2C%20Parque%20Santiago%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731008277494!5m2!1ses!2smx",
+    "airbnbId": "768072527406162544"
+  },
+  {
+    "id": 14,
+    "name": "Casa Gaudí",
+    "description": "Ubicación, ubicación, ubicación. Te presentamos una hermosa casa, completamente privada y con estacionamiento propio, ubicada en el codiciado barrio de Santa Ana. Aquí encontrarás una amplia gama de restaurantes, bares y lugares de interés, todo a solo unos pasos de distancia. Brinda la comodidad de explorar la ciudad a tu antojo y regresar a tu refugio con total privacidad. La esencia auténtica de una casa en el centro de la ciudad mientras disfrutas de las comodidades de un hogar exclusivo.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "casa-gaudi",
+    "pricePerNight": 1654,
+    "coverPicture": "img/locations/Casa Gaudi/casa-gaudi-1.webp",
+    "descriptionPicture": "img/locations/Casa Gaudi/casa-gaudi-2.webp",
+    "gallery": [
+      "img/locations/Casa Gaudi/casa-gaudi-1.webp",
+      "img/locations/Casa Gaudi/casa-gaudi-2.webp",
+      "img/locations/Casa Gaudi/casa-gaudi-3.webp",
+      "img/locations/Casa Gaudi/casa-gaudi-4.webp",
+      "img/locations/Casa Gaudi/casa-gaudi-5.webp",
+      "img/locations/Casa Gaudi/casa-gaudi-6.webp",
+      "img/locations/Casa Gaudi/casa-gaudi-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Alex",
+        "comment": "Excelente lugar!! Todo impecable!! Cercano a Paseo Montejo y otros parques! El estacionamiento es privado. Y las instalaciones son una chulada!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Alex.webp"
+      },
+      {
+        "username": "Miguel Angel",
+        "comment": "céntrico, tranquilo , seguro y limpio . perfecto para unos días de descanso en el centro de Mérida",
+        "rating": 5,
+        "profilePicture": "img/profiles/Miguel Angel.webp"
+      },
+      {
+        "username": "Ivy",
+        "comment": "Gran lugar para alojarte en Mérida. ¡La casa está bellamente decorada, techo súper alto, gran sensación! Los tres días que estuvimos en Mérida, hace casi 40 grados afuera, súper caluroso, pero los dos aparatos de aire acondicionado mantuvieron las habitaciones relajadas y cómodas. La anfitriona es súper receptiva, cada vez que teníamos preguntas, se ponía en contacto con nosotros muy rápidamente. Muy contento con la estadía",
+        "rating": 5,
+        "profilePicture": "img/profiles/Ivy.webp"
+      }
+    ],
+    "amenities": [
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Acondicionador",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Lavadora gratis en alojamiento",
+      "Secadora gratis en alojamiento",
+      "Elementos básicos",
+      "Ganchos",
+      "Ropa de cama",
+      "Persianas o cortinas opacas",
+      "Plancha",
+      "Mosquitero",
+      "Espacio para guardar ropa",
+      "Televisión HD con pantalla 55",
+      "Libros y material con lectura",
+      "Cuna",
+      "Parque de juego/cuna de viaje",
+      "Periquera",
+      "Sistema de aire acondicionado sin conductos tipo split",
+      "Ventilador de techo"
+    ],
+    "rating": 4.89,
+    "noReviews": 83,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d465.67409410491103!2d-89.62157943345974!3d20.9768878383526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56715e619c6a7b%3A0xc931b18db408ff10!2sNAHUALLI%20-%20Casa%20de%20los%20artistas.!5e0!3m2!1ses!2smx!4v1731008465033!5m2!1ses!2smx",
+    "airbnbId": "695074132519038704"
+  },
+  {
+    "id": 15,
+    "name": "Departamento Basquiat",
+    "description": "Increíble ubicación, a una cuadra del Parque Santa Ana y dos de Paseo Montejo y el Corredor Gastronómico. Este lujoso apartamento ofrece todo lo necesario para tus vacaciones o trabajo: WiFi de 300M, 2 TV, cocina equipada, ropa de cama de alta calidad.",
+    "noGuests": 4,
+    "noRooms": 2,
+    "noBeds": 2,
+    "noBaths": 2,
+    "available": true,
+    "slug": "departamento-basquiat",
+    "pricePerNight": 1624,
+    "coverPicture": "img/locations/Departamento Basquiat/departamento-basquiat-4.webp",
+    "descriptionPicture": "img/locations/Departamento Basquiat/departamento-basquiat-2.webp",
+    "gallery": [
+      "img/locations/Departamento Basquiat/departamento-basquiat-1.webp",
+      "img/locations/Departamento Basquiat/departamento-basquiat-2.webp",
+      "img/locations/Departamento Basquiat/departamento-basquiat-3.webp",
+      "img/locations/Departamento Basquiat/departamento-basquiat-4.webp",
+      "img/locations/Departamento Basquiat/departamento-basquiat-5.webp",
+      "img/locations/Departamento Basquiat/departamento-basquiat-6.webp",
+      "img/locations/Departamento Basquiat/departamento-basquiat-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Marco",
+        "comment": "Está en una excelente ubicación, el alojamiento está en perfecto estado tal como aparece en la publicación. La comunicación con el anfitrión fue muy buena y clara. No dudaría en regresar",
+        "rating": 5,
+        "profilePicture": "img/profiles/Marco.webp"
+      },
+      {
+        "username": "Nicole",
+        "comment": "Fantástica ubicación a poca distancia a pie de casi todo en el Centro. La unidad en sí es espaciosa, limpia y tranquila. El estacionamiento seguro a la vuelta de la esquina fue genial. Instrucciones muy claras y excelente comunicación del anfitrión.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Nicole.webp"
+      },
+      {
+        "username": "Guillermo",
+        "comment": "Nuestra experiencia fue muy agradable, ya que los espacios están muy bien aprovechados, en especial mi favorito es el cuarto de tele",
+        "rating": 5,
+        "profilePicture": "img/profiles/Guillermo.webp"
+      }
+    ],
+    "amenities": [
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Acondicionador",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Elementos básicos",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Plancha",
+      "Espacio para guardar ropa",
+      "Televisión HD",
+      "Sistema de aire acondicionado sin conductos tipo split",
+      "Ventilador de techo",
+      "Ventiladores portables",
+      "Wifi",
+      "Área para trabajar",
+      "Cocina",
+      "Refrigerador",
+      "Microondas",
+      "Artículos básicos de cocina",
+      "Platos de cubiertos"
+    ],
+    "rating": 4.91,
+    "noReviews": 68,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d329.2845448033529!2d-89.62233921789901!3d20.975419601888927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56715e409de883%3A0x5f4921b5eaf1c0cc!2sCalle%2047%20501%2C%20Parque%20Santa%20Ana%2C%20Industrial%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731008547686!5m2!1ses!2smx",
+    "airbnbId": "922579018517880855"
+  },
+  {
+    "id": 16,
+    "name": "Suite Marian",
+    "description": "¡Sumérgete en el encanto único de Máster Suite Marian! Ubicada en el corazón de la nueva calle gastronómica 47, este oasis moderno está rodeado de los sabores y aromas más exquisitos de la ciudad. A pasos de la historia, explora plazas y mercados tradicionales, o piérdete en un paseo junto al lago del Parque La Plancha, a solo una cuadra. Vive la magia de Paseo Montejo, a solo 3 cuadras, y deja que cada rincón de la ciudad te sorprenda. ¡Tu aventura inolvidable te espera aquí!",
+    "noGuests": 3,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "suite-marian",
+    "coverPicture": "img/locations/Suite Marian/suite-marian-8.webp",
+    "descriptionPicture": "img/locations/Suite Marian/suite-marian-2.webp",
+    "gallery": [
+      "img/locations/Suite Marian/suite-marian-1.webp",
+      "img/locations/Suite Marian/suite-marian-2.webp",
+      "img/locations/Suite Marian/suite-marian-3.webp",
+      "img/locations/Suite Marian/suite-marian-4.webp",
+      "img/locations/Suite Marian/suite-marian-5.webp",
+      "img/locations/Suite Marian/suite-marian-6.webp",
+      "img/locations/Suite Marian/suite-marian-7.jpeg"
+    ],
+    "reviews": [
+      {
+        "username": "Abraham",
+        "comment": "Gran lugar para descansar",
+        "rating": 5,
+        "profilePicture": "img/profiles/Abraham.webp"
+      },
+      {
+        "username": "Karla",
+        "comment": "El alojamiento fue excepcional, amé mucho el lugar y la accesibilidad para el check in y check out",
+        "rating": 5,
+        "profilePicture": "img/profiles/Karla.webp"
+      },
+      {
+        "username": "Andrea",
+        "comment": "Nuestra experiencia fue muy agradable, ya que los espacios están muy bien aprovechados, en especial mi favorito es el cuarto de tele",
+        "rating": 5,
+        "profilePicture": "img/profiles/Andrea.webp"
+      }
+    ],
+    "amenities": [
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Acondicionador",
+      "Jabón corporal",
+      "Regadera exterior",
+      "Agua caliente",
+      "Gel para baño",
+      "Elementos básicos",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas o cortinas opacas",
+      "Plancha",
+      "Caja fuerte",
+      "Mosquitero",
+      "Espacio para guardar ropa",
+      "TV",
+      "Libros y material de lectura",
+      "Cuna",
+      "Aire acondicionada",
+      "Ventilador de techo",
+      "Wifi"
+    ],
+    "rating": 4.69,
+    "noReviews": 16,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391.590070668926!2d-89.61556829090127!3d20.974447450373535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567142ae98c0a3%3A0x8cef6094a6d503f5!2sCalle%2047%20455A%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731008614871!5m2!1ses!2smx",
+    "airbnbId": "969500396553832615"
+  },
+  {
+    "id": 17,
+    "name": "Suite Marian II",
+    "description": "Bienvenidos al corazón de Merida, Calle 47 Distrito Gastronómico. A solo unos pasos de los mejores restaurantes y cafeterías de la ciudad y a dos cuadras de Paseo Montejo, este oasis no dejará de sorprenderte por todas sus facilidades, internet de 300Mb, fantástico para trabajar ajar por zoom de manera estable, Cama King Size con ropa de cama de alta calidad, TV 55”, cocina equipada, lavadora y una increíble terraza. A solo dos cuadras del nuevo Parque de La Plancha, te lo mereces, reserva ya!",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "suite-marian-ii",
+    "coverPicture": "img/locations/Suite Marian II/suite-marian-ii-1.jpg",
+    "descriptionPicture": "img/locations/Suite Marian II/suite-marian-ii-2.jpg",
+    "gallery": [
+      "img/locations/Suite Marian II/suite-marian-ii-1.jpg",
+      "img/locations/Suite Marian II/suite-marian-ii-2.jpg",
+      "img/locations/Suite Marian II/suite-marian-ii-3.jpg",
+      "img/locations/Suite Marian II/suite-marian-ii-4.jpg",
+      "img/locations/Suite Marian II/suite-marian-ii-5.jpg",
+      "img/locations/Suite Marian II/suite-marian-ii-6.jpg",
+      "img/locations/Suite Marian II/suite-marian-ii-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "David Bhima",
+        "comment": "Gran lugar para descansar",
+        "rating": 5,
+        "profilePicture": "img/profiles/David Bhima.webp"
+      },
+      {
+        "username": "Miles",
+        "comment": "Excelente lugar",
+        "rating": 5,
+        "profilePicture": "img/profiles/Miles.webp"
+      },
+      {
+        "username": "Michael",
+        "comment": "Una estancia increíble. ¡Se puede caminar a todos los restaurantes y bares!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Michael.webp"
+      }
+    ],
+    "amenities": [
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Acondicionador",
+      "Jabón corporal",
+      "Regadera exterior",
+      "Agua caliente",
+      "Gel para baño",
+      "Elementos básicos",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas o cortinas opacas",
+      "Plancha",
+      "Caja fuerte",
+      "Mosquitero",
+      "Espacio para guardar ropa",
+      "TV",
+      "Libros y material de lectura",
+      "Cuna",
+      "Aire acondicionada",
+      "Ventilador de techo",
+      "Wifi"
+    ],
+    "rating": 4.95,
+    "noReviews": 21,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391.590070668926!2d-89.61556829090127!3d20.974447450373535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567142ae98c0a3%3A0x8cef6094a6d503f5!2sCalle%2047%20455A%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731008614871!5m2!1ses!2smx",
+    "airbnbId": "969480969359352151"
+  },
+  {
+    "id": 18,
+    "name": "Departamento Zula",
+    "description": "Situado en el corazón de Mérida, en la Calle 45 y a solo unos pasos del Parque Santa Ana, con acceso a Internet de alta velocidad, TV, una cafetera, una cocina completamente equipada, una lujosa cama king-size, ropa de cama de alta calidad y sistema de aire acondicionado. Ubicado a tan solo una cuadra del Parque Santa Ana, a pocos pasos del Parque Santa Lucía y a escasos minutos del encantador Paseo de Montejo, esta residencia promete ser tu entrada a una experiencia inolvidable en Mérida.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "departamento-zula",
+    "coverPicture": "img/locations/Departamento Zula/zula8.jpeg",
+    "descriptionPicture": "img/locations/Departamento Zula/zula2.jpg",
+    "gallery": [
+      "img/locations/Departamento Zula/zula1.jpg",
+      "img/locations/Departamento Zula/zula2.jpg",
+      "img/locations/Departamento Zula/zula3.jpg",
+      "img/locations/Departamento Zula/zula4.jpg",
+      "img/locations/Departamento Zula/zula5.jpg",
+      "img/locations/Departamento Zula/zula6.jpg",
+      "img/locations/Departamento Zula/zula7.jpg"
+    ],
+    "reviews": [
+      {
+        "username": "Karina",
+        "comment": "Súper bonito",
+        "rating": 5,
+        "profilePicture": "img/profiles/Karina.webp"
+      },
+      {
+        "username": "Ana A. Abigail",
+        "comment": "Excelente lugar",
+        "rating": 5,
+        "profilePicture": "img/profiles/Ana A Abigail.webp"
+      },
+      {
+        "username": "Agueda",
+        "comment": "El apartamento lucia tal como las fotos, estaba limpio y fueron muy amables.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Agueda.webp"
+      }
+    ],
+    "amenities": [
+      "Bañera",
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Acondicionador",
+      "Agua caliente",
+      "Elementos básicos",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Plancha",
+      "Mosquitero",
+      "Espacio para guardar ropa",
+      "TV",
+      "Cuna",
+      "Sistema de aire de acondicionado sin conductos sin split",
+      "Wifi",
+      "Área para trabajar",
+      "Cocina",
+      "Refrigerador",
+      "Microondas",
+      "Artículos básicos de cocina",
+      "Platos y cubiertos",
+      "Congelador",
+      "Estufa",
+      "Cafetera manual de filtro",
+      "Copas de vino",
+      "Tostadora"
+    ],
+    "rating": 4.92,
+    "noReviews": 12,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232.83729001375434!2d-89.62242384044505!3d20.9767318990353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56715e5c437515%3A0xfc64fb0dadeaff57!2sC.%2045%20504%2C%20Parque%20Santa%20Ana%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731008674076!5m2!1ses!2smx",
+    "airbnbId": "963829157451538703"
+  },
+  {
+    "id": 19,
+    "name": "Departamento Oasis",
+    "description": "En el corazón de Santa Ana y a solo una calle del Paseo Montejo y el Corredor Gastronómico de la Calle 47. La ubicación más deseada en el centro de Mérida, de alta velocidad 300Mb, 2 TV 55” con Netflix, cocina equipada, dos cuartos con baño privado cada uno, cama ks, ropa de cama de alta calidad, regadera de alta presión y aire ac. Departamento en 2do piso. También tendrás a solo 3 calles el Parque Santa Lucía y a escasos minutos el encantador Parque la Plancha. Bienvenido al corazón de Mérida",
+    "noGuests": 4,
+    "noRooms": 2,
+    "noBeds": 2,
+    "noBaths": 2,
+    "available": true,
+    "slug": "departamento-oasis",
+    "coverPicture": "img/locations/Departamento Oasis/departamento-oasis-8.webp",
+    "descriptionPicture": "img/locations/Departamento Oasis/departamento-oasis-2.jpg",
+    "gallery": [
+      "img/locations/Departamento Oasis/departamento-oasis-1.jpg",
+      "img/locations/Departamento Oasis/departamento-oasis-2.jpg",
+      "img/locations/Departamento Oasis/departamento-oasis-3.jpg",
+      "img/locations/Departamento Oasis/departamento-oasis-4.jpg",
+      "img/locations/Departamento Oasis/departamento-oasis-5.jpg",
+      "img/locations/Departamento Oasis/departamento-oasis-6.jpg",
+      "img/locations/Departamento Oasis/departamento-oasis-7.jpg"
+    ],
+    "reviews": [
+      {
+        "username": "Denise",
+        "comment": "excelente lugar y excelente ubicación",
+        "rating": 5,
+        "profilePicture": "img/profiles/Denise.webp"
+      },
+      {
+        "username": "Claudia",
+        "comment": "¡Gran lugar! Me encantó el interior, mucha madera y buena decoración. Las camas eran extremadamente cómodas y las almohadas también. Definitivamente lo recomendaría",
+        "rating": 5,
+        "profilePicture": "img/profiles/Claudia.webp"
+      },
+      {
+        "username": "Dafne Rosalinda",
+        "comment": "Muy bien ubicado, súper buena atención y muy bonito",
+        "rating": 5,
+        "profilePicture": "img/profiles/Dafne Rosalinda.webp"
+      }
+    ],
+    "amenities": [
+      "Bañera",
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Acondicionador",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Elementos básicos",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Plancha",
+      "Mosquitero",
+      "Espacio para guardar ropa",
+      "Televisión HD con pantalla de 55",
+      "Cuna disponibilidad previa solicitud",
+      "Aire acondicionado de ventana",
+      "Wifi",
+      "Área para trabajar",
+      "Cocina"
+    ],
+    "rating": 4.81,
+    "noReviews": 21,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232.8372118322002!2d-89.62241188352313!3d20.976782078251418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56715e5c437515%3A0xfc64fb0dadeaff57!2sC.%2045%20504%2C%20Parque%20Santa%20Ana%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731008723839!5m2!1ses!2smx",
+    "airbnbId": "964094108422111839"
+  },
+  {
+    "id": 20,
+    "name": "Casa Shanti",
+    "description": "¡Bienvenidos a Casa Shanti, en el corazón de Mérida! Ubicada en el nuevo y vibrante Distrito Gastronómica de la 47, a solo unos pasos de los mejores restaurantes de la ciudad, cafeterías y bares. Disfruta de paseos a pie o en bicicleta junto al lago del Parque La Plancha, a solo una cuadra de distancia. A cuatro cuadras del emblemático Paseo de Montejo y de las plazas y mercados más importantes de la ciudad.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "casa-shanti",
+    "coverPicture": "img/locations/Casa Shanti/casa-shanti-8.webp",
+    "descriptionPicture": "img/locations/Casa Shanti/casa-shanti-2.jpg",
+    "gallery": [
+      "img/locations/Casa Shanti/casa-shanti-1.jpg",
+      "img/locations/Casa Shanti/casa-shanti-2.jpg",
+      "img/locations/Casa Shanti/casa-shanti-3.webp",
+      "img/locations/Casa Shanti/casa-shanti-4.webp",
+      "img/locations/Casa Shanti/casa-shanti-5.webp",
+      "img/locations/Casa Shanti/casa-shanti-6.webp",
+      "img/locations/Casa Shanti/casa-shanti-7.jpg"
+    ],
+    "reviews": [
+      {
+        "username": "Omar",
+        "comment": "Hermoso lugar. Excelente ubicación. Se puede caminar a muchas atracciones. El anfitrión fue servicial y respondió rápidamente. Muy recomendable.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Omar2.webp"
+      },
+      {
+        "username": "Steven",
+        "comment": "Excelente ubicación.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Steven.webp"
+      },
+      {
+        "username": "Jesus",
+        "comment": "Lugar con buena ubicación, muy cómodo.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Jesus.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Vista a la alberca",
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Acondicionador",
+      "Agua caliente",
+      "Gel para baño",
+      "Elementos básicos",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas o cortinas opacas",
+      "Plancha",
+      "Tendedero para ropa",
+      "Televisión HD con pantalla de 55",
+      "Sistema de sonido Bluetooh Alexa",
+      "Equipo para hacer ejercicio, tapete de yoga",
+      "Libros y material de lectura",
+      "Libros y material de lectura"
+    ],
+    "rating": 4.9,
+    "noReviews": 48,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391.5899344303339!2d-89.61517955801746!3d20.97449944905989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567142b171181b%3A0xdbcf464174847bd6!2sCalle%2047%20451%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731008780594!5m2!1ses!2smx",
+    "airbnbId": "735030231047763807"
+  },
+  {
+    "id": 21,
+    "name": "Casa Yam",
+    "description": "¡Bienvenidos a Casa Yam, en el corazón de Mérida! Ubicada en la nueva y vibrante calle gastronómica de la 47, rodeada de los mejores restaurantes, cafeterías y bares. Disfruta de paseos a pie o en bicicleta junto al lago del Parque La Plancha, a solo una cuadra de distancia, a tres cuadras del emblemático Paseo de Montejo y de las principales plazas y mercados tradicionales de la ciudad. Todo te quedará caminando, por lo que podrás regresar a este oasis y refrescarte en su hermosa piscina.",
+    "noGuests": 2,
+    "noRooms": 1,
+    "noBeds": 1,
+    "noBaths": 1,
+    "available": true,
+    "slug": "casa-yam",
+    "coverPicture": "img/locations/Casa Yam/casa-yam-8.webp",
+    "descriptionPicture": "img/locations/Casa Yam/casa-yam-2.webp",
+    "gallery": [
+      "img/locations/Casa Yam/casa-yam-1.jpg",
+      "img/locations/Casa Yam/casa-yam-2.webp",
+      "img/locations/Casa Yam/casa-yam-3.webp",
+      "img/locations/Casa Yam/casa-yam-4.webp",
+      "img/locations/Casa Yam/casa-yam-5.webp",
+      "img/locations/Casa Yam/casa-yam-6.jpg",
+      "img/locations/Casa Yam/casa-yam-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Ingrid",
+        "comment": "Era un lugar encantador y encantador, perfecto para dos personas. En la calle 47, bastantes restaurantes, pero a una cuadra del ajetreo de la calle, por lo que es muy tranquilo. A poca distancia a pie del Paseo Montejo y otras partes del centro de la ciudad. Recomiendo encarecidamente.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Ingrid.webp"
+      },
+      {
+        "username": "Peter",
+        "comment": "cada vez que voy a Mérida trato de quedarme aquí. Excelente ubicación, linda casa pequeña. Limpio y cerca de los mejores restaurantes",
+        "rating": 5,
+        "profilePicture": "img/profiles/Peter.jpeg"
+      },
+      {
+        "username": "Montserrat",
+        "comment": "Lugar con buena ubicación, muy cómodo.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Montserrat.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al patio",
+      "Vista a la alberca",
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Acondicionador",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Elementos básicos",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Persianas o cortinas opacas",
+      "Plancha",
+      "Tendero para ropa",
+      "Caja fuerte",
+      "Espacio para guardar ropa clóset",
+      "Televisión HD con pantalla de 55",
+      "Sistema de sonido Bluetooh Alexa",
+      "Equipo para hacer ejercicio, tapete de yoga",
+      "Libros y material de lectura"
+    ],
+    "rating": 4.88,
+    "noReviews": 50,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d329.28670170998817!2d-89.61580247001137!3d20.97444062589696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56715d54bb40f5%3A0xc6fca12824639060!2sCalle%2047%20454A%2C%20Centro%2C%2097000%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1731008822080!5m2!1ses!2smx",
+    "airbnbId": "743434866547356197"
+  },
+  {
+    "id": 22,
+    "name": "Casa Yum Ha",
+    "description": "Ubicada cerca del Parque de la Plancha y el corredor gastronómico de la calle 47, esta casa ofrece dos hermosas habitaciones, una con cama king y otra con dos queen, ideal para hasta seis personas. Con dos baños completos y medio, sala de estar, cocina y su encantadora terraza con alberca, esta residencia combina elegancia y comodidad.",
+    "noGuests": 6,
+    "noRooms": 2,
+    "noBeds": 3,
+    "noBaths": 2.5,
+    "available": true,
+    "slug": "casa-yum-ha",
+    "coverPicture": "img/locations/Casa Yum Ha/casa-yum-ha-8.webp",
+    "descriptionPicture": "img/locations/Casa Yum Ha/casa-yum-ha-1.webp",
+    "gallery": [
+      "img/locations/Casa Yum Ha/casa-yum-ha-1.webp",
+      "img/locations/Casa Yum Ha/casa-yum-ha-2.webp",
+      "img/locations/Casa Yum Ha/casa-yum-ha-3.webp",
+      "img/locations/Casa Yum Ha/casa-yum-ha-4.webp",
+      "img/locations/Casa Yum Ha/casa-yum-ha-5.webp",
+      "img/locations/Casa Yum Ha/casa-yum-ha-6.webp",
+      "img/locations/Casa Yum Ha/casa-yum-ha-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Sonia",
+        "comment": "Hermoso diseño, espacio muy cómodo. Está muy cerca de la calle 47, que es la principal franja gastronómica del centro de la ciudad. Recomendamos encarecidamente hospedarse aquí. Seguro y accesible a pie.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Sonia.webp"
+      },
+      {
+        "username": "Paulina",
+        "comment": "Hermosa casa !! Nos encantó",
+        "rating": 5,
+        "profilePicture": "img/profiles/Paulina.webp"
+      },
+      {
+        "username": "Ab",
+        "comment": "Maravillosa estancia en una casa moderna y limpia. Excelente ubicación para llegar a todos los lugares de Mérida relativamente rápido. Muy respuesta y anfitrión atento. Resérvalo.",
+        "rating": 5,
+        "profilePicture": "img/profiles/Ab.webp"
+      }
+    ],
+    "amenities": [
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Jabón corporal",
+      "Agua caliente",
+      "Lavadora",
+      "Elementos básicos",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Plancha",
+      "Espacio para guardar ropa, clóset",
+      "TV",
+      "Cuna disponible previa solicitud",
+      "Aire acondicionado",
+      "Wifi",
+      "Área para trabajar",
+      "Cocina",
+      "Refrigerador",
+      "Microondas",
+      "Artículos básicos de cocina",
+      "Platos y cubiertos"
+    ],
+    "rating": 5,
+    "noReviews": 5,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232.8407192839896!2d-89.61457330562138!3d20.974530779955394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671c55f7b6b55%3A0x25a93078661e7007!2sSandunga-%20Cocina%20Tradicional%20Oaxaque%C3%B1a!5e0!3m2!1ses!2smx!4v1731008943922!5m2!1ses!2smx",
+    "airbnbId": "1136962618271818971"
+  },
+  {
+    "id": 23,
+    "name": "Vía Montejo",
+    "description": "Disfruta de la vida en la exclusiva Torre Atlántida en Vía Montejo, al norte de Mérida. Este hermoso y moderno departamento de 2 recámaras ofrece comodidad y estilo con alberca y asoleadero, 2.5 baños, sala, comedor y cocina equipada. Relájate con las impresionantes vistas y las amenidades de lujo del edificio. A solo unos pasos de The Harbour, cines, restaurantes y SRE, este es el lugar perfecto para disfrutar la parte más moderna de Mérida.",
+    "noGuests": 4,
+    "noRooms": 2,
+    "noBeds": 2,
+    "noBaths": 2.5,
+    "available": true,
+    "slug": "via-montejo",
+    "coverPicture": "img/locations/Via Montejo/via-montejo-8.webp",
+    "descriptionPicture": "img/locations/Via Montejo/via-montejo-2.webp",
+    "gallery": [
+      "img/locations/Via Montejo/via-montejo-1.webp",
+      "img/locations/Via Montejo/via-montejo-2.webp",
+      "img/locations/Via Montejo/via-montejo-3.webp",
+      "img/locations/Via Montejo/via-montejo-4.webp",
+      "img/locations/Via Montejo/via-montejo-5.webp",
+      "img/locations/Via Montejo/via-montejo-6.webp",
+      "img/locations/Via Montejo/via-montejo-7.webp"
+    ],
+    "reviews": [
+      {
+        "username": "Alejandra",
+        "comment": "Excelente alojamiento, super bien ubicado! La anfitriona excelente! Definitivamente volveremos!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Alejandra.webp"
+      },
+      {
+        "username": "Enrique",
+        "comment": "Excelente apartamento! Muy buena ubicación. Tuvimos un problema con el aire acondicionado, pero nos ayudaron a resolverlo de inmediato, muy buena atención!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Enrique.webp"
+      },
+      {
+        "username": "Wilberth",
+        "comment": "Un excelente lugar para estar, muy cómodo, fácil de llegar, lugar tranquilo, están pendientes por cualquier cosa!",
+        "rating": 5,
+        "profilePicture": "img/profiles/Wilberth.webp"
+      }
+    ],
+    "amenities": [
+      "Vista al jardín",
+      "Vista a la alberca",
+      "Secadora de pelo",
+      "Productos de limpieza",
+      "Shampoo",
+      "Jabón corporal",
+      "Agua caliente",
+      "Gel para baño",
+      "Lavadora gratis en el alojamiento",
+      "Ganchos",
+      "Ropa de cama",
+      "Almohadas y cobijas adicionales",
+      "Plancha",
+      "Espacio para guardar ropa, vestidor y clóset",
+      "TV",
+      "Libros y material de lectura",
+      "Cuna, disponibilidad previa solicitud",
+      "Parque infantil al aire libre",
+      "Aire acondicionado",
+      "Wifi",
+      "Área para trabajar"
+    ],
+    "rating": 5,
+    "noReviews": 5,
+    "avgCoords": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d391.41050247829367!2d-89.63365614656871!3d21.04287740579405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567558cadbd391%3A0x6c3ebd2ed48d8a2a!2z4oCcTG9zIE1hamVz4oCdIFNvY2lhbCBDbHVi!5e0!3m2!1ses!2smx!4v1731009023866!5m2!1ses!2smx",
+    "airbnbId": "1206686425825693248"
   }
 ]

@@ -9,6 +9,17 @@ import { map, Observable } from 'rxjs';
 @Injectable({providedIn: 'root'})
 export class LocationsService {
     private locationsUrl: string = '/data/locations.json';
+    private promotionalUrls: string[] = [
+        'departamento-kandinski',
+        'loft-dos-camellos',
+        'suite-banksy',
+        'suite-lufo',
+        'casa-gaudi',
+        'casa-matisse',
+        'loft-kitanche',
+        'casa-dali',
+        'casa-toledo',
+    ];
     constructor( private http: HttpClient ) { }
     
     /**
@@ -53,4 +64,8 @@ export class LocationsService {
     //         map( locations => locations[0] ),
     //     );
     // }
+
+    public hasPromotion(url:string): boolean {
+        return this.promotionalUrls.includes(url);
+    }
 }

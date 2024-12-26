@@ -2,6 +2,62 @@
     <!-- Hero -->
     <room-hero-section [houseName]="roomInfo.name" [coverPicture]="roomInfo.coverPicture" [airbnbId]="roomInfo.airbnbId" />
 
+    <!-- Banner de promoción -->
+    @if (hasPromotion) {
+        <section class="bg-gradient-to-r from-cyan-600 to-lime-500 py-12 px-4 sm:px-6 lg:px-8">
+            <div class="container mx-auto">
+              <div class="overflow-hidden">
+                <div class="p-6 sm:p-8">
+                  <div class="flex items-center justify-between">
+                    <h2 class="text-3xl font-extrabold text-white sm:text-3xl">¡Oferta Especial por temporada!</h2>
+                    <div class="hidden sm:block">
+                      <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
+                        Tiempo limitado
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-6 sm:p-8">
+                  <p class="text-xl sm:text-2xl font-semibold text-gray-100 mb-6">
+                    Hospédate 3 noches en {{ roomInfo.name }} y recibe un cupón por <span class="text-red-800 font-bold">$500 MXN</span> para disfrutar en uno de los mejores restaurantes de la ciudad.
+                  </p>
+                  
+                  <div class="mt-6">
+                    <h3 class="text-lg font-semibold mb-4 text-gray-50 text-left">Términos y Condiciones</h3>
+                    <ul class="space-y-3 text-gray-200">
+                      <li class="flex items-start gap-2">
+                        <i class="ri-chat-check-fill text-2xl text-yellow-400"></i>
+                        Promoción válida por tiempo limitado, exclusivamente en las casas participantes.
+                      </li>
+                      <li class="flex items-start gap-2">
+                        <i class="ri-chat-check-fill text-2xl text-yellow-400"></i>
+                        No aplica en días festivos, Semana Santa, ni en el período de Pascua.
+                      </li>
+                      <li class="flex items-start gap-2">
+                        <i class="ri-chat-check-fill text-2xl text-yellow-400"></i>
+                        Estancia mínima requerida: 3 noches de hospedaje.
+                      </li>
+                      <li class="flex items-start gap-2">
+                        <i class="ri-chat-check-fill text-2xl text-yellow-400"></i>
+                        Encontrarás la información de las casas participantes en este sitio web y realizarás la reserva a través de Airbnb.
+                      </li>
+                      <li class="flex items-start gap-2">
+                        <i class="ri-chat-check-fill text-2xl text-yellow-400"></i>
+                        Es necesario ingresar el código de promoción en tu reserva para identificar que llegaste desde nuestra página.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="flex items-center p-6 sm:p-8">
+                    <i class="ri-gift-fill text-yellow-400 text-3xl"></i>
+                  <h3 class="ml-3 text-xl text-white sm:text-3xl">Código de promoción: <span class="font-extrabold tracking-wide">DISCOVERYFOOD25</span></h3>
+                </div>
+              </div>
+            </div>
+          </section>
+    }
+
     <!-- Description -->
     <room-description-section [description]="roomInfo.description" [picture]="roomInfo.descriptionPicture" [pictureAlt]="roomInfo.name" />
 

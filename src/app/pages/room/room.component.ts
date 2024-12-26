@@ -29,6 +29,7 @@ import { Location } from '@shared/models/location';
 })
 export class RoomComponent implements OnInit {
   public roomInfo?: Location; // Información de la casa que se está mostrando en el componente
+  public hasPromotion = false;
 
   constructor(
     private route: ActivatedRoute,
@@ -39,6 +40,7 @@ export class RoomComponent implements OnInit {
    * El método onInit obtiene el slug de la casa para traer la información de la misma del backend a través del servicio "Location Service"
    */
   ngOnInit(): void {
+    
     this.route.paramMap.subscribe(params => {
       const slug = params.get('slug') || '';
 
@@ -46,6 +48,8 @@ export class RoomComponent implements OnInit {
       .subscribe(location => {
         this.roomInfo = location;
       });
+
+      this.hasPromotion =this.locationService.hasPromotion(slug);
     });
   }
 

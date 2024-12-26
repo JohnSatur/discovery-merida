@@ -12,6 +12,5 @@ export class PromoModalComponent {
 
   closeModal() {
     this.showModal = false;
-    console.log(this.showModal);
   }
 }
