@@ -33,7 +33,7 @@ export class RoomComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private locationService: LocationsService
+    private locationsService: LocationsService
   ) { }
   
   /**
@@ -44,12 +44,12 @@ export class RoomComponent implements OnInit {
     this.route.paramMap.subscribe(params => {
       const slug = params.get('slug') || '';
 
-      this.locationService.getLocationBySlug(slug)
+      this.locationsService.getLocationBySlug(slug)
       .subscribe(location => {
         this.roomInfo = location;
       });
 
-      this.hasPromotion =this.locationService.hasPromotion(slug);
+      this.hasPromotion =this.locationsService.hasPromotion(slug);
     });
   }
 
